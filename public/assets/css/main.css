@@ -172,7 +172,7 @@ h6 {
 /* Navmenu - Desktop */
 @media (min-width: 1200px) {
   .navmenu {
-    padding: 0;
+    padding-right: 300px;
   }
 
   .navmenu ul {
@@ -181,10 +181,13 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+
   }
 
-  .navmenu li {
-    position: relative;
+  .navmenu li a {
+      position: relative;
+      font-weight: bolder;
+      font-family: "Chalkboard"
   }
 
   .navmenu a,

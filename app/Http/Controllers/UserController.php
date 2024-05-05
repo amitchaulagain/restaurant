@@ -613,7 +613,17 @@ class UserController extends Controller
         $services = Service::all();
 
         $data = compact('title', 'siteSetting', 'services');
-        return view('accounting-master.contactus', $data);
+        return view('edu-global.contactus', $data);
+    }
+
+    public function usa(Request $request)
+    {
+        $title = "USA ";
+        $siteSetting = SiteSettings::pluck('value', 'key');
+        $services = Service::all();
+
+        $data = compact('title', 'siteSetting', 'services');
+        return view('edu-global.usa', $data);
     }
 
     public function single_service(Request $request)

@@ -53,6 +53,8 @@ Route::get('/aboutus', [UserController::class, 'aboutus'])->name('aboutus');
 Route::get('/services', [UserController::class, 'services'])->name('services');
 
 Route::get('/contactus', [UserController::class, 'contactus'])->name('contactus');
+Route::get('/usa', [UserController::class, 'usa'])->name('usa');
+
 
 Route::post('/sendemail/send', [EmailController::class, 'basic_email'])->name('basic_email');
 

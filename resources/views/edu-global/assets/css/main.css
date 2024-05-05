@@ -237,6 +237,8 @@ h6 {
 
   .navmenu .dropdown ul li {
     min-width: 200px;
+      width: 800px;
+      height: 400px;
   }
 
   .navmenu .dropdown ul a {
