@@ -112,43 +112,73 @@
                 <li id="study-button"><a href="#hero" class="">Study Destinations <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options">
-                    <div class="country-grid">
+                   {{-- <div class="country-grid">
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/usa.svg" alt="USA">
                             <div>United States</div>
                         </div>
+                        </a>
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/ireland.svg" alt="USA">
                             <div>Ireland</div>
                         </div>
-                        <div class="option">
+                        </a>
+                        <a href="/usa"> <div class="option">
                             <img src="assets/img/europe.svg" alt="Canada">
                             <div>Europe</div>
-                        </div>
+                            </div> </a>
                         <div class="option">
                             <img src="assets/img/canada.svg" alt="">
                             <div>Canada</div>
                         </div>
                         <!-- Add more country
                         options as needed -->
-
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/australia.svg" alt="Germany">
                             <div>Australia</div>
                         </div>
-
+                        </a>
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/asia.svg" alt="Germany">
                             <div>Asia</div>
                         </div>
+                        </a>
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/uk.svg" alt="Germany">
                             <div>United Kingdom</div>
                         </div>
+                        </a>
+                        <a href="/usa">
                         <div class="option">
                             <img src="assets/img/nz.svg" alt="Germany">
                             <div>New Zealand</div>
                         </div>
+                        </a>
+                    </div>--}}
+
+
+                    <div class="tags-widget widget-item">
+
+                        <h3 class="widget-title">Tags</h3>
+                        <ul>
+                            <li><a href="#">App</a></li>
+                            <li><a href="#">IT</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Mac</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Creative</a></li>
+                            <li><a href="#">Studio</a></li>
+                            <li><a href="#">Smart</a></li>
+                            <li><a href="#">Tips</a></li>
+                            <li><a href="#">Marketing</a></li>
+                        </ul>
+
                     </div>
                 </div>
 
@@ -208,7 +238,7 @@
                         }
                     });
                 </script>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="/contactus">Contact Us</a></li>
 
                 <li><a href="#about">About</a></li>
                 <li><a href="blog.html">Blog</a></li>

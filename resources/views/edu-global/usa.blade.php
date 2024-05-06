@@ -47,71 +47,85 @@
 
             <div class="row gy-5">
 
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-4 align-items-center features-item">
+                        <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                            <h3>Course, Country & University selection
 
-                    <div class="service-box">
-                        <h4> Popular Courses </h4>
-                        <div class="services-list">
-                            <a href="#" class="active"><i
-                                    class="bi bi-arrow-right-circle"></i><span>Applied Sciences</span></a>
-                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Business & Management</span></a>
-                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Computer Science & Information Technology</span></a>
-                            <a href="#"><i
-                                    class="bi bi-arrow-right-circle"></i><span>Engineering & Technology</span></a>
-                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Public Health & Healthcare Administration</span></a>
+                            </h3>
+                            <p>
+                                We help you choose the ideal course, university & country that perfectly match your
+                                career,
+                                academic and budget preferences.
+
+
+                            <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+                                <h5>Offerings</h5>
+                                <ul>
+                                    <li><i class="bi bi-check"></i>
+                                        <span>Make precise academic and career decisions
+.</span></li>
+                                    <li>
+                                        <i class="bi bi-check"></i><span> University comparison – rankings, courses & scholarships
+</span>
+                                    </li>
+                                    <li><i class="bi bi-check"></i>
+                                        <span>Course options across 800+ universities in 33 countries
+.</span>.
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                            </div>
                         </div>
-                    </div><!-- End Services List -->
 
-
-                    <div class="service-box">
-                        <h4>Popular Universities</h4>
-                        <div class="download-catalog">
-                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                        <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
+                             data-aos-delay="100">
+                            <div class="image-stack">
+                                <img src="assets/img/counselling.svg" alt="" class="stack-front">
+                                <img src="assets/img/counselling2.svg" alt="" class="stack-back">
+                            </div>
                         </div>
-                    </div><!-- End Services List -->
-
-                    <div class="help-box d-flex flex-column justify-content-center align-items-center">
-                        <i class="bi bi-headset help-icon"></i>
-                        <h4>Have a Question?</h4>
-                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span>
-                        </p>
-                        <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                                href="mailto:contact@example.com">contact@example.com</a></p>
                     </div>
 
-                </div>
 
-                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-                    <h3>Why study in USA ?</h3>
-                    <p>
-                        Study in one of the most prestigious higher education systems globally and access some high-end
-                        technology and cutting-edge research for an immersive, engaging & collaborative study
-                        experience. Choose from an extensive range of schools, numerous study disciplines and niche
-                        qualifications that are difficult to find by in other parts of the world and experience a
-                        uniquely flexible education system allowing you to apply to a variety of programs suiting your
-                        academic & career goals. Graduate with a truly global outlook and real-world skills for the
-                        future.
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="service-box">
+                    <h4> Popular Courses </h4>
+                    <div class="services-list">
+                        <a href="#" class="active"><i
+                                class="bi bi-arrow-right-circle"></i><span>Applied Sciences</span></a>
+                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Business & Management</span></a>
+                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Computer Science & Information Technology</span></a>
+                        <a href="#"><i
+                                class="bi bi-arrow-right-circle"></i><span>Engineering & Technology</span></a>
+                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Public Health & Healthcare Administration</span></a>
+                    </div>
+                </div><!-- End Services List -->
+
+
+                <div class="service-box">
+                    <h4>Popular Universities</h4>
+                    <div class="download-catalog">
+                        <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
+                        <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                    </div>
+                </div><!-- End Services List -->
+
+                <div class="help-box d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-headset help-icon"></i>
+                    <h4>Have a Question?</h4>
+                    <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span>
                     </p>
-
-                    <h3>Quick facts </h3>
-
-                    <ul>
-                        <li><i class="bi bi-check-circle"></i> <span>USA hosts more than a million international students
-</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Over 25% of world’s top 100 universities are in the USA</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Post-study stay back visas (OPT) up to 3 years for STEM programs</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Internships (CPT) up to 12 months while studying</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Merit Based & Need Based Scholarships</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Over 4500 accredited universities & institutions to choose from</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>12 of the best student cities in the world (QS Best Student Cities 2023 </span></li>
-
-                    </ul>
+                    <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                            href="mailto:contact@example.com">contact@example.com</a></p>
                 </div>
 
             </div>

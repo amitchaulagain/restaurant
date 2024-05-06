@@ -71,10 +71,12 @@
 
                 <div class="col-xl-5 content">
                     <h3>About Us</h3>
-                    <h2>Ducimus rerum libero reprehenderit cumque</h2>
-                    <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis
-                        minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt
-                        voluptatem tempora deleniti soluta.</p>
+                    <h2>EduPath Global
+                    </h2>
+                    <p>We are the fastest growing EdTech brand operating across geographies, facilitating international
+                        student recruitments by connecting students, recruitment entrepreneurs and global universities
+                        through our high-tech online platform – coursefinder.a
+                    </p>
                     <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                 </div>
 
