@@ -41,55 +41,51 @@
     </div><!-- End Page Title -->
 
     <!-- Service Details Section -->
+    <!-- Course, Country & University selection-->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row gy-4 align-items-center features-item">
+                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Course, Country & University selection
+
+                    </h3>
+                    <p>
+                        We help you choose the ideal course, university & country that perfectly match your career,
+                        academic and budget preferences.
+
+
+                    <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+                        <h5>Offerings</h5>
+                        <ul>
+                            <li><i class="bi bi-check"></i>
+                                <span>Make precise academic and career decisions
+.</span></li>
+                            <li>
+                                <i class="bi bi-check"></i><span> University comparison – rankings, courses & scholarships
+</span>
+                            </li>
+                            <li><i class="bi bi-check"></i>
+                                <span>Course options across 800+ universities in 33 countries
+.</span>.
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
+                     data-aos-delay="100">
+                    <div class="image-stack">
+                        <img src="assets/img/counselling.svg" alt="" class="stack-front">
+                        <img src="assets/img/counselling2.svg" alt="" class="stack-back">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
     <section id="service-details" class="service-details section">
 
-        <div class="container">
-
-            <div class="row gy-5">
-
-                    <div class="row gy-4 align-items-center features-item">
-                        <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                            <h3>Course, Country & University selection
-
-                            </h3>
-                            <p>
-                                We help you choose the ideal course, university & country that perfectly match your
-                                career,
-                                academic and budget preferences.
-
-
-                            <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-                                <h5>Offerings</h5>
-                                <ul>
-                                    <li><i class="bi bi-check"></i>
-                                        <span>Make precise academic and career decisions
-.</span></li>
-                                    <li>
-                                        <i class="bi bi-check"></i><span> University comparison – rankings, courses & scholarships
-</span>
-                                    </li>
-                                    <li><i class="bi bi-check"></i>
-                                        <span>Course options across 800+ universities in 33 countries
-.</span>.
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
-                             data-aos-delay="100">
-                            <div class="image-stack">
-                                <img src="assets/img/counselling.svg" alt="" class="stack-front">
-                                <img src="assets/img/counselling2.svg" alt="" class="stack-back">
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
-
-        </div>
         <div class="container">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
 
@@ -131,12 +127,7 @@
             </div>
 
         </div>
+    </section>
 
-    </section><!-- /Service Details Section -->
-
-    </section><!-- /Contact Section -->
 
 @endsection
-
-
-

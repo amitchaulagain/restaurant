@@ -1,4 +1,3 @@
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -65,8 +64,8 @@
             top: calc(100% + 5px);
             left: 200px;
             width: 80%;
-            background-color: rgba(255, 255, 255, 0.95);
-            z-index: 999;
+            background-color: white;
+            z-index: 1;
             padding: 20px;
             box-sizing: border-box;
         }
@@ -82,6 +81,7 @@
             text-align: center;
             cursor: pointer;
             transition: transform 0.3s ease;
+            color: black;
         }
 
         .option:hover {
@@ -112,74 +112,60 @@
                 <li id="study-button"><a href="#hero" class="">Study Destinations <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options">
-                   {{-- <div class="country-grid">
+                    <div class="country-grid" style="color: black">
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/usa.svg" alt="USA">
-                            <div>United States</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/usa.svg" alt="USA">
+                                <div>United States</div>
+                            </div>
                         </a>
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/ireland.svg" alt="USA">
-                            <div>Ireland</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/ireland.svg" alt="USA">
+                                <div>Ireland</div>
+                            </div>
                         </a>
-                        <a href="/usa"> <div class="option">
-                            <img src="assets/img/europe.svg" alt="Canada">
-                            <div>Europe</div>
-                            </div> </a>
-                        <div class="option">
-                            <img src="assets/img/canada.svg" alt="">
-                            <div>Canada</div>
-                        </div>
+                        <a href="/usa">
+                            <div class="option">
+                                <img src="assets/img/europe.svg" alt="">
+                                <div>Europe</div>
+                            </div>
+                        </a>
+                        <a href="/usa">
+                            <div class="option">
+                                <img src="assets/img/canada.svg" alt="">
+                                <div>Canada</div>
+                            </div>
+                        </a>
                         <!-- Add more country
                         options as needed -->
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/australia.svg" alt="Germany">
-                            <div>Australia</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/australia.svg" alt="Germany">
+                                <div>Australia</div>
+                            </div>
                         </a>
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/asia.svg" alt="Germany">
-                            <div>Asia</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/asia.svg" alt="Germany">
+                                <div>Asia</div>
+                            </div>
                         </a>
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/uk.svg" alt="Germany">
-                            <div>United Kingdom</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/uk.svg" alt="Germany">
+                                <div>United Kingdom</div>
+                            </div>
                         </a>
                         <a href="/usa">
-                        <div class="option">
-                            <img src="assets/img/nz.svg" alt="Germany">
-                            <div>New Zealand</div>
-                        </div>
+                            <div class="option">
+                                <img src="assets/img/nz.svg" alt="Germany">
+                                <div>New Zealand</div>
+                            </div>
                         </a>
-                    </div>--}}
-
-
-                    <div class="tags-widget widget-item">
-
-                        <h3 class="widget-title">Tags</h3>
-                        <ul>
-                            <li><a href="#">App</a></li>
-                            <li><a href="#">IT</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Mac</a></li>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Office</a></li>
-                            <li><a href="#">Creative</a></li>
-                            <li><a href="#">Studio</a></li>
-                            <li><a href="#">Smart</a></li>
-                            <li><a href="#">Tips</a></li>
-                            <li><a href="#">Marketing</a></li>
-                        </ul>
-
                     </div>
+
+
                 </div>
 
                 <li id="services-button"><a href="#hero" class="">Services <i
