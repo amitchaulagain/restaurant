@@ -93,6 +93,9 @@
             max-height: 100px;
             margin-bottom: 10px;
         }
+        #study-button {
+            cursor: pointer;
+        }
     </style>
 <body class="index-page">
 
@@ -109,7 +112,7 @@
         <nav id="navmenu" class="navmenu">
             <ul>
 
-                <li id="study-button"><a href="#hero" class="">Study Destinations <i
+                <li id="study-button"><a  class="">Study Destinations <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options">
                     <div class="country-grid" style="color: black">
