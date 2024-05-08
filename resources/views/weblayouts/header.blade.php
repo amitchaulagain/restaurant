@@ -103,7 +103,7 @@
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
             <img src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? '' }}" width="90px"
-                 height="90px" style="opacity:.8;">
+                 height="90px" style="opacity:.8;margin-left: 45px">
         </a>
 
         <nav id="navmenu" class="navmenu">

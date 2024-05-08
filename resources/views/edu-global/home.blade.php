@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 @extends('weblayouts.app')
+<style>
+    .modern {
+        background-color: #f0f0f0; /* Adjust background color as needed */
+        border: 2px solid #f0f0f0; /* Adjust border properties as needed */
+        border-bottom-left-radius: 500%; /* Adjust the radius for the left arc */
+        border-bottom-right-radius: 5%; /* Adjust the radius for the right arc */
+    }
+</style>
 
 @section('content_box')
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+        <img class="modern" src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-10">
-                    <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Our Website</h2>
-                    <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with
-                        Bootstrap</p>
+                    <h2 data-aos="fade-up" data-aos-delay="100">We are bringing overseas education within everyone’s reach</h2>
+                    <br>
+                    <p data-aos="fade-up" data-aos-delay="200">Our Tech-enabled solutions help international students and recruitment partners choose the best global universities</p>
+                    <br>
+                    <br>
                 </div>
+
                 <div class="col-lg-5">
-                    <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <input type="text" class="form-control" placeholder="Enter email address">
-                        <input type="submit" class="btn btn-primary" value="Sign up">
-                    </form>
+                        <input type="submit" class="btn btn-primary" value="Enquire now" style="background-color: orange">
                 </div>
             </div>
         </div>
