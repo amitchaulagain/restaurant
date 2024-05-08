@@ -34,43 +34,6 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-        <div class="container" data-aos="fade-up">
-
-            <div class="row gy-4">
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-2 col-md-3 col-6 client-logo">
-                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Clients Section -->
-
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -78,9 +41,8 @@
             <div class="row align-items-xl-center gy-5">
 
                 <div class="col-xl-5 content">
-                    <h3>About Us</h3>
-                    <h2>EduPath Global
-                    </h2>
+                    <h3 >EduPath</h3>                      <h3 style="color: #112e48; margin-left: -41px;";>Global</h3>
+
                     <p>We are the fastest growing EdTech brand operating across geographies, facilitating international
                         student recruitments by connecting students, recruitment entrepreneurs and global universities
                         through our high-tech online platform – coursefinder.a
@@ -135,55 +97,9 @@
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-        <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Clients</p>
-                    </div>
-                </div><!-- End Stats Item -->
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Projects</p>
-                    </div>
-                </div><!-- End Stats Item -->
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Hours Of Support</p>
-                    </div>
-                </div><!-- End Stats Item -->
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                              class="purecounter"></span>
-                        <p>Workers</p>
-                    </div>
-                </div><!-- End Stats Item -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Stats Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+  {{--  <section id="services" class="services section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -271,7 +187,7 @@
 
         </div>
 
-    </section><!-- /Services Section -->
+    </section><!-- /Services Section -->--}}
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -285,7 +201,7 @@
             <!-- Counselling -->
             <div class="row gy-4 align-items-center features-item">
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Counselling
+                    <h3 id="#counselling">Counselling
                     </h3>
                     <p>
                         Our counselling sessions will immensely benefit you in making the best academic decision suiting
@@ -590,226 +506,7 @@
 
     </section><!-- /Features Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-app">App</li>
-                    <li data-filter=".filter-product">Card</li>
-                    <li data-filter=".filter-branding">Web</li>
-                </ul><!-- End Portfolio Filters -->
-
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
-                               data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
-                               data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 1</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
-                               data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
-                               data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2"
-                               data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 2</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
-                               data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
-                               data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Product 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
-                               data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                        <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Branding 3</h4>
-                            <p>Lorem ipsum, dolor sit</p>
-                            <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
-                               data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div><!-- End Portfolio Item -->
-
-                </div><!-- End Portfolio Container -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Pricing</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="zoom-in" data-aos-delay="100">
-
-            <div class="row g-4">
-
-                <div class="col-lg-4">
-                    <div class="pricing-item">
-                        <h3>Free Plan</h3>
-                        <div class="icon">
-                            <i class="bi bi-box"></i>
-                        </div>
-                        <h4><sup>$</sup>0<span> / month</span></h4>
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                            <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                            <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                        </ul>
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-                <div class="col-lg-4">
-                    <div class="pricing-item featured">
-                        <h3>Business Plan</h3>
-                        <div class="icon">
-                            <i class="bi bi-rocket"></i>
-                        </div>
-
-                        <h4><sup>$</sup>29<span> / month</span></h4>
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                            <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                            <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                        </ul>
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-                <div class="col-lg-4">
-                    <div class="pricing-item">
-                        <h3>Developer Plan</h3>
-                        <div class="icon">
-                            <i class="bi bi-send"></i>
-                        </div>
-                        <h4><sup>$</sup>49<span> / month</span></h4>
-                        <ul>
-                            <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                            <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                            <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                            <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                        </ul>
-                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                    </div>
-                </div><!-- End Pricing Item -->
-
-            </div>
-
-        </div>
-
-    </section><!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">

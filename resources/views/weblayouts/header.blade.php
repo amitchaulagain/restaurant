@@ -93,6 +93,7 @@
             max-height: 100px;
             margin-bottom: 10px;
         }
+
         #study-button {
             cursor: pointer;
         }
@@ -112,7 +113,7 @@
         <nav id="navmenu" class="navmenu">
             <ul>
 
-                <li id="study-button"><a  class="">Study Destinations <i
+                <li id="study-button"><a class="">Study Destinations <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options">
                     <div class="country-grid" style="color: black">
@@ -176,7 +177,7 @@
                 <div id="menu-options-services">
                     <div class="country-grid">
                         <div class="option">
-                            <div>Counselling</div>
+                                <div>Counselling</div>
                         </div>
                         <div class="option">
                             <div>Test Preparation</div>
@@ -210,22 +211,31 @@
                 </div>
 
                 <script>
-                    document.getElementById("study-button").addEventListener("click", function () {
-                        var menuOptions = document.getElementById("menu-options");
-                        if (menuOptions.style.display === "none") {
-                            menuOptions.style.display = "block";
-                        } else {
-                            menuOptions.style.display = "none";
-                        }
+                    document.addEventListener('DOMContentLoaded', function() {
+
+                        var menuOptions=document.getElementById("menu-options");
+                        menuOptions.style.display = "none"
+                        var menuOptionsServices=document.getElementById("menu-options-services");
+                        menuOptionsServices.style.display = "none"
+
+                        document.getElementById("study-button").addEventListener("click", function () {
+                            var menuOptions = document.getElementById("menu-options");
+                            if (menuOptions.style.display === "none") {
+                                menuOptions.style.display = "block";
+                            } else {
+                                menuOptions.style.display = "none";
+                            }
+                        });
+                        document.getElementById("services-button").addEventListener("click", function () {
+                            var menuOptions = document.getElementById("menu-options-services");
+                            if (menuOptions.style.display === "none") {
+                                menuOptions.style.display = "block";
+                            } else {
+                                menuOptions.style.display = "none";
+                            }
+                        });
                     });
-                    document.getElementById("services-button").addEventListener("click", function () {
-                        var menuOptions = document.getElementById("menu-options-services");
-                        if (menuOptions.style.display === "none") {
-                            menuOptions.style.display = "block";
-                        } else {
-                            menuOptions.style.display = "none";
-                        }
-                    });
+
                 </script>
                 <li><a href="/contactus">Contact Us</a></li>
 

@@ -842,7 +842,7 @@ section,
   line-height: 19px;
   padding: 10px 20px;
   background: rgba(var(--accent-color-rgb), 0.05);
-  color: var(--accent-color);
+  color:#e3a62f;
   border-radius: 7px;
   display: inline-block;
 }
@@ -856,7 +856,7 @@ section,
 }
 
 .about .content .read-more {
-  background: var(--accent-color);
+  background:#e3a62f;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1093,7 +1093,7 @@ section,
 }
 
 .features .features-item .btn-get-started {
-  background-color: var(--accent-color);
+  background-color: #e3a62f;
   color: var(--contrast-color);
   padding: 8px 30px 10px 30px;
   border-radius: 4px;
