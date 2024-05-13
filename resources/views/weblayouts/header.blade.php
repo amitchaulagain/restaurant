@@ -26,78 +26,6 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Append
-    * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-    * Updated: May 01 2024 with Bootstrap v5.3.3
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        #menu-button {
-            color: #fff;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        #menu-options {
-            display: none;
-            position: absolute;
-            top: calc(100% + 5px);
-            left: 200px;
-            width: 80%;
-            background-color: rgba(255, 255, 255, 0.95);
-            z-index: 999;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        #menu-options-services {
-            display: none;
-            position: absolute;
-            top: calc(100% + 5px);
-            left: 200px;
-            width: 80%;
-            background-color: white;
-            z-index: 1;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .country-grid {
-            padding: 60px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 40px;
-        }
-
-        .option {
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-            color: black;
-        }
-
-        .option:hover {
-            transform: scale(1.1);
-        }
-
-        .option img {
-            max-width: 100%;
-            max-height: 100px;
-            margin-bottom: 10px;
-        }
-
-        #study-button {
-            cursor: pointer;
-        }
-    </style>
 <body class="index-page">
 
 <header id="header" class="header d-flex align-items-center fixed-top">
@@ -120,51 +48,46 @@
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/usa.svg" alt="USA">
-                                <div>United States</div>
+                                <p>United States</p>
+                            </div>
+                        </a>
+                        <a href="/usa">
+                            <div class="option">
+                                <img src="assets/img/australia.svg" alt="Germany">
+                                <p>Australia</p>
                             </div>
                         </a>
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/ireland.svg" alt="USA">
-                                <div>Ireland</div>
+                                <p>Ireland</p>
                             </div>
                         </a>
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/europe.svg" alt="">
-                                <div>Europe</div>
+                                <p>Europe</p>
                             </div>
                         </a>
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/canada.svg" alt="">
-                                <div>Canada</div>
+                                <p>Canada</p>
                             </div>
                         </a>
                         <!-- Add more country
                         options as needed -->
-                        <a href="/usa">
-                            <div class="option">
-                                <img src="assets/img/australia.svg" alt="Germany">
-                                <div>Australia</div>
-                            </div>
-                        </a>
-                        <a href="/usa">
-                            <div class="option">
-                                <img src="assets/img/asia.svg" alt="Germany">
-                                <div>Asia</div>
-                            </div>
-                        </a>
+
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/uk.svg" alt="Germany">
-                                <div>United Kingdom</div>
+                                <p>United Kingdom</p>
                             </div>
                         </a>
                         <a href="/usa">
                             <div class="option">
                                 <img src="assets/img/nz.svg" alt="Germany">
-                                <div>New Zealand</div>
+                                <p>New Zealand</p>
                             </div>
                         </a>
                     </div>
@@ -172,50 +95,52 @@
 
                 </div>
 
-                <li id="services-button"><a href="#hero" class="">Services <i
+
+                <li id="services-button"><a class="">Services <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options-services">
                     <div class="country-grid">
-                        <div class="option">
-                                <div>Counselling</div>
-                        </div>
-                        <div class="option">
-                            <div>Test Preparation</div>
-                        </div>
-                        <div class="option">
-                            <div>Course, Country & University Selection</div>
-                        </div>
-                        <div class="option">
-                            <div>Applications & Admission
-                            </div>
-                        </div>
-                        <div class="option">
-                            <div>Scholarships</div>
+                        <div class="option"  >
+                            <a  href="#counselling">Counselling</a>
                         </div>
 
-                        <div class="option">
-                            <div>Internship</div>
+                        <div class="option"  >
+                            <a  href="#counselling">Test Preparation</a>
                         </div>
 
-                        <div class="option">
-                            <div> Education Loan
-                            </div>
+                        <div class="option"  >
+                            <a  href="#counselling">University Selection</a>
                         </div>
-                        <div class="option">
-                            <div>Visa Processing</div>
+                        <div class="option"  >
+                            <a  href="#counselling">Applications & Admission</a>
                         </div>
-                        <div class="option">
-                            <div>Allied Services</div>
+                        <div class="option"  >
+                            <a  href="#counselling">Scholarships</a>
                         </div>
-                    </div>
+                        <div class="option"  >
+                            <a  href="#counselling">Internship</a>
+                        </div>
+
+                        <div class="option"  >
+                            <a  href="#counselling">Education Loan</a>
+                        </div>
+                        <div class="option"  >
+                            <a  href="#counselling">Visa Processing</a>
+                        </div>
+
+                        <div class="option"  >
+                            <a  href="#counselling">Allied Services </a>
+                        </div>
+
+                </div>
                 </div>
 
                 <script>
-                    document.addEventListener('DOMContentLoaded', function() {
+                    document.addEventListener('DOMContentLoaded', function () {
 
-                        var menuOptions=document.getElementById("menu-options");
+                        var menuOptions = document.getElementById("menu-options");
                         menuOptions.style.display = "none"
-                        var menuOptionsServices=document.getElementById("menu-options-services");
+                        var menuOptionsServices = document.getElementById("menu-options-services");
                         menuOptionsServices.style.display = "none"
 
                         document.getElementById("study-button").addEventListener("click", function () {
@@ -244,7 +169,6 @@
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
 
     </div>
 </header>

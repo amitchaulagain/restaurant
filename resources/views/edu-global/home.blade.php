@@ -200,8 +200,8 @@
         <div class="container">
             <!-- Counselling -->
             <div class="row gy-4 align-items-center features-item">
-                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3 id="#counselling">Counselling
+                <div id="counselling" class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h3 >Counselling
                     </h3>
                     <p>
                         Our counselling sessions will immensely benefit you in making the best academic decision suiting
@@ -517,11 +517,7 @@
 
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="content px-xl-5">
-                        <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                        </p>
+                        <h3><span style="color: orange">Frequently Asked </span><strong style="color: darkblue">Questions</strong></h3>
                     </div>
                 </div>
 
@@ -529,59 +525,49 @@
 
                     <div class="faq-container">
                         <div class="faq-item faq-active">
-                            <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span>
+                            <h3><span class="num">1.</span> <span>Can you work while studying in the United States?</span>
                             </h3>
                             <div class="faq-content">
-                                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.</p>
+                                <p>As an international student you may work on campus up to 20 hours/week in the first year of study in US and can apply to work off-campus in the subsequent years only with due permission of the International Student Office under CPT or OPT.</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item">
-                            <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                            <h3><span class="num">2.</span> <span>What are the English Language Proficiency requirements?</span>
                             </h3>
                             <div class="faq-content">
-                                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.</p>
+                                <p>U.S. universities require an English language proficiency test before admission and the test requirements vary depending on the course you apply for. English Language Ability Tests. The most common tests of English language ability are the Test of English as a Foreign Language (TOEFL), the International English Language Testing System (IELTS), and the Pearson Test of English (PTE).
+
+                                </p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item">
-                            <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span>
+                            <h3><span class="num">3.</span> <span>What are the other Standardized Tests for USA?</span>
                             </h3>
                             <div class="faq-content">
-                                <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                                <p>Undergraduate Level Examinations SAT: A standardized test to evaluate the written, verbal and mathematical skills of the applicants. ACT: To test the student's ability in English, Math, Science, Reading and Writing sections. Graduate-Level Examinations GRE: A standardized test of verbal reasoning, quantitative reasoning, and analytical writing for graduate-level study. GMAT: A standardized test for MBA applicants and for business programs that measures basic verbal, mathematical, analytical writing and integrated reasoning skills. MCAT: A standardized examination that assesses problem solving, critical thinking, writing skills, and knowledge of science concepts and principles essential for the study of medicine. LSAT: A standardized test to measure the reading and verbal reasoning skills used by the law schools as an assessment factor for admission. DAT: A test to measure general academic ability, comprehension of scientific information, and perceptual ability, used for admission to Dental schools.</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item">
-                            <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span>
+                            <h3><span class="num">4.</span> <span>What are the popular courses in the USA?
+</span>
                             </h3>
                             <div class="faq-content">
-                                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.</p>
+                                <p>STEM (Sciences, Technology, Engineering and Mathematics) subjects are mostly opted by international as well as domestic students in the USA. However, Psychology, Business Administration, Education, Economics and Political Science are certain other popular courses..</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
 
                         <div class="faq-item">
-                            <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span>
+                            <h3><span class="num">5.</span> <span>Are any scholarships available for international students in USA?</span>
                             </h3>
                             <div class="faq-content">
-                                <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                                <p>Scholarships and grants are usually awarded to international students in USA on the basis of merit, need or any other exceptional excellence like proficiency in sports, cultural activities or a remarkable contribution in community service. The scholarships are highly competitive. Many American universities also offer grants for foreign students who wish to study at their institution but these vary substantially from university to university. The Standardized Test scores play a vital role in U.S. universities granting scholarships.</p>
                             </div>
                             <i class="faq-toggle bi bi-chevron-right"></i>
                         </div><!-- End Faq item-->
@@ -744,7 +730,7 @@
     </section><!-- /Call To Action Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+   '{{-- <section id="testimonials" class="testimonials section">
 
         <div class="container">
 
@@ -1103,7 +1089,7 @@
 
         </div>
 
-    </section><!-- /Contact Section -->
+    </section><!-- /Contact Section -->--}}'
 
 @endsection
 

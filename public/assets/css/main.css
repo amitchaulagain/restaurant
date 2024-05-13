@@ -725,7 +725,11 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  border-width: 5px;
+  border-block-color: orange;
 }
+
+
 
 .hero:before {
   content: "";
@@ -2880,6 +2884,10 @@ section,
     cursor: pointer;
     transition: transform 0.3s ease;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .option:hover {
@@ -2893,4 +2901,7 @@ section,
 }
 #study-button {
     cursor: pointer;
+}
+.option a{
+    color: black;
 }

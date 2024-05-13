@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+{{--
 src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? '' }}">
 
 <head>
@@ -14,8 +14,11 @@ src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? 
     <meta name="description" content="{{ $meta_discription->value ?? '' }}" />
     <title>
         {{ $title ? $title : '' }} | Admin | {{ $site_title->value ?? config('dz.admin.title') }}
-        {{-- @stack('title') --}}
+        --}}
+{{-- @stack('title') --}}{{--
+
     </title>
+--}}
 
     <style>
         .bd-placeholder-img {
