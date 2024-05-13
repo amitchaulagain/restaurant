@@ -618,11 +618,14 @@ class UserController extends Controller
 
     public function usa(Request $request)
     {
-        $title = "USA ";
-        $siteSetting = SiteSettings::pluck('value', 'key');
+        $title = "USA";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
         $services = Service::all();
+        $cms = Cms::all();
 
-        $data = compact('title', 'siteSetting', 'services');
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
         return view('edu-global.usa', $data);
     }
 

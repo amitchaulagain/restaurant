@@ -2,19 +2,6 @@
 
 @section('content_box')
 
-    {{-- <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" >
-         <div class="overlay"></div>
-         <div class="container">
-             <div class="row no-gutters slider-text align-items-end">
-                 <div class="col-md-9 ftco-animate pb-5">
-                     <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i class="ion-ios-arrow-forward"></i></span></p>
-                     <h1 class="mb-0 bread">Contact Us</h1>
-                 </div>
-             </div>
-         </div>
-     </section>--}}
-
-
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
         <div class="heading">
@@ -46,30 +33,14 @@
         <div class="container">
             <div class="row gy-4 align-items-center features-item">
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Course, Country & University selection
-
-                    </h3>
+                    <h3>  {!! $CMS['us_header1'] !!}</h3>
                     <p>
-                        We help you choose the ideal course, university & country that perfectly match your career,
-                        academic and budget preferences.
+                    {!! $CMS['us_content1'] !!}
 
 
                     <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-                        <h5>Offerings</h5>
-                        <ul>
-                            <li><i class="bi bi-check"></i>
-                                <span>Make precise academic and career decisions
-.</span></li>
-                            <li>
-                                <i class="bi bi-check"></i><span> University comparison – rankings, courses & scholarships
-</span>
-                            </li>
-                            <li><i class="bi bi-check"></i>
-                                <span>Course options across 800+ universities in 33 countries
-.</span>.
-                            </li>
-                        </ul>
-                        <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+                        <input type="submit" class="btn btn-primary" value="Enquire now"
+                               style="background-color: orange">
                     </div>
                 </div>
 
@@ -87,47 +58,61 @@
     <section id="service-details" class="service-details section">
 
         <div class="container">
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="service-box">
-                    <h4> Popular Courses </h4>
-                    <div class="services-list">
-                        <a href="#" class="active"><i
-                                class="bi bi-arrow-right-circle"></i><span>Applied Sciences</span></a>
-                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Business & Management</span></a>
-                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Computer Science & Information Technology</span></a>
-                        <a href="#"><i
-                                class="bi bi-arrow-right-circle"></i><span>Engineering & Technology</span></a>
-                        <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Public Health & Healthcare Administration</span></a>
+            <div class="row gy-5">
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="service-box">
+                        <h4> Popular Courses </h4>
+                        <div class="services-list">
+                            <a href="#" class="active"><i
+                                    class="bi bi-arrow-right-circle"></i><span>Applied Sciences</span></a>
+                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Business & Management</span></a>
+                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Computer Science & Information Technology</span></a>
+                            <a href="#"><i
+                                    class="bi bi-arrow-right-circle"></i><span>Engineering & Technology</span></a>
+                            <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Public Health & Healthcare Administration</span></a>
+                        </div>
+                    </div><!-- End Services List -->
+
+
+                    <div class="service-box">
+                        <h4>Popular Universities</h4>
+                        <div class="download-catalog">
+                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                        </div>
+                    </div><!-- End Services List -->
+
+                    <div class="help-box d-flex flex-column justify-content-center align-items-center">
+                        <i class="bi bi-headset help-icon"></i>
+                        <h4>Have a Question?</h4>
+                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span>
+                        </p>
+                        <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                                href="mailto:contact@example.com">contact@example.com</a></p>
                     </div>
-                </div><!-- End Services List -->
 
+                </div>
 
-                <div class="service-box">
-                    <h4>Popular Universities</h4>
-                    <div class="download-catalog">
-                        <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
-                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
-                        <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
-                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
-                        <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
-                        <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
-                    </div>
-                </div><!-- End Services List -->
+                <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    <p>
+                        {!! $CMS['us_content2'] !!}
 
-                <div class="help-box d-flex flex-column justify-content-center align-items-center">
-                    <i class="bi bi-headset help-icon"></i>
-                    <h4>Have a Question?</h4>
-                    <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span>
                     </p>
-                    <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                            href="mailto:contact@example.com">contact@example.com</a></p>
                 </div>
 
             </div>
 
+
+        </div>
+
         </div>
     </section>
-
 
 @endsection

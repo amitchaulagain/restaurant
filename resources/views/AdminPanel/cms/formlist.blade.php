@@ -25,10 +25,10 @@
                                             data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
                                             aria-selected="true">Home
                                     </button>
-                                    <button class="nav-link" id="nav-individual-tax-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-individual-tax" type="button" role="tab"
-                                            aria-controls="nav-individual-tax"
-                                            aria-selected="false">Individual Tax
+                                    <button class="nav-link" id="nav-us-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-us" type="button" role="tab"
+                                            aria-controls="nav-us"
+                                            aria-selected="false">US
                                     </button>
                                     <button class="nav-link" id="nav-lodge-in-person-tab" data-bs-toggle="tab"
                                             data-bs-target="#nav-lodge-in-person" type="button" role="tab"
@@ -291,27 +291,27 @@
                                         @endif
                                     </div>
                                 </div>
-                                <div class="tab-pane fade " id="nav-individual-tax" role="tabpanel"
-                                     aria-labelledby="nav-individual-tax-tab">
+                                <div class="tab-pane fade " id="nav-us" role="tabpanel"
+                                     aria-labelledby="nav-us-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="individual_tax_header1"
-                                                   value="{{ $cms['individual_tax_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="us_header1"
+                                                   value="{{ $cms['us_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('individual_tax_header1')
+                                                @error('us_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="individual_tax_content1" id="individual_tax_content1"
-                                                      class="ckeditor">{{ $cms['individual_tax_content1'] ?? '' }}</textarea>
+                                            <textarea name="us_content1" id="us_content1"
+                                                      class="ckeditor">{{ $cms['us_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('individual_tax_content1')
+                                                @error('us_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -319,10 +319,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="individual_tax_header2"
-                                                   value="{{ $cms['individual_tax_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="us_header2"
+                                                   value="{{ $cms['us_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('individual_tax_header2')
+                                                @error('us_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -330,10 +330,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="individual_tax_content2" id="individual_tax_content2"
-                                                      class="ckeditor">{{ $cms['individual_tax_content2'] ?? '' }}</textarea>
+                                            <textarea name="us_content2" id="us_content2"
+                                                      class="ckeditor">{{ $cms['us_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('individual_tax_content2')
+                                                @error('us_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -341,21 +341,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="individual_tax_header3"
-                                                   value="{{ $cms['individual_tax_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="us_header3"
+                                                   value="{{ $cms['us_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('individual_tax_header3')
+                                                @error('us_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="individual_tax_content3" id="individual_tax_content3"
-                                                      class="ckeditor">{{ $cms['individual_tax_content3'] ?? '' }}</textarea>
+                                            <textarea name="us_content3" id="us_content3"
+                                                      class="ckeditor">{{ $cms['us_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('individual_tax_content3')
+                                                @error('us_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -364,20 +364,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="individual_tax_header4"
-                                                   value="{{ $cms['individual_tax_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="us_header4"
+                                                   value="{{ $cms['us_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('individual_tax_header4')
+                                                @error('us_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="individual_tax_content4" id="individual_tax_content4"
-                                                      class="ckeditor">{{ $cms['individual_tax_content4'] ?? '' }}</textarea>
+                                            <textarea name="us_content4" id="us_content4"
+                                                      class="ckeditor">{{ $cms['us_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('individual_tax_content4')
+                                                @error('us_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -385,20 +385,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="individual_tax_header5"
-                                                   value="{{ $cms['individual_tax_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="us_header5"
+                                                   value="{{ $cms['us_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('individual_tax_header5')
+                                                @error('us_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 5</label>
-                                            <textarea name="individual_tax_content5" id="individual_tax_content5"
-                                                      class="ckeditor">{{ $cms['individual_tax_content5'] ?? '' }}</textarea>
+                                            <textarea name="us_content5" id="us_content5"
+                                                      class="ckeditor">{{ $cms['us_content5'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('individual_tax_content5')
+                                                @error('us_content5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -409,18 +409,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image</label>
-                                            <input type="file" class="form-control" name="individual_tax_image1">
+                                            <input type="file" class="form-control" name="us_image1">
                                             <div class="text-danger">
-                                                @error('individual_tax_image1')
+                                                @error('us_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['individual_tax_image1']))
+                                            @if (!empty($cms['us_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="individual_tax_image1"
+                                                    <button data-name="Home Image" data-key="us_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -428,25 +428,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['individual_tax_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['individual_tax_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['us_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['us_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image</label>
-                                            <input type="file" class="form-control" name="individual_tax_image2">
+                                            <input type="file" class="form-control" name="us_image2">
                                             <div class="text-danger">
-                                                @error('individual_tax_image2')
+                                                @error('us_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['individual_tax_image2']))
+                                            @if (!empty($cms['us_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="individual_tax_image2"
+                                                    <button data-name="Home Image" data-key="us_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -454,8 +454,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['individual_tax_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['individual_tax_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['us_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['us_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>

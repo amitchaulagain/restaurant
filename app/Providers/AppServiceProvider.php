@@ -66,6 +66,7 @@ class AppServiceProvider extends ServiceProvider
             'accounting-master.tax-calculator',
             'accounting-master.tax-checklist',
             'accounting-master.resources',
+            'edu-global.usa',
 
 
         ], function ($view) {
