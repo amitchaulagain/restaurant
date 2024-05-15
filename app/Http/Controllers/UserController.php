@@ -616,18 +616,7 @@ class UserController extends Controller
         return view('edu-global.contactus', $data);
     }
 
-    public function usa(Request $request)
-    {
-        $title = "USA";
-        $siteSetting = $this->siteSetting;
-        $gal = Gallary::all();
-        $services = Service::all();
-        $cms = Cms::all();
 
-
-        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
-        return view('edu-global.usa', $data);
-    }
 
     public function single_service(Request $request)
     {
@@ -862,5 +851,111 @@ class UserController extends Controller
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
         return view('accounting-master.tax-calculator', $data);
     }
+
+    public function australia(Request $request)
+    {
+        $title = "Australia";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.australia', $data);
+    }
+
+    public function canada(Request $request)
+    {
+        $title = "Canada";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.canada', $data);
+    }
+    public function europe(Request $request)
+    {
+        $title = "Europe";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.europe', $data);
+    }
+    public function korea(Request $request)
+    {
+        $title = "Korea";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.korea', $data);
+    }
+    public function nz(Request $request)
+    {
+        $title = "New Zealand";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.nz', $data);
+    }
+    public function uae(Request $request)
+    {
+        $title = "UAE";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.uae', $data);
+    }
+
+    public function usa(Request $request)
+    {
+        $title = "USA";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.usa', $data);
+    }
+
+    public function japan(Request $request)
+    {
+        $title = "USA";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.japan', $data);
+    }
+
+
+
+
+
+
 
 }

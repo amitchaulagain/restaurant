@@ -51,9 +51,9 @@
                                 <p>United States</p>
                             </div>
                         </a>
-                        <a href="/usa">
+                        <a href="/australia">
                             <div class="option">
-                                <img src="assets/img/australia.svg" alt="Germany">
+                                <img src="assets/img/australia.svg" alt="Australia">
                                 <p>Australia</p>
                             </div>
                         </a>
@@ -63,13 +63,13 @@
                                 <p>Ireland</p>
                             </div>
                         </a>
-                        <a href="/usa">
+                        <a href="/europe">
                             <div class="option">
                                 <img src="assets/img/europe.svg" alt="">
                                 <p>Europe</p>
                             </div>
                         </a>
-                        <a href="/usa">
+                        <a href="/canada">
                             <div class="option">
                                 <img src="assets/img/canada.svg" alt="">
                                 <p>Canada</p>
@@ -78,16 +78,29 @@
                         <!-- Add more country
                         options as needed -->
 
-                        <a href="/usa">
+                        <a href="/korea">
                             <div class="option">
-                                <img src="assets/img/uk.svg" alt="Germany">
-                                <p>United Kingdom</p>
+                                <img src="assets/img/korea.svg" alt="Korea">
+                                <p>Korea</p>
                             </div>
                         </a>
                         <a href="/usa">
                             <div class="option">
-                                <img src="assets/img/nz.svg" alt="Germany">
+                                <img src="assets/img/nz.svg" alt="New Zealand">
                                 <p>New Zealand</p>
+                            </div>
+                        </a>
+                        <a href="/uae">
+                            <div class="option">
+                                <img src="assets/img/uae.svg" alt="UAE">
+                                <p>United Arab Of Emirates</p>
+                            </div>
+                        </a>
+
+                        <a href="/japan">
+                            <div class="option">
+                                <img src="assets/img/japan.svg" alt="Japan">
+                                <p>Japan</p>
                             </div>
                         </a>
                     </div>
@@ -100,39 +113,22 @@
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options-services">
                     <div class="country-grid">
-                        <div class="option"  >
-                            <a  href="#counselling">Counselling</a>
+                        <div class="option">
+                            <a href="#counselling">Student Counselling </a>
                         </div>
 
-                        <div class="option"  >
-                            <a  href="#counselling">Test Preparation</a>
+                        <div class="option">
+                            <a href="#counselling">PTE and IELTS Test Preparation </a>
                         </div>
 
-                        <div class="option"  >
-                            <a  href="#counselling">University Selection</a>
+                        <div class="option">
+                            <a href="#counselling"> Course, and University Selection </a>
                         </div>
-                        <div class="option"  >
-                            <a  href="#counselling">Applications & Admission</a>
-                        </div>
-                        <div class="option"  >
-                            <a  href="#counselling">Scholarships</a>
-                        </div>
-                        <div class="option"  >
-                            <a  href="#counselling">Internship</a>
+                        <div class="option">
+                            <a href="#counselling">Visa Processing</a>
                         </div>
 
-                        <div class="option"  >
-                            <a  href="#counselling">Education Loan</a>
-                        </div>
-                        <div class="option"  >
-                            <a  href="#counselling">Visa Processing</a>
-                        </div>
-
-                        <div class="option"  >
-                            <a  href="#counselling">Allied Services </a>
-                        </div>
-
-                </div>
+                    </div>
                 </div>
 
                 <script>

@@ -53,7 +53,14 @@ Route::get('/aboutus', [UserController::class, 'aboutus'])->name('aboutus');
 Route::get('/services', [UserController::class, 'services'])->name('services');
 
 Route::get('/contactus', [UserController::class, 'contactus'])->name('contactus');
+Route::get('/australia', [UserController::class, 'australia'])->name('australia');
+Route::get('/canada', [UserController::class, 'canada'])->name('canada');
+Route::get('/europe', [UserController::class, 'europe'])->name('europe');
+Route::get('/korea', [UserController::class, 'korea'])->name('korea');
+Route::get('/nz', [UserController::class, 'nz'])->name('nz');
+Route::get('/uae', [UserController::class, 'uae'])->name('uae');
 Route::get('/usa', [UserController::class, 'usa'])->name('usa');
+Route::get('/japan', [UserController::class, 'japan'])->name('japan');
 
 
 Route::post('/sendemail/send', [EmailController::class, 'basic_email'])->name('basic_email');

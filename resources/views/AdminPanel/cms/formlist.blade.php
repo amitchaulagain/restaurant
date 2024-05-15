@@ -30,73 +30,63 @@
                                             aria-controls="nav-us"
                                             aria-selected="false">US
                                     </button>
-                                    <button class="nav-link" id="nav-lodge-in-person-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-lodge-in-person" type="button" role="tab"
-                                            aria-controls="nav-lodge-in-person"
-                                            aria-selected="false">Shares & Cryptocurrency
+                                    <button class="nav-link" id="nav-australia-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-australia" type="button" role="tab"
+                                            aria-controls="nav-australia"
+                                            aria-selected="false">Australia
                                     </button>
-                                    <button class="nav-link" id="nav-online-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-online" type="button" role="tab"
-                                            aria-controls="nav-online"
-                                            aria-selected="false">Property Investors
+                                    <button class="nav-link" id="nav-canada-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-canada" type="button" role="tab"
+                                            aria-controls="nav-canada"
+                                            aria-selected="false">Canada
                                     </button>
-                                    <button class="nav-link" id="nav-tax-review-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-tax-review" type="button" role="tab"
-                                            aria-controls="nav-tax-review"
-                                            aria-selected="false">Tax Review
-                                    </button>
-
-                                    <button class="nav-link" id="nav-business-services-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-business-services" type="button" role="tab"
-                                            aria-controls="nav-business-services"
-                                            aria-selected="false">Business Services
+                                    <button class="nav-link" id="nav-korea-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-korea" type="button" role="tab"
+                                            aria-controls="nav-korea"
+                                            aria-selected="false">Korea
                                     </button>
 
-                                    <button class="nav-link" id="nav-small-business-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-small-business" type="button" role="tab"
-                                            aria-controls="nav-small-business"
-                                            aria-selected="false"> Sole Trader & Uber
+                                    <button class="nav-link" id="nav-uae-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-uae" type="button" role="tab"
+                                            aria-controls="nav-uae"
+                                            aria-selected="false">UAE
                                     </button>
-                                    <button class="nav-link" id="company-accounting-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-company-accounting" type="button" role="tab"
-                                            aria-controls="nav-company-accounting"
-                                            aria-selected="false"> Company & Trust
+                                    <button class="nav-link" id="nz-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-nz" type="button" role="tab"
+                                            aria-controls="nav-nz"
+                                            aria-selected="false"> New Zealand
                                     </button>
-                                    <button class="nav-link" id="bas-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-bas" type="button" role="tab"
-                                            aria-controls="nav-bas"
-                                            aria-selected="false"> Payroll & BAS
-                                    </button>
-
-
-
-                                    <button class="nav-link" id="bookkeeping-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-bookkeeping" type="button" role="tab"
-                                            aria-controls="nav-bookkeeping"
-                                            aria-selected="false"> Bookkeeping
+                                    <button class="nav-link" id="europe-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-europe" type="button" role="tab"
+                                            aria-controls="nav-europe"
+                                            aria-selected="false"> Europe
                                     </button>
 
-                                    <button class="nav-link" id="smsf-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-smsf" type="button" role="tab"
-                                            aria-controls="nav-smsf"
-                                            aria-selected="false"> Software Installation And Training
+                                    <button class="nav-link" id="nav-japan-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-japan" type="button" role="tab"
+                                            aria-controls="nav-japan"
+                                            aria-selected="false"> Japan
+                                    </button>
+                                    <button class="nav-link" id="counselling-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-counselling" type="button" role="tab"
+                                            aria-controls="nav-counselling"
+                                            aria-selected="false"> Counselling
+                                    </button>
+                                    <button class="nav-link" id="preparation-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-preparation" type="button" role="tab"
+                                            aria-controls="nav-preparation"
+                                            aria-selected="false"> Test Preparation
+                                    </button>
+                                    <button class="nav-link" id="selection-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-selection" type="button" role="tab"
+                                            aria-controls="nav-selection"
+                                            aria-selected="false"> University Selection
                                     </button>
 
-                                    <button class="nav-link" id="financial-services-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-financial-services" type="button" role="tab"
-                                            aria-controls="nav-financial-services"
-                                            aria-selected="false"> Financial Services
-                                    </button>
-                                    <button class="nav-link" id="smsf-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-smsf" type="button" role="tab"
-                                            aria-controls="nav-smsf"
-                                            aria-selected="false"> Super Fund
-                                    </button>
-
-                                    <button class="nav-link" id="financial-planning-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-financial-planning" type="button" role="tab"
-                                            aria-controls="nav-financial-planning"
-                                            aria-selected="false"> Financial Planning
+                                    <button class="nav-link" id="processing-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-processing" type="button" role="tab"
+                                            aria-controls="nav-processing"
+                                            aria-selected="false"> Visa Processing
                                     </button>
 
                                 </div>
@@ -468,27 +458,27 @@
                                 </div>
 
 
-                                <div class="tab-pane fade " id="nav-lodge-in-person" role="tabpanel"
-                                     aria-labelledby="nav-lodge-in-person-tab">
+                                <div class="tab-pane fade " id="nav-australia" role="tabpanel"
+                                     aria-labelledby="nav-australia-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="lodge_in_person_header1"
-                                                   value="{{ $cms['lodge_in_person_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="australia_header1"
+                                                   value="{{ $cms['australia_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_header1')
+                                                @error('australia_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="lodge_in_person_content1" id="lodge_in_person_content1"
-                                                      class="ckeditor">{{ $cms['lodge_in_person_content1'] ?? '' }}</textarea>
+                                            <textarea name="australia_content1" id="australia_content1"
+                                                      class="ckeditor">{{ $cms['australia_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('lodge_in_person_content1')
+                                                @error('australia_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -496,10 +486,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="lodge_in_person_header2"
-                                                   value="{{ $cms['lodge_in_person_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="australia_header2"
+                                                   value="{{ $cms['australia_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_header2')
+                                                @error('australia_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -507,10 +497,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="lodge_in_person_content2" id="lodge_in_person_content2"
-                                                      class="ckeditor">{{ $cms['lodge_in_person_content2'] ?? '' }}</textarea>
+                                            <textarea name="australia_content2" id="australia_content2"
+                                                      class="ckeditor">{{ $cms['australia_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('lodge_in_person_content2')
+                                                @error('australia_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -518,21 +508,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="lodge_in_person_header3"
-                                                   value="{{ $cms['lodge_in_person_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="australia_header3"
+                                                   value="{{ $cms['australia_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_header3')
+                                                @error('australia_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="lodge_in_person_content3" id="lodge_in_person_content3"
-                                                      class="ckeditor">{{ $cms['lodge_in_person_content3'] ?? '' }}</textarea>
+                                            <textarea name="australia_content3" id="australia_content3"
+                                                      class="ckeditor">{{ $cms['australia_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('lodge_in_person_content3')
+                                                @error('australia_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -541,20 +531,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="lodge_in_person_header4"
-                                                   value="{{ $cms['lodge_in_person_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="australia_header4"
+                                                   value="{{ $cms['australia_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_header4')
+                                                @error('australia_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="lodge_in_person_content4" id="lodge_in_person_content4"
-                                                      class="ckeditor">{{ $cms['lodge_in_person_content4'] ?? '' }}</textarea>
+                                            <textarea name="australia_content4" id="australia_content4"
+                                                      class="ckeditor">{{ $cms['australia_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('lodge_in_person_content4')
+                                                @error('australia_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -562,20 +552,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="lodge_in_person_header5"
-                                                   value="{{ $cms['lodge_in_person_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="australia_header5"
+                                                   value="{{ $cms['australia_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_header5')
+                                                @error('australia_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 5</label>
-                                            <textarea name="lodge_in_person_content5" id="lodge_in_person_content5"
-                                                      class="ckeditor">{{ $cms['lodge_in_person_content5'] ?? '' }}</textarea>
+                                            <textarea name="australia_content5" id="australia_content5"
+                                                      class="ckeditor">{{ $cms['australia_content5'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('lodge_in_person_content5')
+                                                @error('australia_content5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -586,18 +576,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="lodge_in_person_image1">
+                                            <input type="file" class="form-control" name="australia_image1">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_image1')
+                                                @error('australia_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['lodge_in_person_image1']))
+                                            @if (!empty($cms['australia_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="lodge_in_person_image1"
+                                                    <button data-name="Home Image" data-key="australia_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -605,25 +595,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['lodge_in_person_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['lodge_in_person_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="lodge_in_person_image2">
+                                            <input type="file" class="form-control" name="australia_image2">
                                             <div class="text-danger">
-                                                @error('lodge_in_person_image2')
+                                                @error('australia_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['lodge_in_person_image2']))
+                                            @if (!empty($cms['australia_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="lodge_in_person_image2"
+                                                    <button data-name="Home Image" data-key="australia_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -631,8 +621,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['lodge_in_person_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['lodge_in_person_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -645,27 +635,27 @@
                                 </div>
 
 
-                                <div class="tab-pane fade " id="nav-online" role="tabpanel"
-                                     aria-labelledby="nav-online-tab">
+                                <div class="tab-pane fade " id="nav-canada" role="tabpanel"
+                                     aria-labelledby="nav-canada-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="online_header1"
-                                                   value="{{ $cms['online_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="canada_header1"
+                                                   value="{{ $cms['canada_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('online_header1')
+                                                @error('canada_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="online_content1" id="online_content1"
-                                                      class="ckeditor">{{ $cms['online_content1'] ?? '' }}</textarea>
+                                            <textarea name="canada_content1" id="canada_content1"
+                                                      class="ckeditor">{{ $cms['canada_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('online_content1')
+                                                @error('canada_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -673,10 +663,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="online_header2"
-                                                   value="{{ $cms['online_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="canada_header2"
+                                                   value="{{ $cms['canada_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('online_header2')
+                                                @error('canada_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -684,10 +674,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="online_content2" id="online_content2"
-                                                      class="ckeditor">{{ $cms['online_content2'] ?? '' }}</textarea>
+                                            <textarea name="canada_content2" id="canada_content2"
+                                                      class="ckeditor">{{ $cms['canada_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('online_content2')
+                                                @error('canada_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -695,21 +685,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="online_header3"
-                                                   value="{{ $cms['online_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="canada_header3"
+                                                   value="{{ $cms['canada_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('online_header3')
+                                                @error('canada_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="online_content3" id="online_content3"
-                                                      class="ckeditor">{{ $cms['online_content3'] ?? '' }}</textarea>
+                                            <textarea name="canada_content3" id="canada_content3"
+                                                      class="ckeditor">{{ $cms['canada_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('online_content3')
+                                                @error('canada_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -718,20 +708,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="online_header4"
-                                                   value="{{ $cms['online_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="canada_header4"
+                                                   value="{{ $cms['canada_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('online_header4')
+                                                @error('canada_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="online_content4" id="online_content4"
-                                                      class="ckeditor">{{ $cms['online_content4'] ?? '' }}</textarea>
+                                            <textarea name="canada_content4" id="canada_content4"
+                                                      class="ckeditor">{{ $cms['canada_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('online_content4')
+                                                @error('canada_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -739,20 +729,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="online_header5"
-                                                   value="{{ $cms['online_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="canada_header5"
+                                                   value="{{ $cms['canada_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('online_header5')
+                                                @error('canada_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 5</label>
-                                            <textarea name="online_content5" id="online_content5"
-                                                      class="ckeditor">{{ $cms['online_content5'] ?? '' }}</textarea>
+                                            <textarea name="canada_content5" id="canada_content5"
+                                                      class="ckeditor">{{ $cms['canada_content5'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('online_content5')
+                                                @error('canada_content5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -763,18 +753,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="online_image1">
+                                            <input type="file" class="form-control" name="canada_image1">
                                             <div class="text-danger">
-                                                @error('online_image1')
+                                                @error('canada_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['online_image1']))
+                                            @if (!empty($cms['canada_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="online_image1"
+                                                    <button data-name="Home Image" data-key="canada_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -782,25 +772,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['online_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['online_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="online_image2">
+                                            <input type="file" class="form-control" name="canada_image2">
                                             <div class="text-danger">
-                                                @error('online_image2')
+                                                @error('canada_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['online_image2']))
+                                            @if (!empty($cms['canada_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="online_image2"
+                                                    <button data-name="Home Image" data-key="canada_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -808,8 +798,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['online_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['online_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -823,27 +813,27 @@
 
 
 
-                                <div class="tab-pane fade " id="nav-tax-review" role="tabpanel"
-                                     aria-labelledby="nav-tax-review-tab">
+                                <div class="tab-pane fade " id="nav-korea" role="tabpanel"
+                                     aria-labelledby="nav-korea-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="tax_review_header1"
-                                                   value="{{ $cms['tax_review_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="korea_header1"
+                                                   value="{{ $cms['korea_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('tax_review_header1')
+                                                @error('korea_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="tax_review_content1" id="tax_review_content1"
-                                                      class="ckeditor">{{ $cms['tax_review_content1'] ?? '' }}</textarea>
+                                            <textarea name="korea_content1" id="korea_content1"
+                                                      class="ckeditor">{{ $cms['korea_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('tax_review_content1')
+                                                @error('korea_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -851,10 +841,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="tax_review_header2"
-                                                   value="{{ $cms['tax_review_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="korea_header2"
+                                                   value="{{ $cms['korea_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('tax_review_header2')
+                                                @error('korea_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -862,10 +852,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="tax_review_content2" id="tax_review_content2"
-                                                      class="ckeditor">{{ $cms['tax_review_content2'] ?? '' }}</textarea>
+                                            <textarea name="korea_content2" id="korea_content2"
+                                                      class="ckeditor">{{ $cms['korea_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content2')
+                                                @error('korea_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -873,21 +863,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="tax_review_header3"
-                                                   value="{{ $cms['tax_review_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="korea_header3"
+                                                   value="{{ $cms['korea_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('tax_review_header3')
+                                                @error('korea_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="tax_review_content3" id="tax_review_content3"
-                                                      class="ckeditor">{{ $cms['tax_review_content3'] ?? '' }}</textarea>
+                                            <textarea name="korea_content3" id="korea_content3"
+                                                      class="ckeditor">{{ $cms['korea_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content3')
+                                                @error('korea_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -896,20 +886,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="tax_review_header4"
-                                                   value="{{ $cms['tax_review_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="korea_header4"
+                                                   value="{{ $cms['korea_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('tax_review_header4')
+                                                @error('korea_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="tax_review_content4" id="tax_review_content4"
-                                                      class="ckeditor">{{ $cms['tax_review_content4'] ?? '' }}</textarea>
+                                            <textarea name="korea_content4" id="korea_content4"
+                                                      class="ckeditor">{{ $cms['korea_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content4')
+                                                @error('korea_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -917,40 +907,40 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="tax_review_header5"
-                                                   value="{{ $cms['tax_review_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="korea_header5"
+                                                   value="{{ $cms['korea_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('tax_review_header5')
+                                                @error('korea_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 5</label>
-                                            <textarea name="tax_review_content5" id="tax_review_content5"
-                                                      class="ckeditor">{{ $cms['tax_review_content5'] ?? '' }}</textarea>
+                                            <textarea name="korea_content5" id="korea_content5"
+                                                      class="ckeditor">{{ $cms['korea_content5'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content5')
+                                                @error('korea_content5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 6</label>
-                                            <textarea name="tax_review_content6" id="tax_review_content6"
-                                                      class="ckeditor">{{ $cms['tax_review_content6'] ?? '' }}</textarea>
+                                            <textarea name="korea_content6" id="korea_content6"
+                                                      class="ckeditor">{{ $cms['korea_content6'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content6')
+                                                @error('korea_content6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 7</label>
-                                            <textarea name="tax_review_content7" id="tax_review_content7"
-                                                      class="ckeditor">{{ $cms['tax_review_content7'] ?? '' }}</textarea>
+                                            <textarea name="korea_content7" id="korea_content7"
+                                                      class="ckeditor">{{ $cms['korea_content7'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('tax_review_content7')
+                                                @error('korea_content7')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -960,18 +950,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="tax_review_image1">
+                                            <input type="file" class="form-control" name="korea_image1">
                                             <div class="text-danger">
-                                                @error('tax_review_image1')
+                                                @error('korea_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['tax_review_image1']))
+                                            @if (!empty($cms['korea_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="tax_review_image1"
+                                                    <button data-name="Home Image" data-key="korea_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -979,25 +969,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['tax_review_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['tax_review_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="tax_review_image2">
+                                            <input type="file" class="form-control" name="korea_image2">
                                             <div class="text-danger">
-                                                @error('tax_review_image2')
+                                                @error('korea_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['tax_review_image2']))
+                                            @if (!empty($cms['korea_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="tax_review_image2"
+                                                    <button data-name="Home Image" data-key="korea_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1005,8 +995,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['tax_review_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['tax_review_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1018,27 +1008,27 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-business-services" role="tabpanel"
-                                     aria-labelledby="nav-business-services-tab">
+                                <div class="tab-pane fade " id="nav-uae" role="tabpanel"
+                                     aria-labelledby="nav-uae-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="business_services_header1"
-                                                   value="{{ $cms['business_services_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="uae_header1"
+                                                   value="{{ $cms['uae_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('business_services_header1')
+                                                @error('uae_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="business_services_content1" id="business_services_content1"
-                                                      class="ckeditor">{{ $cms['business_services_content1'] ?? '' }}</textarea>
+                                            <textarea name="uae_content1" id="uae_content1"
+                                                      class="ckeditor">{{ $cms['uae_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('business_services_content1')
+                                                @error('uae_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1046,10 +1036,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="business_services_header2"
-                                                   value="{{ $cms['business_services_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="uae_header2"
+                                                   value="{{ $cms['uae_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('business_services_header2')
+                                                @error('uae_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1057,10 +1047,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="business_services_content2" id="business_services_content2"
-                                                      class="ckeditor">{{ $cms['business_services_content2'] ?? '' }}</textarea>
+                                            <textarea name="uae_content2" id="uae_content2"
+                                                      class="ckeditor">{{ $cms['uae_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('business_services_content2')
+                                                @error('uae_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1068,21 +1058,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="business_services_header3"
-                                                   value="{{ $cms['business_services_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="uae_header3"
+                                                   value="{{ $cms['uae_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('business_services_header3')
+                                                @error('uae_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="business_services_content3" id="business_services_content3"
-                                                      class="ckeditor">{{ $cms['business_services_content3'] ?? '' }}</textarea>
+                                            <textarea name="uae_content3" id="uae_content3"
+                                                      class="ckeditor">{{ $cms['uae_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('business_services_content3')
+                                                @error('uae_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1091,20 +1081,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="business_services_header4"
-                                                   value="{{ $cms['business_services_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="uae_header4"
+                                                   value="{{ $cms['uae_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('business_services_header4')
+                                                @error('uae_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="business_services_content4" id="business_services_content4"
-                                                      class="ckeditor">{{ $cms['business_services_content4'] ?? '' }}</textarea>
+                                            <textarea name="uae_content4" id="uae_content4"
+                                                      class="ckeditor">{{ $cms['uae_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('business_services_content4')
+                                                @error('uae_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1113,18 +1103,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="business_services_image1">
+                                            <input type="file" class="form-control" name="uae_image1">
                                             <div class="text-danger">
-                                                @error('business_services_image1')
+                                                @error('uae_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['business_services_image1']))
+                                            @if (!empty($cms['uae_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="business_services_image1"
+                                                    <button data-name="Home Image" data-key="uae_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1132,25 +1122,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="business_services_image2">
+                                            <input type="file" class="form-control" name="uae_image2">
                                             <div class="text-danger">
-                                                @error('business_services_image2')
+                                                @error('uae_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['business_services_image2']))
+                                            @if (!empty($cms['uae_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="business_services_image2"
+                                                    <button data-name="Home Image" data-key="uae_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1158,25 +1148,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 3</label>
-                                            <input type="file" class="form-control" name="business_services_image3">
+                                            <input type="file" class="form-control" name="uae_image3">
                                             <div class="text-danger">
-                                                @error('business_services_image3')
+                                                @error('uae_image3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['business_services_image3']))
+                                            @if (!empty($cms['uae_image3']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="business_services_image3"
+                                                    <button data-name="Home Image" data-key="uae_image3"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1184,8 +1174,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image3']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['business_services_image3']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image3']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image3']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1197,27 +1187,27 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-small-business" role="tabpanel"
-                                     aria-labelledby="nav-small-business-tab">
+                                <div class="tab-pane fade " id="nav-japan" role="tabpanel"
+                                     aria-labelledby="nav-japan-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="small_business_header1"
-                                                   value="{{ $cms['small_business_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header1"
+                                                   value="{{ $cms['japan_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header1')
+                                                @error('japan_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="small_business_content1" id="small_business_content1"
-                                                      class="ckeditor">{{ $cms['small_business_content1'] ?? '' }}</textarea>
+                                            <textarea name="japan_content1" id="japan_content1"
+                                                      class="ckeditor">{{ $cms['japan_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('small_business_content1')
+                                                @error('japan_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1225,10 +1215,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="small_business_header2"
-                                                   value="{{ $cms['small_business_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header2"
+                                                   value="{{ $cms['japan_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header2')
+                                                @error('japan_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1236,10 +1226,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="small_business_content2" id="small_business_content2"
-                                                      class="ckeditor">{{ $cms['small_business_content2'] ?? '' }}</textarea>
+                                            <textarea name="japan_content2" id="japan_content2"
+                                                      class="ckeditor">{{ $cms['japan_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content2')
+                                                @error('japan_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1247,21 +1237,21 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="small_business_header3"
-                                                   value="{{ $cms['small_business_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header3"
+                                                   value="{{ $cms['japan_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header3')
+                                                @error('japan_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
-                                            <textarea name="small_business_content3" id="small_business_content3"
-                                                      class="ckeditor">{{ $cms['small_business_content3'] ?? '' }}</textarea>
+                                            <textarea name="japan_content3" id="japan_content3"
+                                                      class="ckeditor">{{ $cms['japan_content3'] ?? '' }}</textarea>
                                             </textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content3')
+                                                @error('japan_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1270,40 +1260,40 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="small_business_header4"
-                                                   value="{{ $cms['small_business_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header4"
+                                                   value="{{ $cms['japan_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header4')
+                                                @error('japan_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 4</label>
-                                            <textarea name="small_business_content4" id="small_business_content4"
-                                                      class="ckeditor">{{ $cms['small_business_content4'] ?? '' }}</textarea>
+                                            <textarea name="japan_content4" id="japan_content4"
+                                                      class="ckeditor">{{ $cms['japan_content4'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content4')
+                                                @error('japan_content4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="small_business_header5"
-                                                   value="{{ $cms['small_business_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header5"
+                                                   value="{{ $cms['japan_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header5')
+                                                @error('japan_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 5</label>
-                                            <textarea name="small_business_content5" id="small_business_content5"
-                                                      class="ckeditor">{{ $cms['small_business_content5'] ?? '' }}</textarea>
+                                            <textarea name="japan_content5" id="japan_content5"
+                                                      class="ckeditor">{{ $cms['japan_content5'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content5')
+                                                @error('japan_content5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1311,20 +1301,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="small_business_header6"
-                                                   value="{{ $cms['small_business_header6'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header6"
+                                                   value="{{ $cms['japan_header6'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header6')
+                                                @error('japan_header6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 6</label>
-                                            <textarea name="small_business_content6" id="small_business_content6"
-                                                      class="ckeditor">{{ $cms['small_business_content6'] ?? '' }}</textarea>
+                                            <textarea name="japan_content6" id="japan_content6"
+                                                      class="ckeditor">{{ $cms['japan_content6'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content6')
+                                                @error('japan_content6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1333,20 +1323,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="small_business_header7"
-                                                   value="{{ $cms['small_business_header7'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header7"
+                                                   value="{{ $cms['japan_header7'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header7')
+                                                @error('japan_header7')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 7</label>
-                                            <textarea name="small_business_content7" id="small_business_content7"
-                                                      class="ckeditor">{{ $cms['small_business_content7'] ?? '' }}</textarea>
+                                            <textarea name="japan_content7" id="japan_content7"
+                                                      class="ckeditor">{{ $cms['japan_content7'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content7')
+                                                @error('japan_content7')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1354,20 +1344,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="small_business_header8"
-                                                   value="{{ $cms['small_business_header8'] ?? '' }}">
+                                            <input type="text" class="form-control" name="japan_header8"
+                                                   value="{{ $cms['japan_header8'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('small_business_header7')
+                                                @error('japan_header7')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 8</label>
-                                            <textarea name="small_business_content8" id="small_business_content8"
-                                                      class="ckeditor">{{ $cms['small_business_content8'] ?? '' }}</textarea>
+                                            <textarea name="japan_content8" id="japan_content8"
+                                                      class="ckeditor">{{ $cms['japan_content8'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('small_business_content7')
+                                                @error('japan_content7')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1379,18 +1369,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="small_business_image1">
+                                            <input type="file" class="form-control" name="japan_image1">
                                             <div class="text-danger">
-                                                @error('small_business_image1')
+                                                @error('japan_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['small_business_image1']))
+                                            @if (!empty($cms['japan_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="small_business_image1"
+                                                    <button data-name="Home Image" data-key="japan_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1398,8 +1388,36 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['small_business_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['small_business_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image1']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image</label>
+                                            <input type="file" class="form-control" name="us_image2">
+                                            <div class="text-danger">
+                                                @error('us_image2')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['japan_image2']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="japan_image2"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1412,200 +1430,50 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-bas" role="tabpanel"
-                                     aria-labelledby="nav-bas-tab">
+
+                                <div class="tab-pane fade " id="nav-counselling" role="tabpanel"
+                                     aria-labelledby="nav-counselling-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="bas_header1"
-                                                   value="{{ $cms['bas_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="counselling_header1"
+                                                   value="{{ $cms['counselling_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('bas_header1')
+                                                @error('counselling_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="bas_content1" id="bas_content1"
-                                                      class="ckeditor">{{ $cms['bas_content1'] ?? '' }}</textarea>
+                                            <textarea name="counselling_content1" id="counselling_content1"
+                                                      class="ckeditor">{{ $cms['counselling_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('bas_content1')
+                                                @error('counselling_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="bas_header2"
-                                                   value="{{ $cms['bas_header2'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 2</label>
-
-                                            <textarea name="bas_content2" id="bas_content2"
-                                                      class="ckeditor">{{ $cms['bas_content2'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="bas_header3"
-                                                   value="{{ $cms['bas_header3'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 3</label>
-                                            <textarea name="bas_content3" id="bas_content3"
-                                                      class="ckeditor">{{ $cms['bas_content3'] ?? '' }}</textarea>
-                                            </textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="bas_header4"
-                                                   value="{{ $cms['bas_header4'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 4</label>
-                                            <textarea name="bas_content4" id="bas_content4"
-                                                      class="ckeditor">{{ $cms['bas_content4'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="bas_header5"
-                                                   value="{{ $cms['bas_header5'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 5</label>
-                                            <textarea name="bas_content5" id="bas_content5"
-                                                      class="ckeditor">{{ $cms['bas_content5'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="bas_header6"
-                                                   value="{{ $cms['bas_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 6</label>
-                                            <textarea name="bas_content6" id="bas_content6"
-                                                      class="ckeditor">{{ $cms['bas_content6'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="bas_header7"
-                                                   value="{{ $cms['bas_header7'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 7</label>
-                                            <textarea name="bas_content7" id="bas_content7"
-                                                      class="ckeditor">{{ $cms['bas_content7'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="bas_header8"
-                                                   value="{{ $cms['bas_header8'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bas_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 8</label>
-                                            <textarea name="bas_content8" id="bas_content8"
-                                                      class="ckeditor">{{ $cms['bas_content8'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bas_content7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
 
 
 
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="bas_image1">
+                                            <input type="file" class="form-control" name="counselling_image1">
                                             <div class="text-danger">
-                                                @error('bas_image1')
+                                                @error('counselling_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['bas_image1']))
+                                            @if (!empty($cms['counselling_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="bas_image1"
+                                                    <button data-name="Home Image" data-key="counselling_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1613,8 +1481,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['bas_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['bas_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['counselling_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['counselling_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1627,158 +1495,49 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-company-accounting" role="tabpanel"
-                                     aria-labelledby="nav-company-accounting-tab">
+                                <div class="tab-pane fade " id="nav-preparation" role="tabpanel"
+                                     aria-labelledby="nav-preparation-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="company_accounting_header1"
-                                                   value="{{ $cms['company_accounting_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="preparation_header1"
+                                                   value="{{ $cms['preparation_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('company_accounting_header1')
+                                                @error('preparation_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="company_accounting_content1" id="company_accounting_content1"
-                                                      class="ckeditor">{{ $cms['company_accounting_content1'] ?? '' }}</textarea>
+                                            <textarea name="preparation_content1" id="preparation_content1"
+                                                      class="ckeditor">{{ $cms['preparation_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('company_accounting_content1')
+                                                @error('preparation_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="company_accounting_header2"
-                                                   value="{{ $cms['company_accounting_header2'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 2</label>
-
-                                            <textarea name="company_accounting_content2" id="company_accounting_content2"
-                                                      class="ckeditor">{{ $cms['company_accounting_content2'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('company_accounting_content2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="company_accounting_header3"
-                                                   value="{{ $cms['company_accounting_header3'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="company_accounting_header4"
-                                                   value="{{ $cms['company_accounting_header4'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="company_accounting_header5"
-                                                   value="{{ $cms['company_accounting_header5'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="company_accounting_header6"
-                                                   value="{{ $cms['company_accounting_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="company_accounting_header7"
-                                                   value="{{ $cms['company_accounting_header7'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="company_accounting_header8"
-                                                   value="{{ $cms['company_accounting_header8'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 9</label>
-                                            <input type="text" class="form-control" name="company_accounting_header9"
-                                                   value="{{ $cms['company_accounting_header9'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header9')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 10</label>
-                                            <input type="text" class="form-control" name="company_accounting_header10"
-                                                   value="{{ $cms['company_accounting_header10'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('company_accounting_header10')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
 
 
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="company_accounting_image1">
+                                            <input type="file" class="form-control" name="preparation_image1">
                                             <div class="text-danger">
-                                                @error('company_accounting_image1')
+                                                @error('preparation_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['company_accounting_image1']))
+                                            @if (!empty($cms['preparation_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="company_accounting_image1"
+                                                    <button data-name="Home Image" data-key="preparation_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1786,8 +1545,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['company_accounting_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['company_accounting_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['preparation_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['preparation_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1800,158 +1559,49 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-bookkeeping" role="tabpanel"
-                                     aria-labelledby="nav-bookkeeping-tab">
+                                <div class="tab-pane fade " id="nav-selection" role="tabpanel"
+                                     aria-labelledby="nav-selection-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header1"
-                                                   value="{{ $cms['bookkeeping_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="selection_header1"
+                                                   value="{{ $cms['selection_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('bookkeeping_header1')
+                                                @error('selection_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="bookkeeping_content1" id="bookkeeping_content1"
-                                                      class="ckeditor">{{ $cms['bookkeeping_content1'] ?? '' }}</textarea>
+                                            <textarea name="selection_content1" id="selection_content1"
+                                                      class="ckeditor">{{ $cms['selection_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('bookkeeping_content1')
+                                                @error('selection_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header2"
-                                                   value="{{ $cms['bookkeeping_header2'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 2</label>
-
-                                            <textarea name="bookkeeping_content2" id="bookkeeping_content2"
-                                                      class="ckeditor">{{ $cms['bookkeeping_content2'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('bookkeeping_content2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header3"
-                                                   value="{{ $cms['bookkeeping_header3'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header4"
-                                                   value="{{ $cms['bookkeeping_header4'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header5"
-                                                   value="{{ $cms['bookkeeping_header5'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header6"
-                                                   value="{{ $cms['bookkeeping_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header7"
-                                                   value="{{ $cms['bookkeeping_header7'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header8"
-                                                   value="{{ $cms['bookkeeping_header8'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 9</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header9"
-                                                   value="{{ $cms['bookkeeping_header9'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header9')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 10</label>
-                                            <input type="text" class="form-control" name="bookkeeping_header10"
-                                                   value="{{ $cms['bookkeeping_header10'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('bookkeeping_header10')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
 
 
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="bookkeeping_image1">
+                                            <input type="file" class="form-control" name="selection_image1">
                                             <div class="text-danger">
-                                                @error('bookkeeping_image1')
+                                                @error('selection_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['bookkeeping_image1']))
+                                            @if (!empty($cms['selection_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="bookkeeping_image1"
+                                                    <button data-name="Home Image" data-key="selection_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1959,11 +1609,12 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['bookkeeping_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['bookkeeping_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['selection_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['selection_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
+
 
                                         @if (session()->get('AdminUser')['type'] == 'R')
                                             <div class="col-md-12">
@@ -1973,27 +1624,94 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-smsf" role="tabpanel"
-                                     aria-labelledby="nav-smsf-tab">
+                                <div class="tab-pane fade " id="nav-processing" role="tabpanel"
+                                     aria-labelledby="nav-processing-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="smsf_header1"
-                                                   value="{{ $cms['smsf_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="processing_header1"
+                                                   value="{{ $cms['processing_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('smsf_header1')
+                                                @error('processing_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="smsf_content1" id="smsf_content1"
-                                                      class="ckeditor">{{ $cms['smsf_content1'] ?? '' }}</textarea>
+                                            <textarea name="processing_content1" id="processing_content1"
+                                                      class="ckeditor">{{ $cms['processing_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('smsf_content1')
+                                                @error('processing_content1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+
+                                        <h5 class="card-title">Images</h5>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image 1</label>
+                                            <input type="file" class="form-control" name="processing_image1">
+                                            <div class="text-danger">
+                                                @error('processing_image1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['processing_image1']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="processing_image1"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['processing_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['processing_image1']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+
+                                        @if (session()->get('AdminUser')['type'] == 'R')
+                                            <div class="col-md-12">
+                                                <button class="btn btn-success" type="submit">Update</button>
+                                            </div>
+                                        @endif
+                                    </div>
+                                </div>
+
+
+
+                                <div class="tab-pane fade " id="nav-nz" role="tabpanel"
+                                     aria-labelledby="nav-nz-tab">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 1</label>
+                                            <input type="text" class="form-control" name="nz_header1"
+                                                   value="{{ $cms['nz_header1'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('nz_header1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 1</label>
+                                            <textarea name="nz_content1" id="nz_content1"
+                                                      class="ckeditor">{{ $cms['nz_content1'] ?? '' }}</textarea>
+
+
+                                            <div class="text-danger">
+                                                @error('nz_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2001,10 +1719,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="smsf_header2"
-                                                   value="{{ $cms['smsf_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="nz_header2"
+                                                   value="{{ $cms['nz_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('smsf_header2')
+                                                @error('nz_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2012,10 +1730,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="smsf_content2" id="smsf_content2"
-                                                      class="ckeditor">{{ $cms['smsf_content2'] ?? '' }}</textarea>
+                                            <textarea name="nz_content2" id="nz_content2"
+                                                      class="ckeditor">{{ $cms['nz_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('smsf_content2')
+                                                @error('nz_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2023,10 +1741,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="smsf_header3"
-                                                   value="{{ $cms['smsf_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="nz_header3"
+                                                   value="{{ $cms['nz_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('smsf_header3')
+                                                @error('nz_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2034,310 +1752,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
 
-                                            <textarea name="smsf_content3" id="smsf_content3"
-                                                      class="ckeditor">{{ $cms['smsf_content3'] ?? '' }}</textarea>
+                                            <textarea name="nz_content3" id="nz_content3"
+                                                      class="ckeditor">{{ $cms['nz_content3'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('smsf_content3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="smsf_header4"
-                                                   value="{{ $cms['smsf_header4'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 4</label>
-
-                                            <textarea name="smsf_content4" id="smsf_content4"
-                                                      class="ckeditor">{{ $cms['smsf_content4'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="smsf_header5"
-                                                   value="{{ $cms['smsf_header5'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 5</label>
-
-                                            <textarea name="smsf_content5" id="smsf_content5"
-                                                      class="ckeditor">{{ $cms['smsf_content5'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="smsf_header6"
-                                                   value="{{ $cms['smsf_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 6</label>
-
-                                            <textarea name="smsf_content6" id="smsf_content6"
-                                                      class="ckeditor">{{ $cms['smsf_content6'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="smsf_header7"
-                                                   value="{{ $cms['smsf_header7'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 7</label>
-
-                                            <textarea name="smsf_content7" id="smsf_content7"
-                                                      class="ckeditor">{{ $cms['smsf_content7'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content7')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="smsf_header8"
-                                                   value="{{ $cms['smsf_header8'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header8')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 8</label>
-
-                                            <textarea name="smsf_content8" id="smsf_content8"
-                                                      class="ckeditor">{{ $cms['smsf_content8'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content8')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 9</label>
-                                            <input type="text" class="form-control" name="smsf_header9"
-                                                   value="{{ $cms['smsf_header9'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header9')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 9</label>
-
-                                            <textarea name="smsf_content9" id="smsf_content9"
-                                                      class="ckeditor">{{ $cms['smsf_content9'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content9')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 10</label>
-                                            <input type="text" class="form-control" name="smsf_header10"
-                                                   value="{{ $cms['smsf_header10'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header10')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 10</label>
-
-                                            <textarea name="smsf_content10" id="smsf_content10"
-                                                      class="ckeditor">{{ $cms['smsf_content10'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content10')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 11</label>
-                                            <input type="text" class="form-control" name="smsf_header11"
-                                                   value="{{ $cms['smsf_header11'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header11')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 11</label>
-
-                                            <textarea name="smsf_content11" id="smsf_content11"
-                                                      class="ckeditor">{{ $cms['smsf_content11'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content11')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 12</label>
-                                            <input type="text" class="form-control" name="smsf_header12"
-                                                   value="{{ $cms['smsf_header12'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('smsf_header12')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 12</label>
-
-                                            <textarea name="smsf_content12" id="smsf_content12"
-                                                      class="ckeditor">{{ $cms['smsf_content12'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('smsf_content12')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <h5 class="card-title">Images</h5>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="smsf_image1">
-                                            <div class="text-danger">
-                                                @error('smsf_image1')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['smsf_image1']))
-                                                <label for="" class="form-label">Current Image</label>
-                                                @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="smsf_image1"
-                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
-                                                        <i class="fa fa-remove" aria-hidden="true"></i>
-                                                        Remove
-                                                    </button>
-                                                @endif
-                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
-                                                     data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['smsf_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['smsf_image1']) }}"
-                                                     alt="Error">
-                                            @endif
-                                        </div>
-
-                                        @if (session()->get('AdminUser')['type'] == 'R')
-                                            <div class="col-md-12">
-                                                <button class="btn btn-success" type="submit">Update</button>
-                                            </div>
-                                        @endif
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade " id="nav-financial-services" role="tabpanel"
-                                     aria-labelledby="nav-financial-services-tab">
-                                    <div class="row">
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="financial_services_header1"
-                                                   value="{{ $cms['financial_services_header1'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('financial_services_header1')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 1</label>
-                                            <textarea name="financial_services_content1" id="financial_services_content1"
-                                                      class="ckeditor">{{ $cms['financial_services_content1'] ?? '' }}</textarea>
-
-
-                                            <div class="text-danger">
-                                                @error('financial_services_content1')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="financial_services_header2"
-                                                   value="{{ $cms['financial_services_header2'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('financial_services_header2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 2</label>
-
-                                            <textarea name="financial_services_content2" id="financial_services_content2"
-                                                      class="ckeditor">{{ $cms['financial_services_content2'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('financial_services_content2')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="financial_services_header3"
-                                                   value="{{ $cms['financial_services_header3'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('financial_services_header3')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Content 3</label>
-
-                                            <textarea name="financial_services_content3" id="financial_services_content3"
-                                                      class="ckeditor">{{ $cms['financial_services_content3'] ?? '' }}</textarea>
-                                            <div class="text-danger">
-                                                @error('financial_services_content3')
+                                                @error('nz_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2348,18 +1766,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="financial_services_image1">
+                                            <input type="file" class="form-control" name="nz_image1">
                                             <div class="text-danger">
-                                                @error('financial_services_image1')
+                                                @error('nz_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['financial_services_image1']))
+                                            @if (!empty($cms['nz_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="financial_services_image1"
+                                                    <button data-name="Home Image" data-key="nz_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -2367,8 +1785,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial_services_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial_services_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -2376,18 +1794,18 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="financial_services_image2">
+                                            <input type="file" class="form-control" name="nz_image2">
                                             <div class="text-danger">
-                                                @error('financial_services_image2')
+                                                @error('nz_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['financial_services_image2']))
+                                            @if (!empty($cms['nz_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="financial_services_image2"
+                                                    <button data-name="Home Image" data-key="nz_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -2395,8 +1813,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial_services_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial_services_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -2409,27 +1827,27 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade " id="nav-financial-planning" role="tabpanel"
-                                     aria-labelledby="nav-financial-planning-tab">
+                                <div class="tab-pane fade " id="nav-europe" role="tabpanel"
+                                     aria-labelledby="nav-europe-tab">
                                     <div class="row">
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 1</label>
-                                            <input type="text" class="form-control" name="financial_planning_header1"
-                                                   value="{{ $cms['financial_planning_header1'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header1"
+                                                   value="{{ $cms['europe_header1'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header1')
+                                                @error('europe_header1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 1</label>
-                                            <textarea name="financial_planning_content1" id="financial_planning_content1"
-                                                      class="ckeditor">{{ $cms['financial_planning_content1'] ?? '' }}</textarea>
+                                            <textarea name="europe_content1" id="europe_content1"
+                                                      class="ckeditor">{{ $cms['europe_content1'] ?? '' }}</textarea>
 
 
                                             <div class="text-danger">
-                                                @error('financial_planning_content1')
+                                                @error('europe_content1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2437,10 +1855,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 2</label>
-                                            <input type="text" class="form-control" name="financial_planning_header2"
-                                                   value="{{ $cms['financial_planning_header2'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header2"
+                                                   value="{{ $cms['europe_header2'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header2')
+                                                @error('europe_header2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2448,10 +1866,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 2</label>
 
-                                            <textarea name="financial_planning_content2" id="financial_planning_content2"
-                                                      class="ckeditor">{{ $cms['financial_planning_content2'] ?? '' }}</textarea>
+                                            <textarea name="europe_content2" id="europe_content2"
+                                                      class="ckeditor">{{ $cms['europe_content2'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('financial_planning_content2')
+                                                @error('europe_content2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2459,10 +1877,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 3</label>
-                                            <input type="text" class="form-control" name="financial_planning_header3"
-                                                   value="{{ $cms['financial_planning_header3'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header3"
+                                                   value="{{ $cms['europe_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header4')
+                                                @error('europe_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2470,10 +1888,10 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
 
-                                            <textarea name="financial_planning_content2" id="financial_planning_content3"
-                                                      class="ckeditor">{{ $cms['financial_planning_content3'] ?? '' }}</textarea>
+                                            <textarea name="europe_content2" id="europe_content3"
+                                                      class="ckeditor">{{ $cms['europe_content3'] ?? '' }}</textarea>
                                             <div class="text-danger">
-                                                @error('financial_planning_content3')
+                                                @error('europe_content3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2481,30 +1899,30 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="financial_planning_header4"
-                                                   value="{{ $cms['financial_planning_header4'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header4"
+                                                   value="{{ $cms['europe_header4'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header4')
+                                                @error('europe_header4')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="financial_planning_header5"
-                                                   value="{{ $cms['financial_planning_header5'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header5"
+                                                   value="{{ $cms['europe_header5'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header5')
+                                                @error('europe_header5')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="financial_planning_header6"
-                                                   value="{{ $cms['financial_planning_header6'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header6"
+                                                   value="{{ $cms['europe_header6'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header6')
+                                                @error('europe_header6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2512,10 +1930,10 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="financial_planning_header7"
-                                                   value="{{ $cms['financial_planning_header7'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header7"
+                                                   value="{{ $cms['europe_header7'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header6')
+                                                @error('europe_header6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2523,20 +1941,20 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="financial_planning_header8"
-                                                   value="{{ $cms['financial_planning_header8'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header8"
+                                                   value="{{ $cms['europe_header8'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header6')
+                                                @error('europe_header6')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Header 9</label>
-                                            <input type="text" class="form-control" name="financial_planning_header6"
-                                                   value="{{ $cms['financial_planning_header6'] ?? '' }}">
+                                            <input type="text" class="form-control" name="europe_header6"
+                                                   value="{{ $cms['europe_header6'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('financial_planning_header9')
+                                                @error('europe_header9')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -2546,18 +1964,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="financial_planning_image1">
+                                            <input type="file" class="form-control" name="europe_image1">
                                             <div class="text-danger">
-                                                @error('financial_planning_image1')
+                                                @error('europe_image1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['financial_planning_image1']))
+                                            @if (!empty($cms['europe_image1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="financial_planning_image1"
+                                                    <button data-name="Home Image" data-key="europe_image1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -2565,26 +1983,26 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial_planning_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial_planning_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="financial_planning_image2">
+                                            <input type="file" class="form-control" name="europe_image2">
                                             <div class="text-danger">
-                                                @error('financial_planning_image2')
+                                                @error('europe_image2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['financial_planning_image2']))
+                                            @if (!empty($cms['europe_image2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="financial_planning_image2"
+                                                    <button data-name="Home Image" data-key="europe_image2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -2592,8 +2010,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial_planning_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial_planning_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -2605,14 +2023,7 @@
                                         @endif
                                     </div>
                                 </div>
-
-
-
-
-
-
                             </div>
-                        </div>
                     </form>
                 </div>
             </div>
