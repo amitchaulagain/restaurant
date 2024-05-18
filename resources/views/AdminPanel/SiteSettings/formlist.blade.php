@@ -76,19 +76,19 @@
                                         </div>
                                         <div class="row mb-2">
                                             <div class="col-md-6">
-                                                <label for="" class="form-label">Site Email</label>
-                                                <input type="text" class="form-control" name="site_email"
-                                                       value="{{ $siteSetting['site_email'] ?? '' }}">
+                                                <label for="" class="form-label">Head Email</label>
+                                                <input type="text" class="form-control" name="head_email"
+                                                       value="{{ $siteSetting['head_email'] ?? '' }}">
                                                 <div class="text-danger">
-                                                    @error('site_email')
+                                                    @error('head_email')
                                                     * {{ $message }}
                                                     @enderror
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="" class="form-label">Site Contact</label>
-                                                <input type="text" class="form-control" name="site_contact"
-                                                       value="{{ $siteSetting['site_contact'] ?? '' }}">
+                                                <label for="" class="form-label">Head Contact</label>
+                                                <input type="text" class="form-control" name="head_contact"
+                                                       value="{{ $siteSetting['head_contact'] ?? '' }}">
                                                 <div class="text-danger">
                                                     @error('site_contact')
                                                     * {{ $message }}
@@ -96,11 +96,43 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <label for="" class="form-label">Office Address</label>
-                                                <input type="text" class="form-control" name="office_address"
-                                                       value="{{ $siteSetting['office_address'] ?? '' }}">
+                                                <label for="" class="form-label">Head Address</label>
+                                                <input type="text" class="form-control" name="head_address"
+                                                       value="{{ $siteSetting['head_address'] ?? '' }}">
                                                 <div class="text-danger">
-                                                    @error('office_address')
+                                                    @error('head_address')
+                                                    * {{ $message }}
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-md-6">
+                                                <label for="" class="form-label">Branch Email</label>
+                                                <input type="text" class="form-control" name="branch_email"
+                                                       value="{{ $siteSetting['branch_email'] ?? '' }}">
+                                                <div class="text-danger">
+                                                    @error('branch_email')
+                                                    * {{ $message }}
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="" class="form-label">Branch Contact</label>
+                                                <input type="text" class="form-control" name="branch_contact"
+                                                       value="{{ $siteSetting['branch_contact'] ?? '' }}">
+                                                <div class="text-danger">
+                                                    @error('branch_contact')
+                                                    * {{ $message }}
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="" class="form-label">Branch Address</label>
+                                                <input type="text" class="form-control" name="branch_address"
+                                                       value="{{ $siteSetting['branch_address'] ?? '' }}">
+                                                <div class="text-danger">
+                                                    @error('branch_address')
                                                     * {{ $message }}
                                                     @enderror
                                                 </div>
