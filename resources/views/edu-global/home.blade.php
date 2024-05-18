@@ -233,7 +233,7 @@
             </div>
 
             <!-- Test Preparation -->
-            <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div id="preparation" class="row gy-4 align-items-stretch justify-content-between features-item ">
                 <div class="col-lg-6 " data-aos="zoom-out">
                     <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation1']) }}" class="my-image">
                     <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation2']) }}" class="my-image">
@@ -255,7 +255,7 @@
 
             <!-- Course, Country & University selection-->
 
-            <div class="row gy-4 align-items-center features-item">
+            <div id="selection" class="row gy-4 align-items-center features-item">
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
                     <h3>{!! $CMS['selection_header1'] !!}
 
@@ -280,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div id="processing" class="row gy-4 align-items-stretch justify-content-between features-item ">
                 <div class="col-lg-6 " data-aos="zoom-out">
                     <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing1']) }}" class="my-image">
                     <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing2']) }}" class="my-image">

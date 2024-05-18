@@ -79,7 +79,7 @@
                                 <p>Korea</p>
                             </div>
                         </a>
-                        <a href="/usa">
+                        <a href="/nz">
                             <div class="option">
                                 <img src="assets/img/nz.svg" alt="New Zealand">
                                 <p>New Zealand</p>
@@ -114,14 +114,14 @@
                         </div>
 
                         <div class="option">
-                            <a href="#counselling">PTE and IELTS Test Preparation </a>
+                            <a href="#preparation">PTE and IELTS Test Preparation </a>
                         </div>
 
                         <div class="option">
-                            <a href="#counselling"> Course, and University Selection </a>
+                            <a href="#selection"> Course, and University Selection </a>
                         </div>
                         <div class="option">
-                            <a href="#counselling">Visa Processing</a>
+                            <a href="#processing">Visa Processing</a>
                         </div>
 
                     </div>
@@ -154,6 +154,19 @@
                                 menuOptions.style.display = "none";
                             }
                         });
+
+                        document.getElementById("menu-options").addEventListener("click", function () {
+                            document.getElementById("menu-options").style.display="none"
+
+
+                        });
+                        document.getElementById("menu-options-services").addEventListener("click", function () {
+                            document.getElementById("menu-options-services").style.display="none"
+
+
+                        });
+
+
                     });
 
                 </script>

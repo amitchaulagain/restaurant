@@ -399,18 +399,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image</label>
-                                            <input type="file" class="form-control" name="us_image1">
+                                            <input type="file" class="form-control" name="usa1">
                                             <div class="text-danger">
-                                                @error('us_image1')
+                                                @error('usa1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['us_image1']))
+                                            @if (!empty($cms['usa1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="us_image1"
+                                                    <button data-name="Home Image" data-key="usa1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -418,25 +418,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['us_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['us_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['usa1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['usa1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image</label>
-                                            <input type="file" class="form-control" name="us_image2">
+                                            <input type="file" class="form-control" name="usa2">
                                             <div class="text-danger">
-                                                @error('us_image2')
+                                                @error('usa2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['us_image2']))
+                                            @if (!empty($cms['usa2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="us_image2"
+                                                    <button data-name="Home Image" data-key="usa2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -444,8 +444,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['us_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['us_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['usa2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['usa2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -576,18 +576,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="australia_image1">
+                                            <input type="file" class="form-control" name="australia1">
                                             <div class="text-danger">
-                                                @error('australia_image1')
+                                                @error('australia1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['australia_image1']))
+                                            @if (!empty($cms['australia1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="australia_image1"
+                                                    <button data-name="Home Image" data-key="australia1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -595,25 +595,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="australia_image2">
+                                            <input type="file" class="form-control" name="australia2">
                                             <div class="text-danger">
-                                                @error('australia_image2')
+                                                @error('australia2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['australia_image2']))
+                                            @if (!empty($cms['australia2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="australia_image2"
+                                                    <button data-name="Home Image" data-key="australia2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -621,8 +621,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['australia2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['australia2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -753,18 +753,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="canada_image1">
+                                            <input type="file" class="form-control" name="canada1">
                                             <div class="text-danger">
-                                                @error('canada_image1')
+                                                @error('canada1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['canada_image1']))
+                                            @if (!empty($cms['canada1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="canada_image1"
+                                                    <button data-name="Home Image" data-key="canada1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -772,25 +772,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="canada_image2">
+                                            <input type="file" class="form-control" name="canada2">
                                             <div class="text-danger">
-                                                @error('canada_image2')
+                                                @error('canada2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['canada_image2']))
+                                            @if (!empty($cms['canada2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="canada_image2"
+                                                    <button data-name="Home Image" data-key="canada2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -798,8 +798,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['canada2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['canada2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -950,18 +950,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="korea_image1">
+                                            <input type="file" class="form-control" name="korea1">
                                             <div class="text-danger">
-                                                @error('korea_image1')
+                                                @error('korea1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['korea_image1']))
+                                            @if (!empty($cms['korea1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="korea_image1"
+                                                    <button data-name="Home Image" data-key="korea1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -969,25 +969,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="korea_image2">
+                                            <input type="file" class="form-control" name="korea2">
                                             <div class="text-danger">
-                                                @error('korea_image2')
+                                                @error('korea2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['korea_image2']))
+                                            @if (!empty($cms['korea2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="korea_image2"
+                                                    <button data-name="Home Image" data-key="korea2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -995,8 +995,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['korea2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['korea2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1103,18 +1103,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="uae_image1">
+                                            <input type="file" class="form-control" name="uae1">
                                             <div class="text-danger">
-                                                @error('uae_image1')
+                                                @error('uae1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['uae_image1']))
+                                            @if (!empty($cms['uae1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="uae_image1"
+                                                    <button data-name="Home Image" data-key="uae1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1122,25 +1122,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="uae_image2">
+                                            <input type="file" class="form-control" name="uae2">
                                             <div class="text-danger">
-                                                @error('uae_image2')
+                                                @error('uae2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['uae_image2']))
+                                            @if (!empty($cms['uae2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="uae_image2"
+                                                    <button data-name="Home Image" data-key="uae2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1148,25 +1148,25 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 3</label>
-                                            <input type="file" class="form-control" name="uae_image3">
+                                            <input type="file" class="form-control" name="uae3">
                                             <div class="text-danger">
-                                                @error('uae_image3')
+                                                @error('uae3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['uae_image3']))
+                                            @if (!empty($cms['uae3']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="uae_image3"
+                                                    <button data-name="Home Image" data-key="uae3"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1174,8 +1174,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image3']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae_image3']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['uae3']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['uae3']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1369,18 +1369,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="japan_image1">
+                                            <input type="file" class="form-control" name="japan1">
                                             <div class="text-danger">
-                                                @error('japan_image1')
+                                                @error('japan1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['japan_image1']))
+                                            @if (!empty($cms['japan1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="japan_image1"
+                                                    <button data-name="Home Image" data-key="japan1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1388,8 +1388,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1397,18 +1397,18 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image</label>
-                                            <input type="file" class="form-control" name="us_image2">
+                                            <input type="file" class="form-control" name="us2">
                                             <div class="text-danger">
-                                                @error('us_image2')
+                                                @error('us2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['japan_image2']))
+                                            @if (!empty($cms['japan2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="japan_image2"
+                                                    <button data-name="Home Image" data-key="japan2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1416,8 +1416,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['japan2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['japan2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1462,18 +1462,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="counselling_image1">
+                                            <input type="file" class="form-control" name="counselling1">
                                             <div class="text-danger">
-                                                @error('counselling_image1')
+                                                @error('counselling1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['counselling_image1']))
+                                            @if (!empty($cms['counselling1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="counselling_image1"
+                                                    <button data-name="Home Image" data-key="counselling1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1481,8 +1481,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['counselling_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['counselling_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['counselling1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['counselling1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1526,18 +1526,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="preparation_image1">
+                                            <input type="file" class="form-control" name="preparation1">
                                             <div class="text-danger">
-                                                @error('preparation_image1')
+                                                @error('preparation1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['preparation_image1']))
+                                            @if (!empty($cms['preparation1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="preparation_image1"
+                                                    <button data-name="Home Image" data-key="preparation1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1545,8 +1545,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['preparation_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['preparation_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['preparation1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['preparation1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1590,18 +1590,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="selection_image1">
+                                            <input type="file" class="form-control" name="selection1">
                                             <div class="text-danger">
-                                                @error('selection_image1')
+                                                @error('selection1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['selection_image1']))
+                                            @if (!empty($cms['selection1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="selection_image1"
+                                                    <button data-name="Home Image" data-key="selection1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1609,8 +1609,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['selection_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['selection_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['selection1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['selection1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1655,18 +1655,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="processing_image1">
+                                            <input type="file" class="form-control" name="processing1">
                                             <div class="text-danger">
-                                                @error('processing_image1')
+                                                @error('processing1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['processing_image1']))
+                                            @if (!empty($cms['processing1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="processing_image1"
+                                                    <button data-name="Home Image" data-key="processing1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1674,8 +1674,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['processing_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['processing_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['processing1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['processing1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1766,18 +1766,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="nz_image1">
+                                            <input type="file" class="form-control" name="nz1">
                                             <div class="text-danger">
-                                                @error('nz_image1')
+                                                @error('nz1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['nz_image1']))
+                                            @if (!empty($cms['nz1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="nz_image1"
+                                                    <button data-name="Home Image" data-key="nz1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1785,8 +1785,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1794,18 +1794,18 @@
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="nz_image2">
+                                            <input type="file" class="form-control" name="nz2">
                                             <div class="text-danger">
-                                                @error('nz_image2')
+                                                @error('nz2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['nz_image2']))
+                                            @if (!empty($cms['nz2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="nz_image2"
+                                                    <button data-name="Home Image" data-key="nz2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1813,8 +1813,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['nz2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['nz2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
@@ -1880,7 +1880,7 @@
                                             <input type="text" class="form-control" name="europe_header3"
                                                    value="{{ $cms['europe_header3'] ?? '' }}">
                                             <div class="text-danger">
-                                                @error('europe_header4')
+                                                @error('europe_header3')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
@@ -1888,7 +1888,7 @@
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Content 3</label>
 
-                                            <textarea name="europe_content2" id="europe_content3"
+                                            <textarea name="europe_content3" id="europe_content3"
                                                       class="ckeditor">{{ $cms['europe_content3'] ?? '' }}</textarea>
                                             <div class="text-danger">
                                                 @error('europe_content3')
@@ -1902,18 +1902,18 @@
                                         <h5 class="card-title">Images</h5>
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 1</label>
-                                            <input type="file" class="form-control" name="europe_image1">
+                                            <input type="file" class="form-control" name="europe1">
                                             <div class="text-danger">
-                                                @error('europe_image1')
+                                                @error('europe1')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['europe_image1']))
+                                            @if (!empty($cms['europe1']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="europe_image1"
+                                                    <button data-name="Home Image" data-key="europe1"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1921,26 +1921,26 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image1']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image1']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe1']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
 
                                         <div class="col-md-6 mb-2">
                                             <label for="" class="form-label">Image 2</label>
-                                            <input type="file" class="form-control" name="europe_image2">
+                                            <input type="file" class="form-control" name="europe2">
                                             <div class="text-danger">
-                                                @error('europe_image2')
+                                                @error('europe2')
                                                 * {{ $message }}
                                                 @enderror
                                             </div>
                                         </div>
                                         <div class="col-md-6 mb-2">
-                                            @if (!empty($cms['europe_image2']))
+                                            @if (!empty($cms['europe2']))
                                                 <label for="" class="form-label">Current Image</label>
                                                 @if (session()->get('AdminUser')['type'] == 'R')
-                                                    <button data-name="Home Image" data-key="europe_image2"
+                                                    <button data-name="Home Image" data-key="europe2"
                                                             class="mb-2 btn btn-danger btn-sm ajaxDelete">
                                                         <i class="fa fa-remove" aria-hidden="true"></i>
                                                         Remove
@@ -1948,8 +1948,8 @@
                                                 @endif
                                                 <img height="200px" class="form-control w-auto" style="cursor: pointer"
                                                      data-fancybox="gallery"
-                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image2']) }}"
-                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe_image2']) }}"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['europe2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['europe2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>

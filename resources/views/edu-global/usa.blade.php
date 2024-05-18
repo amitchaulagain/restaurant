@@ -34,8 +34,8 @@
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['usa1']) }}" alt="" class="stack-front">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['usa2']) }}" alt="" class="stack-back">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['europe1']) }}" alt="" class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['europe2']) }}" alt="" class="stack-back">
                     </div>
                 </div>
             </div>
