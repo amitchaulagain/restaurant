@@ -646,7 +646,7 @@ class UserController extends Controller
         $post = Post::findorfail($id);
 
         $data = compact('title', 'siteSetting', 'post', 'services','posts');
-        return view('accounting-master.blog', $data);
+        return view('edu-global.blog', $data);
     }
 
     public function list_blogs(Request $request)
@@ -668,7 +668,7 @@ class UserController extends Controller
             ->get();
 
         $data = compact('title', 'siteSetting', 'posts_tax_tips','posts_investments','posts_insights', 'services');
-        return view('accounting-master.blogs', $data);
+        return view('edu-global.blogs', $data);
     }
     public function lodge_in_person(Request $request)
     {
