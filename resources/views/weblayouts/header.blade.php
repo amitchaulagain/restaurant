@@ -103,7 +103,7 @@
                 </div>
 
 
-                <li id="services-button"><a class="">Services <i
+                <li style="cursor: pointer" id="services-button"><a class="">Services <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a></li>
                 <div id="menu-options-services">
                     <div class="country-grid">
@@ -134,6 +134,7 @@
                         menuOptionsServices.style.display = "none"
 
                         document.getElementById("study-button").addEventListener("click", function () {
+                            document.getElementById("menu-options-services").style.display="none"
                             var menuOptions = document.getElementById("menu-options");
                             if (menuOptions.style.display === "none") {
                                 menuOptions.style.display = "block";
@@ -142,6 +143,8 @@
                             }
                         });
                         document.getElementById("services-button").addEventListener("click", function () {
+                            document.getElementById("menu-options").style.display="none"
+
                             var menuOptions = document.getElementById("menu-options-services");
                             if (menuOptions.style.display === "none") {
                                 menuOptions.style.display = "block";

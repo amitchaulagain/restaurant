@@ -2851,25 +2851,29 @@ section,
 #menu-options {
     display: none;
     position: absolute;
-    top: calc(100% + 5px);
-    left: 200px;
+    top: calc(100% + 20px);
+    left: 174px;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: #d9c09d;
     z-index: 999;
     padding: 20px;
     box-sizing: border-box;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
 #menu-options-services {
     display: none;
     position: absolute;
-    top: calc(100% + 5px);
-    left: 200px;
+    top: calc(100% + 20px);
+    left: 174px;
     width: 80%;
-    background-color: white;
+    background-color: #d9c09d;
     z-index: 1;
     padding: 20px;
     box-sizing: border-box;
+    border-bottom-left-radius: 38%;
+    border-bottom-right-radius: 38%;
 }
 
 .country-grid {
