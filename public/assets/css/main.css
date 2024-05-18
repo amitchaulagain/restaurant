@@ -2887,11 +2887,12 @@ section,
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease;
-    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #112e48;
+    font-weight: bold;
 }
 
 .option:hover {
@@ -2907,5 +2908,6 @@ section,
     cursor: pointer;
 }
 .option a{
-    color: black;
+    color: #112e48;
+    font-weight: bold;
 }

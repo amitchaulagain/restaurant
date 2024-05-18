@@ -84,17 +84,18 @@
                                 <p>New Zealand</p>
                             </div>
                         </a>
-                        <a href="/uae">
-                            <div class="option">
-                                <img src="assets/img/uae.svg" alt="UAE">
-                                <p>United Arab Of Emirates</p>
-                            </div>
-                        </a>
+
 
                         <a href="/japan">
                             <div class="option">
                                 <img src="assets/img/japan.svg" alt="Japan">
                                 <p>Japan</p>
+                            </div>
+                        </a>
+                        <a href="/uae">
+                            <div class="option">
+                                <img src="assets/img/uae.svg" alt="UAE">
+                                <p>UAE</p>
                             </div>
                         </a>
                     </div>
