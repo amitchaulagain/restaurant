@@ -1897,68 +1897,6 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 4</label>
-                                            <input type="text" class="form-control" name="europe_header4"
-                                                   value="{{ $cms['europe_header4'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header4')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 5</label>
-                                            <input type="text" class="form-control" name="europe_header5"
-                                                   value="{{ $cms['europe_header5'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header5')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 6</label>
-                                            <input type="text" class="form-control" name="europe_header6"
-                                                   value="{{ $cms['europe_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 7</label>
-                                            <input type="text" class="form-control" name="europe_header7"
-                                                   value="{{ $cms['europe_header7'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 8</label>
-                                            <input type="text" class="form-control" name="europe_header8"
-                                                   value="{{ $cms['europe_header8'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header6')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-2">
-                                            <label for="" class="form-label">Header 9</label>
-                                            <input type="text" class="form-control" name="europe_header6"
-                                                   value="{{ $cms['europe_header6'] ?? '' }}">
-                                            <div class="text-danger">
-                                                @error('europe_header9')
-                                                * {{ $message }}
-                                                @enderror
-                                            </div>
-                                        </div>
                                         </div>
 
                                         <h5 class="card-title">Images</h5>
