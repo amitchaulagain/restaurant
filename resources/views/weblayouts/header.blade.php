@@ -57,12 +57,6 @@
                                 <p>Australia</p>
                             </div>
                         </a>
-                        <a href="/usa">
-                            <div class="option">
-                                <img src="assets/img/ireland.svg" alt="USA">
-                                <p>Ireland</p>
-                            </div>
-                        </a>
                         <a href="/europe">
                             <div class="option">
                                 <img src="assets/img/europe.svg" alt="">

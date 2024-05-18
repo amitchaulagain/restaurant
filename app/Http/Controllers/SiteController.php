@@ -190,11 +190,11 @@ class SiteController extends Controller
 
         /*        INDIVIDUAL TAX       */
 
-        if ($request->hasFile('individual_tax_image1')) {
-            $cms = cms::where('key', 'individual_tax_image1')->first();
+        if ($request->hasFile('counselling1')) {
+            $cms = cms::where('key', 'counselling1')->first();
             if ($cms) {
-                $image = $request->file('individual_tax_image1');
-                $imageName = "individual_tax1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('counselling1');
+                $imageName = "counselling1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -205,21 +205,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('individual_tax_image1');
-                $imageName = "individual_tax1" . $image->getClientOriginalExtension();
+                $image = $request->file('counselling1');
+                $imageName = "counselling1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'individual_tax_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'counselling1', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('individual_tax_image2')) {
-            $cms = cms::where('key', 'individual_tax_image2')->first();
+        if ($request->hasFile('counselling2')) {
+            $cms = cms::where('key', 'counselling2')->first();
             if ($cms) {
-                $image = $request->file('individual_tax_image2');
-                $imageName = "individual_tax2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('counselling2');
+                $imageName = "counselling2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -230,21 +230,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('individual_tax_image2');
-                $imageName = "individual_tax2" . $image->getClientOriginalExtension();
+                $image = $request->file('counselling2');
+                $imageName = "counselling2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'individual_tax_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'counselling2', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('lodge_in_person_image1')) {
-            $cms = cms::where('key', 'lodge_in_person_image1')->first();
+        if ($request->hasFile('preparation1')) {
+            $cms = cms::where('key', 'preparation1')->first();
             if ($cms) {
-                $image = $request->file('lodge_in_person_image1');
-                $imageName = "lodge_in_person1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('preparation1');
+                $imageName = "preparation1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -255,21 +255,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('lodge_in_person_image1');
-                $imageName = "lodge_in_person1" . $image->getClientOriginalExtension();
+                $image = $request->file('preparation1');
+                $imageName = "preparation1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'lodge_in_person_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'preparation1', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('lodge_in_person_image2')) {
-            $cms = cms::where('key', 'lodge_in_person_image2')->first();
+        if ($request->hasFile('preparation2')) {
+            $cms = cms::where('key', 'preparation2')->first();
             if ($cms) {
-                $image = $request->file('lodge_in_person_image2');
-                $imageName = "lodge_in_person2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('preparation2');
+                $imageName = "preparation2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -280,20 +280,20 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('lodge_in_person_image2');
-                $imageName = "lodge_in_person2" . $image->getClientOriginalExtension();
+                $image = $request->file('preparation2');
+                $imageName = "preparation2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'lodge_in_person_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'preparation2', 'value' => $imageName]);
                 }
             }
         }
 
-        if ($request->hasFile('online_image1')) {
-            $cms = cms::where('key', 'online_image1')->first();
+        if ($request->hasFile('selection1')) {
+            $cms = cms::where('key', 'selection1')->first();
             if ($cms) {
-                $image = $request->file('online_image1');
-                $imageName = "online1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('selection1');
+                $imageName = "selection1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -304,21 +304,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('online_image1');
-                $imageName = "online1" . $image->getClientOriginalExtension();
+                $image = $request->file('selection1');
+                $imageName = "selection1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'online_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'selection1', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('online_image2')) {
-            $cms = cms::where('key', 'online_image2')->first();
+        if ($request->hasFile('selection2')) {
+            $cms = cms::where('key', 'selection2')->first();
             if ($cms) {
-                $image = $request->file('online_image2');
-                $imageName = "online2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('selection2');
+                $imageName = "selection2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -329,21 +329,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('online_image2');
-                $imageName = "online2" . $image->getClientOriginalExtension();
+                $image = $request->file('selection2');
+                $imageName = "selection2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'online_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'selection2', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('tax_review_image1')) {
-            $cms = cms::where('key', 'tax_review_image1')->first();
+        if ($request->hasFile('processing1')) {
+            $cms = cms::where('key', 'processing1')->first();
             if ($cms) {
-                $image = $request->file('tax_review_image1');
-                $imageName = "tax_review1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('processing1');
+                $imageName = "processing1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -354,21 +354,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('tax_review_image1');
-                $imageName = "tax_review1" . $image->getClientOriginalExtension();
+                $image = $request->file('processing1');
+                $imageName = "processing1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'tax_review_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'processing1', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('tax_review_image2')) {
-            $cms = cms::where('key', 'tax_review_image2')->first();
+        if ($request->hasFile('processing2')) {
+            $cms = cms::where('key', 'processing2')->first();
             if ($cms) {
-                $image = $request->file('tax_review_image2');
-                $imageName = "tax_review2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('processing2');
+                $imageName = "processing2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -379,19 +379,19 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('tax_review_image2');
-                $imageName = "tax_review2" . $image->getClientOriginalExtension();
+                $image = $request->file('processing2');
+                $imageName = "processing2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'tax_review_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'processing2', 'value' => $imageName]);
                 }
             }
         }
-        if ($request->hasFile('business_services_image1')) {
-            $cms = cms::where('key', 'business_services_image1')->first();
+        if ($request->hasFile('usa1')) {
+            $cms = cms::where('key', 'usa1')->first();
             if ($cms) {
-                $image = $request->file('business_services_image1');
-                $imageName = "business_services1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('usa1');
+                $imageName = "usa1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -402,69 +402,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('business_services_image1');
-                $imageName = "business_services1" . $image->getClientOriginalExtension();
+                $image = $request->file('usa1');
+                $imageName = "usa1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'business_services_image1', 'value' => $imageName]);
-                }
-            }
-        }
-
-
-        if ($request->hasFile('business_services_image2')) {
-            $cms = cms::where('key', 'business_services_image2')->first();
-            if ($cms) {
-                $image = $request->file('business_services_image2');
-                $imageName = "business_services2" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('business_services_image2');
-                $imageName = "business_services2" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'business_services_image2', 'value' => $imageName]);
-                }
-            }
-        }
-        if ($request->hasFile('business_services_image3')) {
-            $cms = cms::where('key', 'business_services_image3')->first();
-            if ($cms) {
-                $image = $request->file('business_services_image3');
-                $imageName = "business_services3" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('business_services_image3');
-                $imageName = "business_services3" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'business_services_image3', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'usa1', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('small_business_image1')) {
-            $cms = cms::where('key', 'small_business_image1')->first();
+        if ($request->hasFile('usa2')) {
+            $cms = cms::where('key', 'usa2')->first();
             if ($cms) {
-                $image = $request->file('small_business_image1');
-                $imageName = "small_business1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('usa2');
+                $imageName = "usa2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -475,114 +427,22 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('small_business_image1');
-                $imageName = "small_business1" . $image->getClientOriginalExtension();
+                $image = $request->file('usa2');
+                $imageName = "usa2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'small_business_image1', 'value' => $imageName]);
-                }
-            }
-        }
-        if ($request->hasFile('bas_image1')) {
-            $cms = cms::where('key', 'bas_image1')->first();
-            if ($cms) {
-                $image = $request->file('bas_image1');
-                $imageName = "bas1" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('bas_image1');
-                $imageName = "bas1" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'bas_image1', 'value' => $imageName]);
-                }
-            }
-        }
-        if ($request->hasFile('company_accounting_image1')) {
-            $cms = cms::where('key', 'company_accounting_image1')->first();
-            if ($cms) {
-                $image = $request->file('company_accounting_image1');
-                $imageName = "company_accounting1" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('company_accounting_image1');
-                $imageName = "company_accounting1" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'company_accounting_image1', 'value' => $imageName]);
-                }
-            }
-        }
-        if ($request->hasFile('bookkeeping_image1')) {
-            $cms = cms::where('key', 'bookkeeping_image1')->first();
-            if ($cms) {
-                $image = $request->file('bookkeeping_image1');
-                $imageName = "bookkeeping1" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('bookkeeping_image1');
-                $imageName = "bookkeeping1" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'bookkeeping_image1', 'value' => $imageName]);
-                }
-            }
-        }
-
-        if ($request->hasFile('financial_services_image1')) {
-            $cms = cms::where('key', 'financial_services_image1')->first();
-            if ($cms) {
-                $image = $request->file('financial_services_image1');
-                $imageName = "financial_services1" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('financial_services_image1');
-                $imageName = "financial_services1" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'financial_services_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'usa2', 'value' => $imageName]);
                 }
             }
         }
 
 
-        if ($request->hasFile('financial_services_image2')) {
-            $cms = cms::where('key', 'financial_services_image2')->first();
+
+        if ($request->hasFile('australia1')) {
+            $cms = cms::where('key', 'australia1')->first();
             if ($cms) {
-                $image = $request->file('financial_services_image2');
-                $imageName = "financial_services2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('australia1');
+                $imageName = "australia1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -593,20 +453,21 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('financial_services_image2');
-                $imageName = "financial_services2" . $image->getClientOriginalExtension();
+                $image = $request->file('australia1');
+                $imageName = "australia1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'financial_services_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'australia1', 'value' => $imageName]);
                 }
             }
         }
 
-        if ($request->hasFile('smsf_image1')) {
-            $cms = cms::where('key', 'smsf_image1')->first();
+
+        if ($request->hasFile('australia2')) {
+            $cms = cms::where('key', 'australia2')->first();
             if ($cms) {
-                $image = $request->file('smsf_image1');
-                $imageName = "smsf1" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('australia2');
+                $imageName = "australia2" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -617,43 +478,20 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('smsf_image1');
-                $imageName = "smsf1" . $image->getClientOriginalExtension();
+                $image = $request->file('australia2');
+                $imageName = "australia2" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'smsf_image1', 'value' => $imageName]);
-                }
-            }
-        }
-        if ($request->hasFile('financial_planning_image1')) {
-            $cms = cms::where('key', 'financial_planning_image1')->first();
-            if ($cms) {
-                $image = $request->file('financial_planning_image1');
-                $imageName = "financial_planning1" . '.' . $image->getClientOriginalExtension();
-                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
-//                if (file_exists($imagePath)) {
-//                    unlink($imagePath);
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                // Image deleted successfully
-                // }
-                if ($image) {
-                    $cms->update(['value' => $imageName]);
-                }
-            } else {
-                $image = $request->file('financial_planning_image1');
-                $imageName = "financial_planning1" . $image->getClientOriginalExtension();
-                $image->move(public_path('images/uploads/cms/'), $imageName);
-                if ($image) {
-                    $cms = cms::create(['key' => 'financial_planning_image1', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'australia2', 'value' => $imageName]);
                 }
             }
         }
 
-        if ($request->hasFile('financial_planning_image2')) {
-            $cms = cms::where('key', 'financial_planning_image2')->first();
+        if ($request->hasFile('uae1')) {
+            $cms = cms::where('key', 'uae1')->first();
             if ($cms) {
-                $image = $request->file('financial_planning_image2');
-                $imageName = "financial_planning2" . '.' . $image->getClientOriginalExtension();
+                $image = $request->file('uae1');
+                $imageName = "uae1" . '.' . $image->getClientOriginalExtension();
                 $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
 //                if (file_exists($imagePath)) {
 //                    unlink($imagePath);
@@ -664,14 +502,275 @@ class SiteController extends Controller
                     $cms->update(['value' => $imageName]);
                 }
             } else {
-                $image = $request->file('financial_planning_image2');
-                $imageName = "financial_planning2" . $image->getClientOriginalExtension();
+                $image = $request->file('uae1');
+                $imageName = "uae1" . $image->getClientOriginalExtension();
                 $image->move(public_path('images/uploads/cms/'), $imageName);
                 if ($image) {
-                    $cms = cms::create(['key' => 'financial_planning_image2', 'value' => $imageName]);
+                    $cms = cms::create(['key' => 'uae1', 'value' => $imageName]);
                 }
             }
         }
+        if ($request->hasFile('uae2')) {
+            $cms = cms::where('key', 'uae2')->first();
+            if ($cms) {
+                $image = $request->file('uae2');
+                $imageName = "uae2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('uae2');
+                $imageName = "uae2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'uae2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        if ($request->hasFile('japan1')) {
+            $cms = cms::where('key', 'japan1')->first();
+            if ($cms) {
+                $image = $request->file('japan1');
+                $imageName = "japan1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('japan1');
+                $imageName = "japan1" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'japan1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('japan2')) {
+            $cms = cms::where('key', 'japan2')->first();
+            if ($cms) {
+                $image = $request->file('japan2');
+                $imageName = "japan2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('japan2');
+                $imageName = "japan2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'japan2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        if ($request->hasFile('korea1')) {
+            $cms = cms::where('key', 'korea1')->first();
+            if ($cms) {
+                $image = $request->file('korea1');
+                $imageName = "korea1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('korea1');
+                $imageName = "korea1" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'korea1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('korea2')) {
+            $cms = cms::where('key', 'korea2')->first();
+            if ($cms) {
+                $image = $request->file('korea2');
+                $imageName = "korea2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('korea2');
+                $imageName = "korea2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'korea2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        if ($request->hasFile('europe1')) {
+            $cms = cms::where('key', 'europe1')->first();
+            if ($cms) {
+                $image = $request->file('europe1');
+                $imageName = "europe1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('europe1');
+                $imageName = "europe1" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'europe1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('europe2')) {
+            $cms = cms::where('key', 'europe2')->first();
+            if ($cms) {
+                $image = $request->file('europe2');
+                $imageName = "europe2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('europe2');
+                $imageName = "europe2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'europe2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        if ($request->hasFile('canada1')) {
+            $cms = cms::where('key', 'canada1')->first();
+            if ($cms) {
+                $image = $request->file('canada1');
+                $imageName = "canada1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('canada1');
+                $imageName = "canada1" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'canada1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('canada2')) {
+            $cms = cms::where('key', 'canada2')->first();
+            if ($cms) {
+                $image = $request->file('canada2');
+                $imageName = "canada2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('canada2');
+                $imageName = "canada2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'canada2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        if ($request->hasFile('nz1')) {
+            $cms = cms::where('key', 'nz1')->first();
+            if ($cms) {
+                $image = $request->file('nz1');
+                $imageName = "nz1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('nz1');
+                $imageName = "nz1" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'nz1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('nz2')) {
+            $cms = cms::where('key', 'nz2')->first();
+            if ($cms) {
+                $image = $request->file('nz2');
+                $imageName = "nz2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('nz2');
+                $imageName = "nz2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'nz2', 'value' => $imageName]);
+                }
+            }
+        }
+
+        /*--------------------------------------------------------*/
+
         if ($request->hasFile('about_image')) {
             $cms = cms::where('key', 'about_image')->first();
             if ($cms) {
@@ -697,11 +796,9 @@ class SiteController extends Controller
         }
 
         foreach ($request->except(['_token', 'home_image1', 'home_image2', 'about_image',
-            'individual_tax_image1', 'individual_tax_image2','lodge_in_person_image1', 'lodge_in_person_image2',
-            'online_image1', 'online_image2','tax_review_image1', 'tax_review_image2','business_services_image1',
-            'business_services_image2','business_services_image3', 'small_business_image1', 'bas_image1',
-            'company_accounting_image1','bookkeeping_image1','financial_services_image1', 'financial_services_image2',
-            'smsf_image1', 'financial_planning_image1', 'financial_planning_image2'
+            'counselling1', 'counselling2','preparation1', 'preparation2',
+            'selection1', 'selection2','processing1', 'processing2','usa1',
+            'usa2','business_services_image3', 'europe1','europe2','uae1','uae2','japan1','japan2','korea1','korea2', 'europe1','europe2','australia1','australia2','nz1','nz2'
 
             ]) as $key => $value) {
             $cms = cms::where('key', $key)->first();

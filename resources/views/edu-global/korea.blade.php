@@ -47,8 +47,8 @@
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="assets/img/counselling.svg" alt="" class="stack-front">
-                        <img src="assets/img/counselling2.svg" alt="" class="stack-back">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['korea1']) }}" alt="" class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['korea2']) }}" alt="" class="stack-back">
                     </div>
                 </div>
             </div>

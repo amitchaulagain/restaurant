@@ -21,7 +21,8 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-        <img class="modern" src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+        <img class="modern"  src="{{ asset('/public/images/uploads/cms/' . $CMS['home_image1']) }}" alt="" data-aos="fade-in">
 
         <div class="container">
             <div class="row">
@@ -224,8 +225,8 @@
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="assets/img/counselling.svg" alt="" class="stack-front">
-                        <img src="assets/img/counselling2.svg" alt="" class="stack-back">
+                            <img  src="{{ asset('/public/images/uploads/cms/' . $CMS['counselling1']) }}" alt="" class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['counselling2']) }}" alt="" class="stack-back">
                     </div>
                 </div>
             </div>
@@ -233,8 +234,8 @@
             <!-- Test Preparation -->
             <div class="row gy-4 align-items-stretch justify-content-between features-item ">
                 <div class="col-lg-6 " data-aos="zoom-out">
-                    <img src="assets/img/processing1.jpeg" class="my-image" >
-                    <img src="assets/img/processing2.jpeg" class="my-image">
+                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation1']) }}" class="my-image" >
+                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation2']) }}"  class="my-image">
                 </div>
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
                     <h3>{!! $CMS['preparation_header1'] !!}
@@ -271,16 +272,16 @@
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="assets/img/counselling.svg" alt="" class="stack-front">
-                        <img src="assets/img/counselling2.svg" alt="" class="stack-back">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection1']) }}"  alt="" class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection2']) }}"  alt="" class="stack-back">
                     </div>
                 </div>
             </div>
             <div class="row gy-4 align-items-stretch justify-content-between features-item ">
                 <div class="col-lg-6 " data-aos="zoom-out">
-                    <img src="assets/img/processing1.jpeg" class="my-image" >
-                    <img src="assets/img/processing2.jpeg" class="my-image">
-                    <img src="assets/img/processing3.jpeg" class="my-image">
+                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing1']) }}"  class="my-image" >
+                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing2']) }}"  class="my-image" >
+                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing3']) }}"  class="my-image" >
 
                 </div>
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
