@@ -35,7 +35,8 @@
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
             <img src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? '' }}" width="90px"
-                 height="90px" style="opacity:.8;margin-left: 45px">
+                 height="90px" style="opacity: .8;margin-left: 45px; border-bottom-left-radius: 52%; border-bottom-right-radius: 52%;border-top-left-radius: 52%;border-top-right-radius: 52%;}"
+            >
         </a>
 
         <nav id="navmenu" class="navmenu">
