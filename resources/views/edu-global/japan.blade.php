@@ -67,12 +67,14 @@
                     <div class="service-box">
                         <h4>Popular Universities</h4>
                         <div class="download-catalog">
-                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> UUniversity of Tokyo, Tokyo, Tokyo, Japan
+</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Kyoto University, Kyoto, Kyoto, Japan
+</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> Osaka University, Osaka, Suita, Japan
+</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Tohoku University, Miyagi, Sendai, Japan
+</span></a>
                         </div>
                     </div><!-- End Services List -->
 

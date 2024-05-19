@@ -67,12 +67,11 @@
                     <div class="service-box">
                         <h4>Popular Universities</h4>
                         <div class="download-catalog">
-                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> ETH Zurich - Swiss Federal Institute of Technology, Zurich, Zurich, Switzerland</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Institut Polytechnique de Paris, Île-de-France, Palaiseau, France</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of Oxford, Oxfordshire, Oxford, United Kingdom</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of Cambridge, Cambridgeshire, Cambridge, United Kingdom</span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University College London (UCL), Greater London, London, United Kingdom</span></a>
                         </div>
                     </div><!-- End Services List -->
 

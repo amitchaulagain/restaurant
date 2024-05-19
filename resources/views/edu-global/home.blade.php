@@ -57,7 +57,6 @@
                         student recruitments by connecting students, recruitment entrepreneurs and global universities
                         through our high-tech online platform – coursefinder.a
                     </p>
-                    <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                 </div>
 
                 <div class="col-xl-7">
@@ -66,36 +65,37 @@
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon-box">
                                 <i class="bi bi-buildings"></i>
-                                <h3>Eius provident</h3>
-                                <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor
-                                    voluptatem</p>
+                                <h3>Global Reach</h3>
+                                <p> Our platform connects students from around the world, creating a diverse and vibrant
+                                    community for learning and collaboration.</p>
                             </div>
                         </div> <!-- End Icon Box -->
 
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="icon-box">
                                 <i class="bi bi-clipboard-pulse"></i>
-                                <h3>Rerum aperiam</h3>
-                                <p>Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates
-                                    quia</p>
+                                <h3>Comprehensive Enrollment Solutions</h3>
+                                <p>We provide end-to-end enrollment solutions for educational institutions seeking to
+                                    attract international students.</p>
                             </div>
                         </div> <!-- End Icon Box -->
 
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon-box">
                                 <i class="bi bi-command"></i>
-                                <h3>Veniam omnis</h3>
-                                <p>Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur
-                                    corrupti</p>
+                                <h3>Visa Processing and Migration</h3>
+                                <p>Our platform offers comprehensive support to students navigating the complexities of
+                                    visa application and migration procedures.</p>
                             </div>
                         </div> <!-- End Icon Box -->
 
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                             <div class="icon-box">
                                 <i class="bi bi-graph-up-arrow"></i>
-                                <h3>Delares sapiente</h3>
-                                <p>Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis
-                                    quideme lorenda</p>
+                                <h3>Supportive Student Services:</h3>
+                                <p>We offer a range of support services to assist students throughout their educational
+                                    journey, including visa guidance, accommodation assistance, language proficiency
+                                    training, and ongoing academic support. </p>
                             </div>
                         </div> <!-- End Icon Box -->
 

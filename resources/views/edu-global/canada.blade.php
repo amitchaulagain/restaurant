@@ -34,8 +34,10 @@
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['canada1']) }}" alt="" class="stack-front">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['canada2']) }}" alt="" class="stack-back">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['canada1']) }}" alt=""
+                             class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['canada2']) }}" alt=""
+                             class="stack-back">
                     </div>
                 </div>
             </div>
@@ -67,19 +69,25 @@
                     <div class="service-box">
                         <h4>Popular Universities</h4>
                         <div class="download-catalog">
-                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Connecticut, Connecticut (Public Ivy)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Drexel University, Philadelphia, Pennsylvania (College of Engineering, UG Gateways and IEP)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> University of California, Riverside, California (Graduate Business Programs & College of Engineering and UCR Extension)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of South Florida, Tampa, Florida (Only UG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>Johns Hopkins University, Baltimore, Maryland (School of Engineering – Only PG)</span></a>
-                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> UMass Amherst (Masters Programs & ECE MS 1+1 Program)</span></a>
+                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Toronto, Toronto, Ontario
+                            </span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of British Columbia, Vancouver, British Columbia
+                                    </span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span> McGill University, Montreal, Quebec
+                                </span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>McMaster University, Hamilton, Ontario
+                            </span></a>
+                            <a href="#"><i class="bi bi-file-earmark-word"></i><span>University of Montreal, Montreal, Quebec
+
+                            </span></a>
                         </div>
                     </div><!-- End Services List -->
 
                     <div class="help-box d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-headset help-icon"></i>
                         <h4>Have a Question?</h4>
-                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{$siteSetting['head_contact']}}</span>
+                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                            <span>{{$siteSetting['head_contact']}}</span>
                         </p>
                         <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
                             >{{$siteSetting['head_email']}}</a></p>
