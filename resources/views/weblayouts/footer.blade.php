@@ -53,7 +53,7 @@
 
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
-                {{ $siteSetting['head_address'] ?? '' }}"
+                {{ $siteSetting['head_address'] ?? '' }}
                 <p class="mt-4"><strong>Phone:</strong> <span>{{ $siteSetting['head_contact'] ?? '' }}</span></p>
                 <p><strong>Email:</strong> <span>{{ $siteSetting['head_email'] ?? '' }}</span></p>
             </div>

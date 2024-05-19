@@ -275,6 +275,7 @@
                     <div class="image-stack">
                         <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection1']) }}" alt=""
                              class="stack-front">
+
                         <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection2']) }}" alt=""
                              class="stack-back">
                     </div>

@@ -79,10 +79,10 @@
                     <div class="help-box d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-headset help-icon"></i>
                         <h4>Have a Question?</h4>
-                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span>
+                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{$siteSetting['head_contact']}}</span>
                         </p>
                         <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
-                                href="mailto:contact@example.com">contact@example.com</a></p>
+                            >{{$siteSetting['head_email']}}</a></p>
                     </div>
 
                 </div>
