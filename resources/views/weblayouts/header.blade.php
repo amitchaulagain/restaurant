@@ -110,18 +110,18 @@
                 <div id="menu-options-services">
                     <div class="country-grid">
                         <div class="option">
-                            <a href="#counselling">Student Counselling </a>
+                            <a href="/#counselling">Student Counselling </a>
                         </div>
 
                         <div class="option">
-                            <a href="#preparation">PTE and IELTS Test Preparation </a>
+                            <a href="/#preparation">PTE and IELTS Test Preparation </a>
                         </div>
 
                         <div class="option">
-                            <a href="#selection"> Course, and University Selection </a>
+                            <a href="/#selection"> Course, and University Selection </a>
                         </div>
                         <div class="option">
-                            <a href="#processing">Visa Processing</a>
+                            <a href="/#processing">Visa Processing</a>
                         </div>
 
                     </div>
