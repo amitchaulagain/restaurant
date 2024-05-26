@@ -6,7 +6,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -33,7 +33,7 @@
 
         <a href="/">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <!-- <img src="assets/img/apple-touch-icon.png" alt=""> -->
             <img src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? '' }}" width="90px"
                  height="90px" style="opacity: .8;margin-left: 45px; border-bottom-left-radius: 52%; border-bottom-right-radius: 52%;border-top-left-radius: 52%;border-top-right-radius: 52%;}"
             >
@@ -118,8 +118,13 @@
                         </div>
 
                         <div class="option">
+                            <a href="/#language">Language Preparation</a>
+                        </div>
+
+                        <div class="option">
                             <a href="/#selection"> Course, and University Selection </a>
                         </div>
+
                         <div class="option">
                             <a href="/#processing">Visa Processing</a>
                         </div>

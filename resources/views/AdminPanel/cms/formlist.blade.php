@@ -83,10 +83,17 @@
                                             aria-selected="false"> University Selection
                                     </button>
 
+
                                     <button class="nav-link" id="processing-tab" data-bs-toggle="tab"
                                             data-bs-target="#nav-processing" type="button" role="tab"
                                             aria-controls="nav-processing"
                                             aria-selected="false"> Visa Processing
+                                    </button>
+
+                                    <button class="nav-link" id="selection-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-selection" type="button" role="tab"
+                                            aria-controls="nav-selection"
+                                            aria-selected="false"> Language Services
                                     </button>
 
                                 </div>
@@ -1688,6 +1695,72 @@
                                         @endif
                                     </div>
                                 </div>
+
+                                <div class="tab-pane fade " id="nav-language" role="tabpanel"
+                                     aria-labelledby="nav-language-tab">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 1</label>
+                                            <input type="text" class="form-control" name="language_header1"
+                                                   value="{{ $cms['language_header1'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('language_header1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 1</label>
+                                            <textarea name="language_content1" id="language_content1"
+                                                      class="ckeditor">{{ $cms['language_content1'] ?? '' }}</textarea>
+
+
+                                            <div class="text-danger">
+                                                @error('language_content1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+
+                                        <h5 class="card-title">Images</h5>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image 1</label>
+                                            <input type="file" class="form-control" name="language1">
+                                            <div class="text-danger">
+                                                @error('language1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['language1']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="language1"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['language1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['language1']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+
+                                        @if (session()->get('AdminUser')['type'] == 'R')
+                                            <div class="col-md-12">
+                                                <button class="btn btn-success" type="submit">Update</button>
+                                            </div>
+                                        @endif
+                                    </div>
+                                </div>
+
 
 
 

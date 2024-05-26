@@ -36,7 +36,8 @@
                 </div>
 
                 <div class="col-lg-5">
-                    <input type="submit" class="btn btn-primary" value="Enquire now" style="background-color: orange">
+                    <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                 style="background-color: orange"></a>
                 </div>
             </div>
         </div>
@@ -53,9 +54,9 @@
                     <h3>EduPath</h3>
                     <h3 style="color: #112e48; margin-left: -41px;" ;>Global</h3>
 
-                    <p>We are the fastest growing EdTech brand operating across geographies, facilitating international
-                        student recruitments by connecting students, recruitment entrepreneurs and global universities
-                        through our high-tech online platform – coursefinder.a
+                    <p>We're swiftly growing our presence as an EdTech brand, extending our reach to various regions.
+                        Our primary goal is to link students and universities globally using our advanced network
+                        platforms. This approach ensures quick and effective recruitment of international students.
                     </p>
                 </div>
 
@@ -217,8 +218,8 @@
                         {!! $CMS['counselling_content1'] !!}
                     </p>
                     <div class="col-lg-5">
-                        <input type="submit" class="btn btn-primary" value="Enquire now"
-                               style="background-color: orange">
+                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                     style="background-color: orange"></a>
                     </div>
                 </div>
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
@@ -247,8 +248,8 @@
 
                     </p>
                     <div class="col-lg-5">
-                        <input type="submit" class="btn btn-primary" value="Enquire now"
-                               style="background-color: orange">
+                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                     style="background-color: orange"></a>
                     </div>
                 </div>
             </div>
@@ -264,8 +265,8 @@
                         {!! $CMS['selection_content1'] !!}
                     </p>
                     <div class="col-lg-5">
-                        <input type="submit" class="btn btn-primary" value="Enquire now"
-                               style="background-color: orange">
+                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                     style="background-color: orange"></a>
                     </div>
 
                 </div>
@@ -299,11 +300,38 @@
 
                     </p>
                     <div class="col-lg-5">
-                        <input type="submit" class="btn btn-primary" value="Enquire now"
-                               style="background-color: orange">
+                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                     style="background-color: orange"></a>
                     </div>
                 </div>
             </div>
+            <div id="language" class="row gy-4 align-items-center features-item">
+                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h3>{!! $CMS['language_header1'] !!}
+
+                    </h3>
+                    <p>
+                        {!! $CMS['language_content1'] !!}
+                    </p>
+                    <div class="col-lg-5">
+                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
+                                                     style="background-color: orange"></a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
+                     data-aos-delay="100">
+                    <div class="image-stack">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['language1']) }}" alt=""
+                             class="stack-front">
+
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['language2']) }}" alt=""
+                             class="stack-back">
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

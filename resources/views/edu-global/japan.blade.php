@@ -22,20 +22,23 @@
                 <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
                     <h3>  {!! $CMS['japan_header1'] !!}</h3>
                     <p>
-                    {!! $CMS['japan_content1'] !!}
+                        {!! $CMS['japan_content1'] !!}
 
-
-                    <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-                        <input type="submit" class="btn btn-primary" value="Enquire now"
-                               style="background-color: orange">
-                    </div>
+                        <a href="/contactus">
+                            <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+                                <input type="submit" class="btn btn-primary" value="Enquire now"
+                                       style="background-color: orange">
+                            </div>
+                        </a>
                 </div>
 
                 <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
                      data-aos-delay="100">
                     <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['japan2']) }}" alt="" class="stack-front">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['japan1']) }}" alt="" class="stack-back">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['japan2']) }}" alt=""
+                             class="stack-front">
+                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['japan1']) }}" alt=""
+                             class="stack-back">
                     </div>
                 </div>
             </div>
@@ -81,7 +84,8 @@
                     <div class="help-box d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-headset help-icon"></i>
                         <h4>Have a Question?</h4>
-                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{$siteSetting['head_contact']}}</span>
+                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                            <span>{{$siteSetting['head_contact']}}</span>
                         </p>
                         <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
                             >{{$siteSetting['head_email']}}</a></p>
