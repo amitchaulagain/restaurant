@@ -91,8 +91,8 @@
                                     </button>
 
                                     <button class="nav-link" id="selection-tab" data-bs-toggle="tab"
-                                            data-bs-target="#nav-selection" type="button" role="tab"
-                                            aria-controls="nav-selection"
+                                            data-bs-target="#nav-language" type="button" role="tab"
+                                            aria-controls="nav-language"
                                             aria-selected="false"> Language Services
                                     </button>
 
@@ -1748,6 +1748,33 @@
                                                      data-fancybox="gallery"
                                                      data-src="{{ asset('/public/images/uploads/cms/' . $cms['language1']) }}"
                                                      src="{{ asset('/public/images/uploads/cms/' . $cms['language1']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image 2</label>
+                                            <input type="file" class="form-control" name="language1">
+                                            <div class="text-danger">
+                                                @error('language2')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['language1']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="language2"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['language2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['language2']) }}"
                                                      alt="Error">
                                             @endif
                                         </div>
