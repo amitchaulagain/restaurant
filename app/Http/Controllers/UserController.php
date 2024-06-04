@@ -951,7 +951,18 @@ class UserController extends Controller
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
         return view('edu-global.japan', $data);
     }
+    public function tax(Request $request)
+    {
+        $title = "Taxation Service";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
 
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.financial', $data);
+    }
 
 
 

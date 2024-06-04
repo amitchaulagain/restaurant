@@ -61,6 +61,8 @@ Route::get('/nz', [UserController::class, 'nz'])->name('nz');
 Route::get('/uae', [UserController::class, 'uae'])->name('uae');
 Route::get('/usa', [UserController::class, 'usa'])->name('usa');
 Route::get('/japan', [UserController::class, 'japan'])->name('japan');
+Route::get('/tax', [UserController::class, 'tax'])->name('tax');
+
 
 
 Route::post('/sendemail/send', [EmailController::class, 'basic_email'])->name('basic_email');

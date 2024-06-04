@@ -93,7 +93,7 @@
                         <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                             <div class="icon-box">
                                 <i class="bi bi-graph-up-arrow"></i>
-                                <h3>Supportive Student Services:</h3>
+                                <h3>Supportive Student Services</h3>
                                 <p>We offer a range of support services to assist students throughout their educational
                                     journey, including visa guidance, accommodation assistance, language proficiency
                                     training, and ongoing academic support. </p>

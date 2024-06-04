@@ -70,7 +70,7 @@
                     <div class="service-box">
                         <h4>Popular Universities</h4>
                         <div class="download-catalog">
-                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> UUniversity of Tokyo, Tokyo, Tokyo, Japan
+                            <a href="#"><i class="bi bi-filetype-pdf"></i><span> University of Tokyo, Tokyo, Tokyo, Japan
 </span></a>
                             <a href="#"><i class="bi bi-file-earmark-word"></i><span>Kyoto University, Kyoto, Kyoto, Japan
 </span></a>

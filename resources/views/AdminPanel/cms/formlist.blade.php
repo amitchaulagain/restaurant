@@ -95,6 +95,11 @@
                                             aria-controls="nav-language"
                                             aria-selected="false"> Language Services
                                     </button>
+                                    <button class="nav-link" id="nav-financial-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-financial" type="button" role="tab"
+                                            aria-controls="nav-financial"
+                                            aria-selected="false"> Financial Services
+                                    </button>
 
                                 </div>
                                 @if (session()->get('AdminUser')['type'] == 'R')
@@ -1436,6 +1441,250 @@
                                         @endif
                                     </div>
                                 </div>
+
+                                <div class="tab-pane fade " id="nav-financial" role="tabpanel"
+                                     aria-labelledby="nav-financial-tab">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 1</label>
+                                            <input type="text" class="form-control" name="financial_header1"
+                                                   value="{{ $cms['financial_header1'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 1</label>
+                                            <textarea name="financial_content1" id="financial_content1"
+                                                      class="ckeditor">{{ $cms['financial_content1'] ?? '' }}</textarea>
+
+
+                                            <div class="text-danger">
+                                                @error('financial_content1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 2</label>
+                                            <input type="text" class="form-control" name="financial_header2"
+                                                   value="{{ $cms['financial_header2'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header2')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 2</label>
+
+                                            <textarea name="financial_content2" id="financial_content2"
+                                                      class="ckeditor">{{ $cms['financial_content2'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content2')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 3</label>
+                                            <input type="text" class="form-control" name="financial_header3"
+                                                   value="{{ $cms['financial_header3'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header3')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 3</label>
+                                            <textarea name="financial_content3" id="financial_content3"
+                                                      class="ckeditor">{{ $cms['financial_content3'] ?? '' }}</textarea>
+                                            </textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content3')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 4</label>
+                                            <input type="text" class="form-control" name="financial_header4"
+                                                   value="{{ $cms['financial_header4'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header4')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 4</label>
+                                            <textarea name="financial_content4" id="financial_content4"
+                                                      class="ckeditor">{{ $cms['financial_content4'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content4')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 5</label>
+                                            <input type="text" class="form-control" name="financial_header5"
+                                                   value="{{ $cms['financial_header5'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header5')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 5</label>
+                                            <textarea name="financial_content5" id="financial_content5"
+                                                      class="ckeditor">{{ $cms['financial_content5'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content5')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 6</label>
+                                            <input type="text" class="form-control" name="financial_header6"
+                                                   value="{{ $cms['financial_header6'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header6')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 6</label>
+                                            <textarea name="financial_content6" id="financial_content6"
+                                                      class="ckeditor">{{ $cms['financial_content6'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content6')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 7</label>
+                                            <input type="text" class="form-control" name="financial_header7"
+                                                   value="{{ $cms['financial_header7'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header7')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 7</label>
+                                            <textarea name="financial_content7" id="financial_content7"
+                                                      class="ckeditor">{{ $cms['financial_content7'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content7')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Header 8</label>
+                                            <input type="text" class="form-control" name="financial_header8"
+                                                   value="{{ $cms['financial_header8'] ?? '' }}">
+                                            <div class="text-danger">
+                                                @error('financial_header7')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Content 8</label>
+                                            <textarea name="financial_content8" id="financial_content8"
+                                                      class="ckeditor">{{ $cms['financial_content8'] ?? '' }}</textarea>
+                                            <div class="text-danger">
+                                                @error('financial_content7')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <h5 class="card-title">Images</h5>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image 1</label>
+                                            <input type="file" class="form-control" name="financial1">
+                                            <div class="text-danger">
+                                                @error('financial1')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['financial1']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="financial1"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial1']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial1']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+
+                                        <div class="col-md-6 mb-2">
+                                            <label for="" class="form-label">Image</label>
+                                            <input type="file" class="form-control" name="us2">
+                                            <div class="text-danger">
+                                                @error('us2')
+                                                * {{ $message }}
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            @if (!empty($cms['financial2']))
+                                                <label for="" class="form-label">Current Image</label>
+                                                @if (session()->get('AdminUser')['type'] == 'R')
+                                                    <button data-name="Home Image" data-key="financial2"
+                                                            class="mb-2 btn btn-danger btn-sm ajaxDelete">
+                                                        <i class="fa fa-remove" aria-hidden="true"></i>
+                                                        Remove
+                                                    </button>
+                                                @endif
+                                                <img height="200px" class="form-control w-auto" style="cursor: pointer"
+                                                     data-fancybox="gallery"
+                                                     data-src="{{ asset('/public/images/uploads/cms/' . $cms['financial2']) }}"
+                                                     src="{{ asset('/public/images/uploads/cms/' . $cms['financial2']) }}"
+                                                     alt="Error">
+                                            @endif
+                                        </div>
+
+                                        @if (session()->get('AdminUser')['type'] == 'R')
+                                            <div class="col-md-12">
+                                                <button class="btn btn-success" type="submit">Update</button>
+                                            </div>
+                                        @endif
+                                    </div>
+                                </div>
+
 
 
                                 <div class="tab-pane fade " id="nav-counselling" role="tabpanel"

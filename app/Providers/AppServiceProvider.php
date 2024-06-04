@@ -76,7 +76,8 @@ class AppServiceProvider extends ServiceProvider
             'edu-global.japan',
             'edu-global.home',
             'edu-global.blogs',
-            'edu-global.blog'
+            'edu-global.blog',
+            'edu-global.financial'
 
 
         ], function ($view) {

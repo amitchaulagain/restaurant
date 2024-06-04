@@ -768,6 +768,52 @@ class SiteController extends Controller
                 }
             }
         }
+        if ($request->hasFile('financial1')) {
+            $cms = cms::where('key', 'financial1')->first();
+            if ($cms) {
+                $image = $request->file('financial1');
+                $imageName = "financial1" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('financial1');
+                $imageName = "financial1" . '.'. $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'financial1', 'value' => $imageName]);
+                }
+            }
+        }
+        if ($request->hasFile('financial2')) {
+            $cms = cms::where('key', 'financial2')->first();
+            if ($cms) {
+                $image = $request->file('financial2');
+                $imageName = "financial2" . '.' . $image->getClientOriginalExtension();
+                $imagePath = public_path('images/uploads/cms/') . '/' . $imageName;
+//                if (file_exists($imagePath)) {
+//                    unlink($imagePath);
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                // Image deleted successfully
+                // }
+                if ($image) {
+                    $cms->update(['value' => $imageName]);
+                }
+            } else {
+                $image = $request->file('financial2');
+                $imageName = "financial2" . $image->getClientOriginalExtension();
+                $image->move(public_path('images/uploads/cms/'), $imageName);
+                if ($image) {
+                    $cms = cms::create(['key' => 'financial2', 'value' => $imageName]);
+                }
+            }
+        }
 
         /*--------------------------------------------------------*/
 
@@ -798,7 +844,7 @@ class SiteController extends Controller
         foreach ($request->except(['_token', 'home_image1', 'home_image2', 'about_image',
             'counselling1', 'counselling2','preparation1', 'preparation2',
             'selection1', 'selection2','processing1', 'processing2','usa1',
-            'usa2','business_services_image3', 'europe1','europe2','uae1','uae2','japan1','japan2','korea1','korea2', 'europe1','europe2','australia1','australia2','nz1','nz2'
+            'usa2','business_services_image3', 'europe1','europe2','uae1','uae2','japan1','japan2','korea1','korea2', 'europe1','europe2','australia1','australia2','nz1','nz2',"financial1","financial2"
 
             ]) as $key => $value) {
             $cms = cms::where('key', $key)->first();
