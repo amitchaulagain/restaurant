@@ -1,446 +1,677 @@
-<!DOCTYPE html>
-<html lang="en">
 @extends('weblayouts.app')
-<style>
-    .modern {
-        background-color: #f0f0f0; /* Adjust background color as needed */
-        border: 2px solid #f0f0f0; /* Adjust border properties as needed */
-        border-bottom-left-radius: 500%; /* Adjust the radius for the left arc */
-        border-bottom-right-radius: 5%; /* Adjust the radius for the right arc */
-    }
-
-    .my-image {
-        width: 100%;
-        height: 35%;
-        margin-top: 20%;
-        max-height: 420px;
-    }
-</style>
 
 @section('content_box')
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
 
+        <!-- Preloader Area -->
 
-        <img class="modern" src="{{ asset('/public/images/uploads/cms/' . $CMS['home_image1']) }}" alt=""
-             data-aos="fade-in">
+        <!-- End Menubar Area -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10">
-                    <h2 data-aos="fade-up" data-aos-delay="100"> {!!$CMS['home_header1'] !!}</h2>
-                    <br>
-                    <p data-aos="fade-up" data-aos-delay="200"> {!!$CMS['home_content1']!!}</p>
-                    <br>
-                    <br>
+        <!-- Start Banner area -->
+        <div class="banner-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="single-banner-content">
+                            <span data-cue="slideInUp" data-duration="800">Welcome To Oer Restaurant</span>
+                            <h1 data-cue="slideInUp" data-duration="1800">Our Restaurant Offers Delicious & Seafood</h1>
+                            <p data-cue="slideInUp" data-duration="2000">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled item  demoralized  by the charms of pleasure of the moment with a righteous hand, we denounce with righteous indignation.</p>
+                            <a href="about.html" class="default-btn" data-cue="slideInUp" data-duration="2500">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-cue="zoomIn" data-duration="2000">
+                        <div class="single-banner-image">
+                            <img src="assets/images/banner/banner-img-2.webp" alt="images">
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="banner-shape-1">
+                <img src="assets/images/banner/banner-shape-1.webp" alt="images">
+            </div>
+            <div class="banner-shape-2">
+                <img src="assets/images/banner/banner-shape-2.webp" alt="images">
+            </div>
+            <div class="banner-shape-3">
+                <img src="assets/images/banner/banner-shape-3.webp" alt="images">
+            </div>
+            <div class="banner-shape-4">
+                <img src="assets/images/banner/banner-shape-4.webp" alt="images">
+            </div>
+            <div class="banner-shape-5">
+                <img src="assets/images/banner/banner-shape-5.webp" alt="images">
+            </div>
+        </div>
+        <!-- End Banner area -->
 
-                <div class="col-lg-5">
-                    <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                 style="background-color: orange"></a>
+        <!-- Start From Our Menu Area -->
+        <div class="from-our-menu-area pt-100 pb-100 jarallax" data-jarallax='{"speed": 0.3}'>
+            <div class="from-our-menu-area">
+                <div class="container">
+                    <div class="section-title">
+                        <span class="top-title">From Our Menu</span>
+                        <h2>Try Our Special Offers</h2>
+                    </div>
+                    <div class="menu-tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Diner</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Lunch</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Brunch</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="dessert-tab" data-bs-toggle="tab" data-bs-target="#dessert-tab-pane" type="button" role="tab" aria-controls="dessert-tab-pane" aria-selected="false">Dessert</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="wine-tab" data-bs-toggle="tab" data-bs-target="#wine-tab-pane" type="button" role="tab" aria-controls="wine-tab-pane" aria-selected="false">Wine</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                <div class="menu-tabs-content">
+                                    <div class="from-menu-slider owl-carousel owl-theme">
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-1.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                                <p>$231.00 - <del>$364.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-2.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                                <p>$195.00 - <del>$254.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-3.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                                <p>$95.00 - <del>$124.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-4.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                                <p>$150.00 - <del>$204.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-1.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                                <p>$231.00 - <del>$364.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-2.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                                <p>$195.00 - <del>$254.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-3.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                                <p>$95.00 - <del>$124.00</del></p>
+                                            </div>
+                                        </div>
+                                        <div class="single-menu-card">
+                                            <a href="menu-details.html">
+                                                <img src="assets/images/menu/menu-4.webp" alt="images">
+                                            </a>
+                                            <div class="add-to-card">
+                                                <a href="cart.html" class="default-btn">Add To Cart</a>
+                                            </div>
+                                            <div class="menu-text">
+                                                <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                                <p>$150.00 - <del>$204.00</del></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                <div class="from-menu-slider owl-carousel owl-theme">
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                <div class="from-menu-slider owl-carousel owl-theme">
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="dessert-tab-pane" role="tabpanel" aria-labelledby="dessert-tab" tabindex="0">
+                                <div class="from-menu-slider owl-carousel owl-theme">
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="wine-tab-pane" role="tabpanel" aria-labelledby="wine-tab" tabindex="0">
+                                <div class="from-menu-slider owl-carousel owl-theme">
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-1.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Chicken Soup</h3></a>
+                                            <p>$231.00 - <del>$364.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-2.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Oatmeal Chicken </h3></a>
+                                            <p>$195.00 - <del>$254.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-3.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Pizza Pane</h3></a>
+                                            <p>$95.00 - <del>$124.00</del></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-card">
+                                        <a href="menu-details.html">
+                                            <img src="assets/images/menu/menu-4.webp" alt="images">
+                                        </a>
+                                        <div class="add-to-card">
+                                            <a href="cart.html" class="default-btn">Add To Cart</a>
+                                        </div>
+                                        <div class="menu-text">
+                                            <a href="menu-details.html"><h3>Vagetable Pasta</h3></a>
+                                            <p>$150.00 - <del>$204.00</del></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-view-btn">
+                            <a href="menu-details.html" class="default-btn">View All</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- End From Our Menu Area -->
 
-    </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row align-items-xl-center gy-5">
-
-                <div class="col-xl-5 content">
-                    <h3>EduPath</h3>
-                    <h3 style="color: #112e48; margin-left: -41px;" ;>Global</h3>
-
-                    <p>We're swiftly growing our presence as an EdTech brand, extending our reach to various regions.
-                        Our primary goal is to link students and universities globally using our advanced network
-                        platforms. This approach ensures quick and effective recruitment of international students.
-                    </p>
-                </div>
-
-                <div class="col-xl-7">
-                    <div class="row gy-4 icon-boxes">
-
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div class="icon-box">
-                                <i class="bi bi-buildings"></i>
-                                <h3>Global Reach</h3>
-                                <p> Our platform connects students from around the world, creating a diverse and vibrant
-                                    community for learning and collaboration.</p>
+        <!-- Start Visit Us Today Area -->
+        <div class="visit-us-today-area pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="visit-images">
+                            <div class="visit-main-img" data-cue="bounceInLeft" data-duration="2000">
+                                <img src="assets/images/reserve-today/reserve-img-1.webp" alt="images">
                             </div>
-                        </div> <!-- End Icon Box -->
-
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                            <div class="icon-box">
-                                <i class="bi bi-clipboard-pulse"></i>
-                                <h3>Comprehensive Enrollment Solutions</h3>
-                                <p>We provide end-to-end enrollment solutions for educational institutions seeking to
-                                    attract international students.</p>
+                            <div class="visit-shape-1">
+                                <img src="assets/images/reserve-today/reserve-shape-1.webp" alt="images">
                             </div>
-                        </div> <!-- End Icon Box -->
-
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                            <div class="icon-box">
-                                <i class="bi bi-command"></i>
-                                <h3>Visa Processing and Migration</h3>
-                                <p>Our platform offers comprehensive support to students navigating the complexities of
-                                    visa application and migration procedures.</p>
+                            <div class="visit-shape-2">
+                                <img src="assets/images/reserve-today/reserve-shape-3.webp" alt="images">
                             </div>
-                        </div> <!-- End Icon Box -->
-
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                            <div class="icon-box">
-                                <i class="bi bi-graph-up-arrow"></i>
-                                <h3>Supportive Student Services</h3>
-                                <p>We offer a range of support services to assist students throughout their educational
-                                    journey, including visa guidance, accommodation assistance, language proficiency
-                                    training, and ongoing academic support. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-cue="bounceInRight" data-duration="1500">
+                        <div class="reserve-from">
+                            <div class="section-title left-title">
+                                <span class="top-title">Visit Us Today</span>
+                                <h2>Make A Reserve</h2>
                             </div>
-                        </div> <!-- End Icon Box -->
-
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Persons</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group date" id="datetimepicker">
+                                                <input type="text" class="form-control" placeholder="mm/dd/yyyy">
+                                                <span class="input-group-addon"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Time</option>
+                                                <option value="1">08:00 AM – 05:00 PM</option>
+                                                <option value="2">09:00 AM – 06:00 PM</option>
+                                                <option value="3">10:00 AM – 05:00 PM</option>
+                                                <option value="4">09:00 AM – 05:00 PM</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-6 col-md-6">
+                                        <button type="submit" class="default-btn">Book A Table</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="visit-shape-3">
+                <img src="assets/images/reserve-today/reserve-shape-2.webp" alt="images">
+            </div>
+            <div class="visit-shape-4">
+                <img src="assets/images/reserve-today/reserve-shape-4.webp" alt="images">
+            </div>
+            <div class="visit-shape-5">
+                <img src="assets/images/reserve-today/reserve-shape-5.webp" alt="images">
             </div>
         </div>
 
-    </section><!-- /About Section -->
-
-
-    <!-- Services Section -->
-    {{--  <section id="services" class="services section">
-
-          <!-- Section Title -->
-          <div class="container section-title" data-aos="fade-up">
-              <h2>Services</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-          </div><!-- End Section Title -->
-
-          <div class="container">
-
-              <div class="row gy-4">
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Lorem Ipsum</a>
-                              </h4>
-                              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                  excepturi sint occaecati cupiditate non provident</p>
-                          </div>
-                      </div>
-                  </div>
-                  <!-- End Service Item -->
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Dolor Sitema</a>
-                              </h4>
-                              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                  aliquip ex ea commodo consequat tarad limino ata</p>
-                          </div>
-                      </div>
-                  </div><!-- End Service Item -->
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Sed ut
-                                      perspiciatis</a></h4>
-                              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                  dolore eu fugiat nulla pariatur</p>
-                          </div>
-                      </div>
-                  </div><!-- End Service Item -->
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Magni Dolores</a>
-                              </h4>
-                              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                  officia deserunt mollit anim id est laborum</p>
-                          </div>
-                      </div>
-                  </div><!-- End Service Item -->
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Nemo Enim</a></h4>
-                              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                  blanditiis praesentium voluptatum deleniti atque</p>
-                          </div>
-                      </div>
-                  </div><!-- End Service Item -->
-
-                  <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
-                      <div class="service-item d-flex">
-                          <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-                          <div>
-                              <h4 class="title"><a href="usa.blade.php" class="stretched-link">Eiusmod Tempor</a>
-                              </h4>
-                              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                                  tempore, cum soluta nobis est eligendi</p>
-                          </div>
-                      </div>
-                  </div><!-- End Service Item -->
-
-              </div>
-
-          </div>
-
-      </section><!-- /Services Section -->--}}
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>What we offer ?</h2>
-        </div><!-- End Section Title -->
-
-        <div class="container">
-            <!-- Counselling -->
-            <div class="row gy-4 align-items-center features-item">
-                <div id="counselling" class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>{!! $CMS['counselling_header1'] !!}
-                    </h3>
-                    <p>
-                        {!! $CMS['counselling_content1'] !!}
-                    </p>
-                    <div class="col-lg-5">
-                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                     style="background-color: orange"></a>
-                    </div>
-                </div>
-                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
-                     data-aos-delay="100">
-                    <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['counselling1']) }}" alt=""
-                             class="stack-front">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['counselling2']) }}" alt=""
-                             class="stack-back">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Test Preparation -->
-            <div id="preparation" class="row gy-4 align-items-stretch justify-content-between features-item ">
-                <div class="col-lg-6 " data-aos="zoom-out">
-                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation1']) }}" class="my-image">
-                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['preparation2']) }}" class="my-image">
-                </div>
-                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>{!! $CMS['preparation_header1'] !!}
-
-                    </h3>
-                    <p>
-                        {!! $CMS['preparation_content1'] !!}
-
-                    </p>
-                    <div class="col-lg-5">
-                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                     style="background-color: orange"></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Course, Country & University selection-->
-
-            <div id="selection" class="row gy-4 align-items-center features-item">
-                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>{!! $CMS['selection_header1'] !!}
-
-                    </h3>
-                    <p>
-                        {!! $CMS['selection_content1'] !!}
-                    </p>
-                    <div class="col-lg-5">
-                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                     style="background-color: orange"></a>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
-                     data-aos-delay="100">
-                    <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection1']) }}" alt=""
-                             class="stack-front">
-
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['selection2']) }}" alt=""
-                             class="stack-back">
-                    </div>
-                </div>
-            </div>
-            <div id="processing" class="row gy-4 align-items-stretch justify-content-between features-item ">
-                <div class="col-lg-6 " data-aos="zoom-out">
-                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing1']) }}" class="my-image">
-                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing2']) }}" class="my-image">
-                    <img src="{{ asset('/public/images/uploads/cms/' . $CMS['processing3']) }}" class="my-image">
-
-                </div>
-                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>{!! $CMS['processing_header1'] !!}
-
-
-                    </h3>
-                    <p>
-                        {!! $CMS['processing_content1'] !!}
-
-
-                    </p>
-                    <div class="col-lg-5">
-                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                     style="background-color: orange"></a>
-                    </div>
-                </div>
-            </div>
-            <div id="language" class="row gy-4 align-items-center features-item">
-                <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>{!! $CMS['language_header1'] !!}
-
-                    </h3>
-                    <p>
-                        {!! $CMS['language_content1'] !!}
-                    </p>
-                    <div class="col-lg-5">
-                        <a href="/contactus"> <input type="submit" class="btn btn-primary" value="Enquire now"
-                                                     style="background-color: orange"></a>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out"
-                     data-aos-delay="100">
-                    <div class="image-stack">
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['language1']) }}" alt=""
-                             class="stack-front">
-
-                        <img src="{{ asset('/public/images/uploads/cms/' . $CMS['language2']) }}" alt=""
-                             class="stack-back">
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-    </section><!-- /Features Section -->
 
 
 
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-        <div class="container">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="content px-xl-5">
-                        <h3><span style="color: orange">Frequently Asked </span><strong style="color: darkblue">Questions</strong>
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="faq-container">
-                        <div class="faq-item faq-active">
-                            <h3><span class="num">1.</span>
-                                <span>Can you work while studying in the United States?</span>
-                            </h3>
-                            <div class="faq-content">
-                                <p>As an international student you may work on campus up to 20 hours/week in the first
-                                    year of study in US and can apply to work off-campus in the subsequent years only
-                                    with due permission of the International Student Office under CPT or OPT.</p>
-                            </div>
-                            <i class="faq-toggle bi bi-chevron-right"></i>
-                        </div><!-- End Faq item-->
-
-                        <div class="faq-item">
-                            <h3><span class="num">2.</span> <span>What are the English Language Proficiency requirements?</span>
-                            </h3>
-                            <div class="faq-content">
-                                <p>U.S. universities require an English language proficiency test before admission and
-                                    the test requirements vary depending on the course you apply for. English Language
-                                    Ability Tests. The most common tests of English language ability are the Test of
-                                    English as a Foreign Language (TOEFL), the International English Language Testing
-                                    System (IELTS), and the Pearson Test of English (PTE).
-
-                                </p>
-                            </div>
-                            <i class="faq-toggle bi bi-chevron-right"></i>
-                        </div><!-- End Faq item-->
-
-                        <div class="faq-item">
-                            <h3><span class="num">3.</span> <span>What are the other Standardized Tests for USA?</span>
-                            </h3>
-                            <div class="faq-content">
-                                <p>Undergraduate Level Examinations SAT: A standardized test to evaluate the written,
-                                    verbal and mathematical skills of the applicants. ACT: To test the student's ability
-                                    in English, Math, Science, Reading and Writing sections. Graduate-Level Examinations
-                                    GRE: A standardized test of verbal reasoning, quantitative reasoning, and analytical
-                                    writing for graduate-level study. GMAT: A standardized test for MBA applicants and
-                                    for business programs that measures basic verbal, mathematical, analytical writing
-                                    and integrated reasoning skills. MCAT: A standardized examination that assesses
-                                    problem solving, critical thinking, writing skills, and knowledge of science
-                                    concepts and principles essential for the study of medicine. LSAT: A standardized
-                                    test to measure the reading and verbal reasoning skills used by the law schools as
-                                    an assessment factor for admission. DAT: A test to measure general academic ability,
-                                    comprehension of scientific information, and perceptual ability, used for admission
-                                    to Dental schools.</p>
-                            </div>
-                            <i class="faq-toggle bi bi-chevron-right"></i>
-                        </div><!-- End Faq item-->
-
-                        <div class="faq-item">
-                            <h3><span class="num">4.</span> <span>What are the popular courses in the USA?
-</span>
-                            </h3>
-                            <div class="faq-content">
-                                <p>STEM (Sciences, Technology, Engineering and Mathematics) subjects are mostly opted by
-                                    international as well as domestic students in the USA. However, Psychology, Business
-                                    Administration, Education, Economics and Political Science are certain other popular
-                                    courses..</p>
-                            </div>
-                            <i class="faq-toggle bi bi-chevron-right"></i>
-                        </div><!-- End Faq item-->
-
-                        <div class="faq-item">
-                            <h3><span class="num">5.</span> <span>Are any scholarships available for international students in USA?</span>
-                            </h3>
-                            <div class="faq-content">
-                                <p>Scholarships and grants are usually awarded to international students in USA on the
-                                    basis of merit, need or any other exceptional excellence like proficiency in sports,
-                                    cultural activities or a remarkable contribution in community service. The
-                                    scholarships are highly competitive. Many American universities also offer grants
-                                    for foreign students who wish to study at their institution but these vary
-                                    substantially from university to university. The Standardized Test scores play a
-                                    vital role in U.S. universities granting scholarships.</p>
-                            </div>
-                            <i class="faq-toggle bi bi-chevron-right"></i>
-                        </div><!-- End Faq item-->
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section><!-- /Faq Section -->
-
+        <!-- End Visit Us Today Area -->
 
 @endsection
+
 

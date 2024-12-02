@@ -1,189 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from templates.hibootstrap.com/ruzo/default/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Dec 2024 12:44:52 GMT -->
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>EduPath Global</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicons -->
-    <link href="assets/img/apple-touch-icon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!--=== Link Of CSS Fils ===-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/scrollCue.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-<body class="index-page">
-
-<header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
-        <a href="/">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/apple-touch-icon.png" alt=""> -->
-            <img src="{{ asset('/public/images/uploads/logo').'/'. $siteSetting['logo_image'] ?? '' }}" width="90px"
-                 height="90px" style="opacity: .8;margin-left: 45px; border-bottom-left-radius: 52%; border-bottom-right-radius: 52%;border-top-left-radius: 52%;border-top-right-radius: 52%;}"
-            >
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-            <ul>
-
-                <li id="study-button"><a class="">Study Destinations <i
-                            class="bi bi-chevron-down toggle-dropdown"></i></a></li>
-                <div id="menu-options">
-                    <div class="country-grid" style="color: black">
-                        <a href="/usa">
-                            <div class="option">
-                                <img src="assets/img/usa.svg" alt="USA">
-                                <p>United States</p>
-                            </div>
-                        </a>
-                        <a href="/australia">
-                            <div class="option">
-                                <img src="assets/img/australia.svg" alt="Australia">
-                                <p>Australia</p>
-                            </div>
-                        </a>
-                        <a href="/europe">
-                            <div class="option">
-                                <img src="assets/img/europe.svg" alt="">
-                                <p>Europe</p>
-                            </div>
-                        </a>
-                        <a href="/canada">
-                            <div class="option">
-                                <img src="assets/img/canada.svg" alt="">
-                                <p>Canada</p>
-                            </div>
-                        </a>
-                        <!-- Add more country
-                        options as needed -->
-
-                        <a href="/korea">
-                            <div class="option">
-                                <img src="assets/img/korea.svg" alt="Korea">
-                                <p>Korea</p>
-                            </div>
-                        </a>
-                        <a href="/nz">
-                            <div class="option">
-                                <img src="assets/img/nz.svg" alt="New Zealand">
-                                <p>New Zealand</p>
-                            </div>
-                        </a>
-
-
-                        <a href="/japan">
-                            <div class="option">
-                                <img src="assets/img/japan.svg" alt="Japan">
-                                <p>Japan</p>
-                            </div>
-                        </a>
-                        <a href="/uae">
-                            <div class="option">
-                                <img src="assets/img/uae.svg" alt="UAE">
-                                <p>UAE</p>
-                            </div>
-                        </a>
-                    </div>
-
-
-                </div>
-
-
-                <li style="cursor: pointer" id="services-button"><a class="">Services <i
-                            class="bi bi-chevron-down toggle-dropdown"></i></a></li>
-                <div id="menu-options-services">
-                    <div class="country-grid">
-                        <div class="option">
-                            <a href="/#counselling">Student Counselling </a>
-                        </div>
-
-                        <div class="option">
-                            <a href="/#preparation">PTE and IELTS Test Preparation </a>
-                        </div>
-
-                        <div class="option">
-                            <a href="/#language">Language Preparation</a>
-                        </div>
-
-                        <div class="option">
-                            <a href="/#selection"> Course, and University Selection </a>
-                        </div>
-
-                        <div class="option">
-                            <a href="/#processing">Visa Processing</a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-
-                        var menuOptions = document.getElementById("menu-options");
-                        menuOptions.style.display = "none"
-                        var menuOptionsServices = document.getElementById("menu-options-services");
-                        menuOptionsServices.style.display = "none"
-
-                        document.getElementById("study-button").addEventListener("click", function () {
-                            document.getElementById("menu-options-services").style.display="none"
-                            var menuOptions = document.getElementById("menu-options");
-                            if (menuOptions.style.display === "none") {
-                                menuOptions.style.display = "block";
-                            } else {
-                                menuOptions.style.display = "none";
-                            }
-                        });
-                        document.getElementById("services-button").addEventListener("click", function () {
-                            document.getElementById("menu-options").style.display="none"
-
-                            var menuOptions = document.getElementById("menu-options-services");
-                            if (menuOptions.style.display === "none") {
-                                menuOptions.style.display = "block";
-                            } else {
-                                menuOptions.style.display = "none";
-                            }
-                        });
-
-                        document.getElementById("menu-options").addEventListener("click", function () {
-                            document.getElementById("menu-options").style.display="none"
-
-
-                        });
-                        document.getElementById("menu-options-services").addEventListener("click", function () {
-                            document.getElementById("menu-options-services").style.display="none"
-
-
-                        });
-
-
-                    });
-
-                </script>
-                <li><a href="/contactus">Contact Us</a></li>
-
-                <li><a href="/#about">About</a></li>
-                <li><a href="/tax">Taxation Services</a></li>
-                <li><a href="/blogs">Blog</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-
+    <!--=== Title & Favicon ===-->
+    <title>Ruzo - Restaurant & Cafe HTML Template</title>
+    <link rel="icon" type="image/webp" href="assets/images/logo-2.webp">
+</head>
+<body>
+<div class="preloader">
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+        <span>Ruzo</span>
     </div>
-</header>
-<main class="main">
+</div>
+<!-- End Preloader Area -->
+
+<!-- Start Dark Mode -->
+<div class="switch-theme-mode">
+    <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider">
+        <span class="slider round"></span>
+    </label>
+</div>
+<!-- End Dark Mode -->
+
+<!-- Start Menubar Area -->
+<div class="navbar-area">
+    <!-- Start Menu For Mobile Device -->
+    <div class="container">
+        <div class="mobile-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo-1.webp" class="logo-light" alt="images">
+                    <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Menu For Mobile Device -->
+
+    <div class="main-nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light">
+
+                <a href="index.html">
+                    <img src="assets/images/logo-1.webp" class="logo-light" alt="images">
+                    <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">
+                </a>
+
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item nav-item-five">
+                            <a href="#" class="nav-link dropdown-toggle active">
+                                Home
+                                <i class='bx bx-plus'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Home One</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="index-2.html" class="nav-link active">Home Two</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="index-3.html" class="nav-link">Home Three</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item nav-item-five">
+
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Pages
+                                <i class='bx bx-plus'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="booking-table.html" class="nav-link">Booking Table</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="team.html" class="nav-link">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="faq.html" class="nav-link">FAQ’s</a>
+                                </li>
+                                <li class="nav-item nav-item-five">
+
+                                    <a href="#" class="nav-link dropdown-toggle">
+                                        Portfolio
+                                        <i class='bx bx-plus'></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="portfolio-details.html" class="nav-link">Portfolio Details</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item">
+
+                                    <a href="#" class="nav-link dropdown-toggle">
+                                        User
+                                        <i class='bx bx-plus'></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="my-account.html" class="nav-link bg-border-top">My Account</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="login.html" class="nav-link">Login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="register.html" class="nav-link">Register</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="forgot-password.html" class="nav-link bg-border-2">Forgot Password</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="terms-conditions.html" class="nav-link">Terms & Conditions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="error.html" class="nav-link">Error</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="coming-soon.html" class="nav-link bg-border-2">Coming Soon</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item">
+
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Menu
+                                <i class='bx bx-plus'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="menu.html" class="nav-link">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="menu-details.html" class="nav-link">Menu Details</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item nav-item-five">
+
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Shop
+                                <i class='bx bx-plus'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="shop.html" class="nav-link">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="shop-details.html" class="nav-link">Shop Details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="cart.html" class="nav-link">Cart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="checkout.html" class="nav-link">Checkout</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item nav-item-five">
+
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Blog
+                                <i class='bx bx-plus'></i>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a href="blog.html" class="nav-link bg-border-top">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="blog-details.html" class="nav-link bg-border-2">Blog Details</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="others-option-vg d-flex align-items-center">
+
+                        <div class="option-item">
+                            <i class='bx bx-search search-btn'></i>
+                            <i class='bx bx-x close-btn'></i>
+                            <div class="search-overlay search-popup">
+                                <div class='search-box'>
+                                    <form class="search-form">
+                                        <input class="search-input" placeholder="Search..." type="text">
+
+                                        <button class="search-button" type="submit">
+                                            <i class='bx bx-search' ></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-item">
+                            <div class="shapping-bag">
+                                <a href="cart.html">
+                                    <img src="assets/images/shopping-bag-icon.svg" alt="images">
+                                </a>
+                                <div class="shapping-text">
+                                    01
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-item">
+                            <a href="booking-table.html" class="default-btn">Book A Table</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="others-option-for-responsive">
+        <div class="container">
+            <div class="dot-menu">
+                <div class="inner">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="circle circle-three"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="option-inner">
+                    <div class="others-option justify-content-center d-flex align-items-center">
+
+                        <div class="option-item">
+                            <i class='bx bx-search search-btn'></i>
+                            <i class='bx bx-x close-btn'></i>
+                            <div class="search-overlay search-popup">
+                                <div class='search-box'>
+                                    <form class="search-form">
+                                        <input class="search-input" placeholder="Search..." type="text">
+
+                                        <button class="search-button" type="submit">
+                                            <i class='bx bx-search' ></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-item">
+                            <div class="shapping-bag">
+                                <a href="cart.html">
+                                    <img src="assets/images/shopping-bag-icon.svg" alt="images">
+                                </a>
+                                <div class="shapping-text">
+                                    01
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-item">
+                            <a href="booking-table.html" class="default-btn">Book A Table</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
