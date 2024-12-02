@@ -49,6 +49,10 @@ Route::get('/hero', [UserController::class, 'userHome'])->name('userHome');
 
 
 Route::get('/aboutus', [UserController::class, 'aboutus'])->name('aboutus');
+Route::get('/book', [UserController::class, 'book'])->name('book');
+Route::get('/menu', [UserController::class, 'menu'])->name('menu');
+
+
 
 Route::get('/services', [UserController::class, 'services'])->name('services');
 

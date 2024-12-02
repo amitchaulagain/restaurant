@@ -593,7 +593,7 @@ class UserController extends Controller
         // $cms = Cms::all();
 
         $data = compact('title', 'siteSetting', 'services');
-        return view('accounting-master.aboutus', $data);
+        return view('edu-global.aboutus', $data);
     }
 
     public function services(Request $request)
@@ -615,7 +615,30 @@ class UserController extends Controller
         $data = compact('title', 'siteSetting', 'services');
         return view('edu-global.contactus', $data);
     }
+    public function book(Request $request)
+    {
+        $title = "Book A Table";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
 
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.book', $data);
+    }
+    public function menu(Request $request)
+    {
+        $title = "Menu";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        return view('edu-global.menu', $data);
+    }
 
 
     public function single_service(Request $request)
@@ -682,18 +705,7 @@ class UserController extends Controller
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
         return view('accounting-master.lodge-in-person', $data);
     }
-    public function online(Request $request)
-    {
-        $title = "Home";
-        $siteSetting = $this->siteSetting;
-        $gal = Gallary::all();
-        $services = Service::all();
-        $cms = Cms::all();
 
-
-        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
-        return view('accounting-master.online', $data);
-    }
     public function tax_review(Request $request)
     {
         $title = "Home";

@@ -37,20 +37,16 @@
                     <h2>Useful Link</h2>
                     <ul class="footer-list">
                         <li>
-                            <i class='bx bxs-downvote'></i><a href="about.html">About Us</a>
+                            <i class='bx bxs-downvote'></i><a href="about.html">Menu</a>
                         </li>
-                        <li>
-                            <i class='bx bxs-downvote'></i><a href="blog.html">Latest Blog</a>
-                        </li>
+
                         <li>
                             <i class='bx bxs-downvote'></i><a href="booking-table.html">Book A Table</a>
                         </li>
                         <li>
                             <i class='bx bxs-downvote'></i><a href="contact.html">Contact Us</a>
                         </li>
-                        <li>
-                            <i class='bx bxs-downvote'></i><a href="team.html">Our Team</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
