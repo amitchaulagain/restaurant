@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\City;
+use App\Models\MenuItem;
 use App\Models\cms;
 use App\Models\Facilities;
 use App\Models\Gallary;
@@ -634,11 +635,43 @@ class UserController extends Controller
         $gal = Gallary::all();
         $services = Service::all();
         $cms = Cms::all();
+        $menuItems = MenuItem::all();
 
 
-        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
         return view('edu-global.menu', $data);
     }
+    
+    
+    public function cart(Request $request)
+    {
+        $title = "Menu";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+        $menuItems = MenuItem::all();
+        
+        
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
+        return view('edu-global.menu', $data);
+    }
+    
+    public function checkout(Request $request)
+    {
+        $title = "Menu";
+        $siteSetting = $this->siteSetting;
+        $gal = Gallary::all();
+        $services = Service::all();
+        $cms = Cms::all();
+        $menuItems = MenuItem::all();
+        
+        
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
+        return view('edu-global.checkout', $data);
+    }
+    
+    
 
 
     public function single_service(Request $request)

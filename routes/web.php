@@ -54,7 +54,7 @@ Route::get('/hero', [UserController::class, 'userHome'])->name('userHome');
 
 Route::get('/aboutus', [UserController::class, 'aboutus'])->name('aboutus');
 Route::get('/book', [UserController::class, 'book'])->name('book');
-// Route::get('/menu', [UserController::class, 'menu'])->name('menu');
+Route::get('/menu', [UserController::class, 'menu'])->name('menu');
 
 Route::get('/cart', [CartController::class, 'viewCart'])->name('cart.index');
 Route::post('/cart/add', [CartController::class, 'addToCart'])->name('cart.add');
@@ -63,7 +63,11 @@ Route::post('/cart/clear', [CartController::class, 'clearCart'])->name('cart.cle
 
 Route::post('/order/process', [OrderController::class, 'processOrder'])->name('order.process');
 Route::get('/order/success', [OrderController::class, 'successPage'])->name('order.success');
-Route::get('/menu', [MenuController::class, 'index'])->name('menu.index');
+
+Route::get('/checkout', [UserController::class, 'checkout'])->name('checkout');
+
+
+//Route::get('/menu', [MenuController::class, 'index'])->name('menu.index');
 
 
 
