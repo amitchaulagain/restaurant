@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\EmailController;
+use App\Http\Controllers\CartController;
+ use App\Http\Controllers\EmailController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\SiteController;
@@ -10,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\AuthCheck;
 use App\Http\Middleware\UserCheck;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -50,8 +54,28 @@ Route::get('/hero', [UserController::class, 'userHome'])->name('userHome');
 
 Route::get('/aboutus', [UserController::class, 'aboutus'])->name('aboutus');
 Route::get('/book', [UserController::class, 'book'])->name('book');
-Route::get('/menu', [UserController::class, 'menu'])->name('menu');
+// Route::get('/menu', [UserController::class, 'menu'])->name('menu');
 
+Route::get('/cart', [CartController::class, 'viewCart'])->name('cart.index');
+Route::post('/cart/add', [CartController::class, 'addToCart'])->name('cart.add');
+Route::delete('/cart/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
+Route::post('/cart/clear', [CartController::class, 'clearCart'])->name('cart.clear');
+
+Route::post('/order/process', [OrderController::class, 'processOrder'])->name('order.process');
+Route::get('/order/success', [OrderController::class, 'successPage'])->name('order.success');
+Route::get('/menu', [MenuController::class, 'index'])->name('menu.index');
+
+
+
+
+
+
+
+
+
+Route::get('/menu/{fileName}', function ($fileName) {
+    return view('menu', ['fileName' => $fileName]);
+});
 
 
 Route::get('/services', [UserController::class, 'services'])->name('services');

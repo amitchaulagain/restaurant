@@ -51,9 +51,9 @@
     <div class="container">
         <div class="mobile-nav">
             <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/logo-1.webp" class="logo-light" alt="images">
-                    <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">
+                <a href="/">
+                    <img src="assets/images/logo.jpeg" class="logo-light" alt="images">
+                   {{-- <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">--}}
                 </a>
             </div>
         </div>
@@ -65,8 +65,7 @@
             <nav class="navbar navbar-expand-md navbar-light">
 
                 <a href="/">
-                    <img src="assets/images/logo-1.webp" class="logo-light" alt="images">
-                    <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">
+                    <img src="assets/images/logo.jpeg" class="logo-light" alt="images">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -96,15 +95,6 @@
                             </a>
 
                         </li>
-
-                        <li class="nav-item nav-item-five">
-
-                            <a href="menu-details.html" class="nav-link">Menu Details</a>
-
-                            </a>
-
-                        </li>
-
 
 
 

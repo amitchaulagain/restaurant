@@ -5,7 +5,7 @@
             <div class="col-lg-3 col-sm-6 col-md-6" data-cue="slideInUp">
                 <div class="footer-widget">
                     <a href="index.html">
-                        <img src="assets/images/logo-1.webp" alt="images">
+                        <img src="assets/images/logo.jpeg" alt="images">
                     </a>
                     <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form.</p>
                     <ul class="footer-widget-list">
@@ -107,9 +107,7 @@
 <!-- End Footer Area -->
 
 <!-- Start Copyright Area -->
-<div class="copyright-content">
-    <p>©<b>Ruzo</b> is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a></p>
-</div>
+
 <!-- Start Copyright Area -->
 
 <!-- Start Go Top Area -->
