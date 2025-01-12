@@ -4,7 +4,7 @@ jQuery(function ($) {
 	// Mean Menu
 	$('.mean-menu').meanmenu({
 		meanScreenWidth: "992"
-	}); 
+	});
 
 	// Others Option For Responsive JS
 	$(".others-option-for-responsive .dot-menu").on("click", function(){
@@ -12,13 +12,13 @@ jQuery(function ($) {
 	});
 
 	// Sticky, Go To Top JS
-	$(window).on('scroll', function() {  
-		// Header Sticky JS 
-		if ($(this).scrollTop() >150){   
+	$(window).on('scroll', function() {
+		// Header Sticky JS
+		if ($(this).scrollTop() >150){
 			$('.navbar-area').addClass("is-sticky");
 		}
 		else{
-			$('.navbar-area').removeClass("is-sticky"); 
+			$('.navbar-area').removeClass("is-sticky");
 		};
 	});
 
@@ -47,9 +47,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -79,9 +79,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -112,9 +112,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -145,9 +145,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -177,9 +177,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -209,9 +209,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -242,9 +242,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -274,9 +274,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -311,9 +311,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -333,7 +333,7 @@ jQuery(function ($) {
 
 	// Popular Menu Details Slider
 	$('.popular-menu-details-slider').owlCarousel({
-		loop: true, 
+		loop: true,
 		margin: 10,
 		nav: true,
 		dots: false,
@@ -343,9 +343,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -376,9 +376,9 @@ jQuery(function ($) {
 		navText: [
 			"<i class='bx bx-chevron-left'></i>" ,
             "<i class='bx bx-chevron-right'></i>" ,
-        ],  
+        ],
 		responsivee:{
-			0:{ 
+			0:{
 				items:1
 			},
 			570:{
@@ -414,7 +414,7 @@ jQuery(function ($) {
 		btnDown = spinner.find('.minus-btn'),
 		min = input.attr('min'),
 		max = input.attr('max');
-		
+
 		btnUp.on('click', function() {
 			var oldValue = parseFloat(input.val());
 			if (oldValue >= max) {
@@ -444,7 +444,7 @@ jQuery(function ($) {
 		var now = new Date();
 		var now = (Date.parse(now) / 1000);
 		var timeLeft = endTime - now;
-		var days = Math.floor(timeLeft / 86400); 
+		var days = Math.floor(timeLeft / 86400);
 		var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
 		var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
 		var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
@@ -459,7 +459,7 @@ jQuery(function ($) {
 	setInterval(function() { makeTimer(); }, 300);
 
 	// Popup Video
-	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({ 
+	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 100,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
@@ -467,28 +467,28 @@ jQuery(function ($) {
 		preloader: false,
 
 		fixedContentPos: false
-	}); 
+	});
 
-	// Search Popup JS 
+	// Search Popup JS
 	$('.close-btn').on('click', function() {
 		$('.search-overlay').fadeOut();
 		$('.search-btn').show();
-		$('.close-btn').removeClass('active'); 
+		$('.close-btn').removeClass('active');
 	});
 	$('.search-btn').on('click', function() {
-		$(this).hide(); 
+		$(this).hide();
 		$('.search-overlay').fadeIn();
 		$('.close-btn').addClass('active');
 	});
 
-	// Odometer JS 
+	// Odometer JS
 	$('.odometer').appear(function(e) {
 		var odo = $(".odometer");
 		odo.each(function() {
 			var countNumber = $(this).attr("data-count");
 			$(this).html(countNumber);
 		});
-	}); 
+	});
 
 	// Go to Top
 	$(function(){
@@ -497,7 +497,7 @@ jQuery(function ($) {
 			var scrolled = $(window).scrollTop();
 			if (scrolled > 600) $('.go-top').addClass('active');
 			if (scrolled < 600) $('.go-top').removeClass('active');
-		});  
+		});
 		// Click Event
 		$('.go-top').on('click', function() {
 			$("html, body").animate({ scrollTop: "0" },  500);
@@ -518,14 +518,14 @@ try {
 		if (localStorage.getItem('ruzo_theme') === 'theme-dark') {
 			setTheme('theme-light');
 		} else {
-			setTheme('theme-dark');
+			setTheme('theme-light');
 		}
 	}
 
 	// Immediately invoked function to set the theme on initial load
 	(function () {
 		if (localStorage.getItem('ruzo_theme') === 'theme-dark') {
-			setTheme('theme-dark');
+			setTheme('theme-light');
 			document.getElementById('slider').checked = false;
 		} else {
 			setTheme('theme-light');

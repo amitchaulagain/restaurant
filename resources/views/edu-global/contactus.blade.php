@@ -19,14 +19,7 @@
     <section id="contact" class="contact section" style="margin-top: 120px">
 
 
-        <div class="preloader">
-            <div class="loader">
-                <div class="loader-outter"></div>
-                <div class="loader-inner"></div>
-                <span>Ruzo</span>
-            </div>
-        </div>
-        <!-- End Preloader Area -->
+
 
         <!-- Start Dark Mode -->
         <div class="switch-theme-mode">

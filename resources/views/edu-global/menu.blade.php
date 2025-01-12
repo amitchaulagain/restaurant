@@ -33,7 +33,7 @@
          <div class="container">
              <div class="section-title">
                  <span class="top-title">Special Menu</span>
-                 <h2>Ruzo Popular Menu</h2>
+                 <h2>The Junction Popular Menu</h2>
              </div>
              <div class="special-menu-tabs">
                  <ul class="nav nav-tabs" id="myTab" role="tablist">

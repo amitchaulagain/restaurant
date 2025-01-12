@@ -23,27 +23,12 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!--=== Title & Favicon ===-->
-    <title>Ruzo - Restaurant & Cafe HTML Template</title>
-    <link rel="icon" type="image/webp" href="assets/images/logo-2.webp">
+    <title>THE JUNCTION </title>
+    <link rel="icon" type="image/webp" href="assets/images/logo.jpeg" >
 </head>
 <body>
-<div class="preloader">
-    <div class="loader">
-        <div class="loader-outter"></div>
-        <div class="loader-inner"></div>
-        <span>Ruzo</span>
-    </div>
-</div>
-<!-- End Preloader Area -->
 
-<!-- Start Dark Mode -->
-<div class="switch-theme-mode">
-    <label id="switch" class="switch">
-        <input type="checkbox" onchange="toggleTheme()" id="slider">
-        <span class="slider round"></span>
-    </label>
-</div>
-<!-- End Dark Mode -->
+
 
 <!-- Start Menubar Area -->
 <div class="navbar-area">
@@ -108,14 +93,17 @@
 
 
                         <div class="option-item">
+                            <a href="/cart">
                             <div class="shapping-bag">
-                                <a href="/cart">
+
                                     <img src="assets/images/shopping-bag-icon.svg" alt="images">
-                                </a>
+
                                 <div class="shapping-text">
                                     01
                                 </div>
+
                             </div>
+                            </a>
                         </div>
 
 
