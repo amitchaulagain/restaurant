@@ -107,12 +107,24 @@
                     <div class="others-option-vg d-flex align-items-center">
 
 
-
+                        <div class="option-item">
+                            <div class="shapping-bag">
+                                <a href="/cart">
+                                    <img src="assets/images/shopping-bag-icon.svg" alt="images">
+                                </a>
+                                <div class="shapping-text">
+                                    01
+                                </div>
+                            </div>
+                        </div>
 
 
                         <div class="option-item">
                             <a href="/book" class="default-btn">Book A Table</a>
                         </div>
+
+
+
                     </div>
                 </div>
             </nav>
