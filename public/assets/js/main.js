@@ -518,14 +518,14 @@ try {
 		if (localStorage.getItem('ruzo_theme') === 'theme-dark') {
 			setTheme('theme-light');
 		} else {
-			setTheme('theme-light');
+			setTheme('theme-dark');
 		}
 	}
 
 	// Immediately invoked function to set the theme on initial load
 	(function () {
 		if (localStorage.getItem('ruzo_theme') === 'theme-dark') {
-			setTheme('theme-light');
+			setTheme('theme-dark');
 			document.getElementById('slider').checked = false;
 		} else {
 			setTheme('theme-light');

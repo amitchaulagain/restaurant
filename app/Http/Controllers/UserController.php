@@ -641,8 +641,8 @@ class UserController extends Controller
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
         return view('edu-global.menu', $data);
     }
-    
-    
+
+
     public function cart(Request $request)
     {
         $title = "Menu";
@@ -651,12 +651,12 @@ class UserController extends Controller
         $services = Service::all();
         $cms = Cms::all();
         $menuItems = MenuItem::all();
-        
-        
+
+
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
         return view('edu-global.menu', $data);
     }
-    
+
     public function checkout(Request $request)
     {
         $title = "Menu";
@@ -665,13 +665,15 @@ class UserController extends Controller
         $services = Service::all();
         $cms = Cms::all();
         $menuItems = MenuItem::all();
-        
-        
-        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems');
+
+        $cart = session()->get('cart', []);
+
+
+        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems','cart');
         return view('edu-global.checkout', $data);
     }
-    
-    
+
+
 
 
     public function single_service(Request $request)

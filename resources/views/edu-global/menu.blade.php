@@ -81,9 +81,16 @@
                                                      <span>{{$menuItem->price}}</span>
                                                  </div>
                                              </div>
-                                             <div class="shop-btn">
-                                                 <button class="default-btn" type="submit">Add to Cart</button>
-                                             </div>
+
+                                             <form action="{{ route('cart.add') }}" method="POST" style="display: inline;">
+                                                 @csrf
+                                                 <input type="hidden" name="menu_item_id" value="{{ $menuItem->id }}">
+                                                 <input type="hidden" name="quantity" value="1" required >
+
+                                                 <div class="shop-btn">
+                                                     <button class="default-btn" type="submit">Add to Cart</button>
+                                                 </div>
+                                             </form>
                                          </div>
                                      </div>
                                  </div>
@@ -120,9 +127,15 @@
                                                          <span>{{$menuItem->price}}</span>
                                                      </div>
                                                  </div>
-                                                 <div class="shop-btn">
-                                                     <button class="default-btn" type="submit">Add to Cart</button>
-                                                 </div>
+                                                 <form action="{{ route('cart.add') }}" method="POST" style="display: inline;">
+                                                     @csrf
+                                                     <input type="hidden" name="menu_item_id" value="{{ $menuItem->id }}">
+                                                     <input type="hidden" name="quantity" value="1" required >
+
+                                                     <div class="shop-btn">
+                                                         <button class="default-btn" type="submit">Add to Cart</button>
+                                                     </div>
+                                                 </form>
                                              </div>
                                          </div>
                                      </div>
@@ -159,9 +172,15 @@
                                                          <span>{{$menuItem->price}}</span>
                                                      </div>
                                                  </div>
-                                                 <div class="shop-btn">
-                                                     <button class="default-btn" type="submit">Add to Cart</button>
-                                                 </div>
+                                                 <form action="{{ route('cart.add') }}" method="POST" style="display: inline;">
+                                                     @csrf
+                                                     <input type="hidden" name="menu_item_id" value="{{ $menuItem->id }}">
+                                                     <input type="hidden" name="quantity" value="1" required >
+
+                                                     <div class="shop-btn">
+                                                         <button class="default-btn" type="submit">Add to Cart</button>
+                                                     </div>
+                                                 </form>
                                              </div>
                                          </div>
                                      </div>

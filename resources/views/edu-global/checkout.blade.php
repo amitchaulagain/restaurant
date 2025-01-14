@@ -17,61 +17,21 @@
                             <form>
                                 <h2>Billing details</h2>
                                 <div class="row">
-                                    <div class="col-lg-12 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">Country</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>United Arab Emirates</option>
-                                                <option value="1">united States</option>
-                                                <option value="2">Austria</option>
-                                                <option value="3">Italy</option>
-                                                <option value="3">Spain</option>
-                                                <option value="3">Japan</option>
-                                            </select>
-                                        </div>
-                                    </div>
+
                                     <div class="col-lg-6 col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <label class="form-label">First name</label>
+                                            <label class="form-label">Name</label>
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">Last name</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">Company Name</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
+
                                     <div class="col-lg-12 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label class="form-label">Address</label>
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">Town / City</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">State / County</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <label class="form-label">Postcode / Zip</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
+
                                     <div class="col-lg-6 col-sm-6 col-md-6">
                                         <div class="form-group">
                                             <label class="form-label">Email</label>
@@ -84,23 +44,7 @@
                                             <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-sm-6 col-md-6">
-                                        <div class="payment-method">
-                                            <p>
-                                                <input type="radio" id="create" name="radio-group">
-                                                <label for="create">Create an account.</label>
-                                            </p>
-                                        </div>
-                                    </div>
 
-                                    <div class="col-lg-12 col-sm-6 col-md-6">
-                                        <div class="payment-method">
-                                            <p>
-                                                <input type="radio" id="different" name="radio-group">
-                                                <label for="different">Ship to a different address?</label>
-                                            </p>
-                                        </div>
-                                    </div>
 
                                     <div class="col-lg-12">
                                         <div class="form-group group-contact">
@@ -117,47 +61,28 @@
                             <div class="single-checkout-cart">
                                 <div class="table-responsive">
                                     <table class="table table-bordered">
+
                                         <thead>
                                             <tr>
-                                                <th scope="col">Product Name </th>
+                                                <th scope="col">Product  </th>
                                                 <th scope="col">Total</th>
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        @if(empty($cart))
+                                            <p>Your cart is empty.</p>
+                                        @else
+
+                                            @foreach($cart as $id => $item)
                                             <tr>
-                                                <th scope="col">Black Router</th>
-                                                <th scope="col">$14.00</th>
+                                                <th scope="col"> {{ $item['name'] }}</th>
+                                                <th scope="col"> {{ $item['price'] }}</th>
                                             </tr>
 
-                                            <tr>
-                                                <th scope="col">Wireless Router</th>
-                                                <th scope="col">$20.00</th>
-                                            </tr>
+                                            @endforeach
+                                        @endif
 
-                                            <tr>
-                                                <th scope="col">Remote Router</th>
-                                                <th scope="col">$244.00</th>
-                                            </tr>
 
-                                            <tr class="black">
-                                                <th scope="col">Black Remote</th>
-                                                <th scope="col">$25.00</th>
-                                            </tr>
-
-                                            <tr class="card-subtotal">
-                                                <th scope="col"> Cart Subtotal</th>
-                                                <th scope="col">$125.00</th>
-                                            </tr>
-
-                                            <tr class="card-subtotal">
-                                                <th scope="col">Shipping</th>
-                                                <th scope="col">$5.00</th>
-                                            </tr>
-
-                                            <tr class="card-subtotal">
-                                                <th scope="col">Order Total	</th>
-                                                <th scope="col">$130.00</th>
-                                            </tr>
 
                                         </tbody>
                                     </table>

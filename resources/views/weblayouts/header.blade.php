@@ -23,12 +23,20 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!--=== Title & Favicon ===-->
-    <title>THE JUNCTION </title>
-    <link rel="icon" type="image/webp" href="assets/images/logo.jpeg" >
+    <title>Ruzo - Restaurant & Cafe HTML Template</title>
+    <link rel="icon" type="image/webp" href="assets/images/logo.jpeg">
 </head>
 <body>
 
 
+<!-- Start Dark Mode -->
+<div class="switch-theme-mode">
+    <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider">
+        <span class="slider round"></span>
+    </label>
+</div>
+<!-- End Dark Mode -->
 
 <!-- Start Menubar Area -->
 <div class="navbar-area">

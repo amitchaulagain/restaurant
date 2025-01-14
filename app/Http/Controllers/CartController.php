@@ -33,7 +33,7 @@ class CartController extends Controller
         // Save the cart to the session
         session()->put('cart', $cart);
 
-        return response()->json(['message' => 'Item added to cart!', 'cart' => $cart]);
+        return redirect()->route('menu');
     }
 
     public function viewCart()
