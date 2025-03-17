@@ -82,4 +82,12 @@ Update CMS and Site Settings inside Admin Panel (/admin/dashboard) Once (empty o
 
 
 
+
+
+----------------------------------------------****CPANEL HOSTING *****------------------------------------------------------
+
+## TO HOST ON CPANEL, DO THIS XTRA STEP
+ln -s public public_html
+
+
 >>>>>>> develop
