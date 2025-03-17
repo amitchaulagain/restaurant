@@ -222,8 +222,7 @@
                                                 </button>
                                             @endif
                                             <img class="form-control" style="cursor: pointer" data-fancybox="gallery"
-                                                 data-src="{{ asset('/public/images/uploads/logo/' . $siteSetting['logo_image']) }}"
-                                                 src="{{ asset('/public/images/uploads/logo/' . $siteSetting['logo_image']) }}"
+                                                  src="{{ asset('storage/siteSettings/' . $siteSetting['logo_image']) }}"
                                                  alt="Error">
                                         </div>
                                     @endif

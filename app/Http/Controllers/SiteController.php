@@ -37,22 +37,16 @@ class SiteController extends Controller
                     Storage::delete('public/siteSettings/' . $siteSetting->value);
                 }
                 $image = $request->file('logo_image');
-                //$iname = date('Ym') . '-' . rand() . '.' . $image->extension();
-                $iname = "logo" . '.' . $image->extension();
-
+                $iname = date('Ym') . '-' . rand() . '.' . $image->extension();
                 $store = $image->storeAs('public/siteSettings', $iname);
                 if ($store) {
                     $siteSetting->update(['value' => $iname]);
                 }
             } else {
                 $image = $request->file('logo_image');
-                //$iname = date('Ym') . '-' . rand() . '.' . $image->extension();
-                $iname = "logo" . '.' . $image->extension();
-
-
-                $image->move(public_path('images/uploads/logo/'), $iname);
-
-                if ($image) {
+                $iname = date('Ym') . '-' . rand() . '.' . $image->extension();
+                $store = $image->storeAs('public/siteSettings', $iname);
+                if ($store) {
                     $siteSetting = SiteSettings::create(['key' => 'logo_image', 'value' => $iname]);
                 }
             }

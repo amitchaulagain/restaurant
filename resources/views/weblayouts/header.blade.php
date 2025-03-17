@@ -45,8 +45,9 @@
         <div class="mobile-nav">
             <div class="logo">
                 <a href="/">
-                    <img src="assets/images/logo.jpeg" class="logo-light" alt="images">
-                   {{-- <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">--}}
+                    <img src="{{ asset('/storage/siteSettings/logo.jpeg' ) }}" alt="Error">
+
+                    {{-- <img src="assets/images/logo-2.webp" class="logo-dark" alt="images">--}}
                 </a>
             </div>
         </div>
