@@ -13,26 +13,6 @@ I only made it for my College Project, but if you are here that means I might ha
 > Please Note!
 > Beacause I am not good of a designer I have only used bootstrap, and nothing else, yet. So if you are looking for fancy site this might not be it. otherwise it looks decent enogh and funtionalities are also working... (obviously there will be some bugs)
 
-## Dependencies
-- [Composer v2.2.3^](https://getcomposer.org/download/)
-- [Laravel v8.x](https://laravel.com/docs/8.x)
-- [Bootstap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-- [Bootstrap v5.1 Examples](https://getbootstrap.com/docs/5.1/examples/) (Used Some of these as boiler plate)
-- [Font Awesome](https://fontawesome.com/docs/web/setup/get-started)
-- [JQuery v3.6.0](https://releases.jquery.com/)
-- [DataTables v1.11.4](https://datatables.net/manual/) with [DataTables v1.11.4 Bootstap 5](https://datatables.net/examples/styling/bootstrap5.html)
-- [FancyApps](https://fancyapps.com/docs/ui/installation)
-  - [FancyBox](https://fancyapps.com/docs/ui/fancybox)
-  - [Carousal](https://fancyapps.com/docs/ui/carousel)
-- [CKEditor v4](https://ckeditor.com/docs/ckeditor4/latest/guide/index.html)
-- And Familiarity with Laravel, Can't remember anything else...
-
-## What needs to be installed...
-- [Composer v2.2.3^](https://getcomposer.org/download/)
-- [Git](https://git-scm.com/downloads)
-- [Laravel v8.x](https://laravel.com/docs/8.x#the-laravel-installer)
-- [Wamp](https://www.wampserver.com/en/) (I used Wamp you can use Similar ones)
-- Can't remember anything else...
 
 ## Steps to Install
 ### Clone The GitHub Repo first
