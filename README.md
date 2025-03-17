@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# MunalAccountingApp
+ 
+# E COMMERCE
 =======
 # Real Estate Site 
 ### Made By [***DannyGlade***](https://github.com/DannyGlade)
@@ -39,11 +39,11 @@ I only made it for my College Project, but if you are here that means I might ha
 1. Open Cmd in folder you want to install project in...
 2. Type below Command and hit enter...
 ```bash
-git clone https://github.com/DannyGlade/Real_Estate_Site.git
+git clone https://github.com/amitchaulagain/restaurant.git
 ```
 4. Then cd into folder using below Command
 ```bash
-cd Real_Estate_Site
+cd restaurant
 ```
 > Note from here On, You can also use Terminal from VS Code or Your IDE...
 
@@ -72,7 +72,7 @@ import from init.sql
 find the command for import
 
 ```
-2. Use below Command to Link Storage to Public folder
+2. Use below Command to Link Storage to Public folder (#################-----<<<<<<<<<<>>>>>>>>>>>>>>>   IMPORTANT     <<<<<<<<<< >>>>>>>>>>----------############# )
 ```bash
 php artisan storage:link
 ```
@@ -91,7 +91,7 @@ Admin site: `your_site_link/admin/dashboard`
 
 - Admin Email
 ```bash
-admin@admin.com
+hr@hr.com
 ```
 - Admin Password
 ```bash
@@ -100,12 +100,6 @@ admin
 Update CMS and Site Settings inside Admin Panel (/admin/dashboard) Once (empty or filled doesn't matter), and then goto frontend
 > when project loads for first time db won't have values of CMS and Site setting, by updating those fields will be created, so frontend wouldn't show errors after that...
 
-I am writing this documentaion while this project is still in making, because I was bored...
 
-I will add more soon, If my mind says, lol...
-
-If You are still reading, then Thanks and Welcome...
-
-Hope My project helps you any ways...
 
 >>>>>>> develop
