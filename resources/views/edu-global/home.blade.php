@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-lg-6" data-cue="zoomIn" data-duration="2000">
                         <div class="single-banner-image">
-                            <img src="assets/images/banner/banner-img-2.webp" alt="images">
+                            <img  src="{{ asset('/storage/cms/' . $cms['home_image1']) }}">
                         </div>
                     </div>
                 </div>
@@ -590,7 +590,7 @@
                     <div class="col-lg-6">
                         <div class="visit-images">
                             <div class="visit-main-img" data-cue="bounceInLeft" data-duration="2000">
-                                <img src="assets/images/reserve-today/reserve-img-1.webp" alt="images">
+                                  <img  src="{{ asset('/storage/cms/' . $cms['home_image2']) }}">
                             </div>
                             <div class="visit-shape-1">
                                 <img src="assets/images/reserve-today/reserve-shape-1.webp" alt="images">

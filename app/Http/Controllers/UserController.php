@@ -579,9 +579,7 @@ class UserController extends Controller
         $siteSetting = SiteSettings::pluck('value', 'key');
         $gal = Gallary::all();
         $services = Service::all();
-        $cms = Cms::all();
-
-
+        $cms = Cms::pluck('value', 'key');
 
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms',);
         return view('edu-global.home', $data);
