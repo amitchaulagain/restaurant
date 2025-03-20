@@ -107,8 +107,12 @@
 
                                     <img src="assets/images/shopping-bag-icon.svg" alt="images">
 
-                                <div class="shapping-text">
-                                    01
+                                <div id ="numberOfItems" class="shapping-text">
+                                    @php
+                                        $cart = session()->get('cart', []);
+                                    @endphp
+                                    {{ collect(session('cart', []))->sum('quantity') }}
+
                                 </div>
 
                             </div>

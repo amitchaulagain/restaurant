@@ -58,13 +58,22 @@ Route::get('/menu', [UserController::class, 'menu'])->name('menu');
 
 Route::get('/cart', [CartController::class, 'viewCart'])->name('cart.index');
 Route::post('/cart/add', [CartController::class, 'addToCart'])->name('cart.add');
-Route::delete('/cart/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
-Route::post('/cart/clear', [CartController::class, 'clearCart'])->name('cart.clear');
+Route::post('/cart/update', [CartController::class, 'update'])->name('cart.update');
+Route::delete('/cart/{id}', [CartController::class, 'remove'])->name('cart.remove');
+Route::post('/cart/clear', [CartController::class, 'clear'])->name('cart.clear');
 
-Route::post('/order/process', [OrderController::class, 'processOrder'])->name('order.process');
+Route::post('/order/process', [OrderController::class, 'processOrder'])->name('processOrder');
 Route::get('/order/success', [OrderController::class, 'successPage'])->name('order.success');
+Route::get('/admin/order', [AdminController::class, 'list_orders'])->name('list_orders');
 
+
+Route::post('/check', [UserController::class, 'processCheckout'])->name('check');
 Route::get('/checkout', [UserController::class, 'checkout'])->name('checkout');
+
+
+Route::get('/getCart', function () {
+    return response()->json(session('cart', []));
+});
 
 
 //Route::get('/menu', [MenuController::class, 'index'])->name('menu.index');

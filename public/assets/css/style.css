@@ -102,7 +102,7 @@ Section Title
 }
 
 /*================================
-Default Btn Style 
+Default Btn Style
 ===================================*/
 .default-btn {
   position: relative;
@@ -638,7 +638,7 @@ Search Popup CSS
 }
 
 /*==============================================
-Start Banner area 
+Start Banner area
 ==============================================*/
 .banner-area {
   background-image: url(../images/banner/banner-bg-1.webp);
@@ -1089,7 +1089,7 @@ Start Banner Three Area
 }
 
 /* =========================================
-Start Page Banner area 
+Start Page Banner area
 ==========================================*/
 .pag-banner-area {
   background-image: url(../images/page/page-banner-bg.webp);
@@ -1361,7 +1361,7 @@ Start Contact from
   color: var(--whiteColor);
 }
 
-/* Cart Area 
+/* Cart Area
 ===================================*/
 .table-responsive {
   overflow: hidden;
@@ -1394,7 +1394,7 @@ Start Contact from
   font-weight: 400;
   padding: 15px;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
 }
 .table-responsive .table.table-bordered tbody tr {
   text-align: center;
@@ -1577,7 +1577,7 @@ Start Contact from
 }
 
 /* ==============================
-Start Checkout Area 
+Start Checkout Area
 =================================*/
 .checkout-from {
   padding-right: 30px;
@@ -1846,7 +1846,7 @@ Start Checkout Area
 }
 
 /* ================================
-Start Menu Details Area  
+Start Menu Details Area
 ==================================*/
 .menu-details {
   margin-bottom: 50px;
@@ -2698,7 +2698,7 @@ Widget Sidebar CSS
   bottom: 0;
 }
 
-/* Pagination Area 
+/* Pagination Area
 =================================*/
 .pagination-area {
   text-align: center;
@@ -3214,7 +3214,7 @@ Start Discover Area
 }
 
 /* =========================================
-Start About Area 
+Start About Area
 =========================================*/
 .about-area {
   background-color: #151B20;
@@ -3646,7 +3646,7 @@ Odometer Area
 }
 
 /* ====================================
-Start Special Menu Area 
+Start Special Menu Area
 =====================================*/
 .special-menu-area {
   position: relative;
@@ -4038,7 +4038,7 @@ Start Visit Us Today area
 }
 
 /* ===================================
-start My Account Area 
+start My Account Area
 ======================================*/
 .my-account-form {
   background: #FFFFFF;
@@ -4158,7 +4158,7 @@ Privacy Area
   margin-bottom: 0;
 }
 
-/* ============================== 
+/* ==============================
 Error Content
 =================================*/
 .error-content {
@@ -4188,7 +4188,7 @@ Error Content
   color: #555555;
 }
 
-/* Start Coming Soon 
+/* Start Coming Soon
 =================================*/
 .coming-img {
   display: block;
@@ -4663,7 +4663,7 @@ Start Our Portfolio Area
 }
 
 /* ========================================
-Start Our Portfolio Two area 
+Start Our Portfolio Two area
 ==========================================*/
 .portfolio-two-area {
   position: relative;
@@ -5446,7 +5446,7 @@ Start Team of Restaurant Area
 }
 
 /* =====================================
-Start Top Grade Area 
+Start Top Grade Area
 =======================================*/
 .single-top-grade-card .top-grade-content {
   margin-left: 70px;
@@ -7347,7 +7347,7 @@ Preloader CSS
   }
 }
 /* ==================================================
-Responsive Style 
+Responsive Style
 =====================================================*/
 @media only screen and (max-width: 991px) {
   .mobile-nav {

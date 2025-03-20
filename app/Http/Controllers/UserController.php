@@ -17,6 +17,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserData;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 
 class UserController extends Controller
@@ -606,6 +607,8 @@ class UserController extends Controller
         return view('accounting-master.services', $data);
     }
 
+
+
     public function contactus(Request $request)
     {
         $title = "Contact Us";
@@ -656,21 +659,7 @@ class UserController extends Controller
         return view('edu-global.menu', $data);
     }
 
-    public function checkout(Request $request)
-    {
-        $title = "Menu";
-        $siteSetting = $this->siteSetting;
-        $gal = Gallary::all();
-        $services = Service::all();
-        $cms = Cms::all();
-        $menuItems = MenuItem::all();
 
-        $cart = session()->get('cart', []);
-
-
-        $data = compact('title', 'siteSetting', 'gal', 'services', 'cms','menuItems','cart');
-        return view('edu-global.checkout', $data);
-    }
 
 
 
@@ -1008,6 +997,38 @@ class UserController extends Controller
 
         $data = compact('title', 'siteSetting', 'gal', 'services', 'cms');
         return view('edu-global.financial', $data);
+    }
+
+
+    public function processCheckout(Request $request)
+    {
+
+        Log::info($request->cart);
+        // Store cart and total in session
+        session([
+            'checkout_cart' => $request->cart,
+            'checkout_subtotal' => $request->subtotal,
+            'checkout_shipping' => $request->shipping,
+            'checkout_total' => $request->total
+        ]);
+
+
+
+        // Return JSON response with a redirect URL
+        return response()->json(['redirect' => route('checkout')]);
+    }
+
+    public function checkout()
+    {
+        $title = "Taxation Service";
+        $menu = "Taxation Service";
+        // Retrieve session data
+        $cart = session('checkout_cart', []);
+        $subtotal = session('checkout_subtotal', 0);
+        $shipping = session('checkout_shipping', 0);
+        $total = session('checkout_total', 0);
+
+        return view('edu-global.checkout', compact('title','menu','cart', 'subtotal', 'shipping', 'total'));
     }
 
 

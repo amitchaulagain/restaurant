@@ -1,12 +1,13 @@
 <?php
 namespace App\Http\Controllers;
 
- 
+
 use App\Models\Order;
 use App\Models\OrderItem;
 
+use App\Models\Service;
 use Illuminate\Http\Request;
- 
+
 class OrderController extends Controller
 {
     public function processOrder(Request $request)
@@ -25,7 +26,19 @@ class OrderController extends Controller
         }, 0);
 
         // Save the order in the database
-        $order = Order::create(['user_name' => $request->user_name, 'total_price' => $totalPrice]);
+        $order = Order::create([
+            'user_name' => $request->user_name,
+            'total_price' => $request->total_price,
+            'shipping' => $request->shipping,
+            'subtotal' => $request->subtotal,
+
+
+            'address' => $request->address,
+            'email' => $request->email,
+
+            'phone' => $request->phone,
+            'notes' => $request->notes,
+         ]);
 
         // Save the order items
         foreach ($cart as $item) {
@@ -47,4 +60,17 @@ class OrderController extends Controller
     {
         return view('order.success');
     }
+
+    public function list_orders(Request $request)
+    {
+        $title = "Orders";
+        $menu = "order";
+
+        $orders = Order::all();
+
+        $data = compact('title', 'menu', 'orders');
+        return view('AdminPanel.order.list', $data);
+    }
+
+
 }

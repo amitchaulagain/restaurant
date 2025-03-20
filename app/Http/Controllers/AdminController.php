@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\City;
 use App\Models\Facilities;
 use App\Models\Gallary;
+use App\Models\Order;
 use App\Models\Post;
 use App\Models\Property;
 use App\Models\Reviews;
@@ -967,12 +968,23 @@ class AdminController extends Controller
     public function list_service(Request $request)
     {
         $title = "Service";
-        $menu = "service";
+        $menu = "Service";
+
 
         $service = Service::all();
 
         $data = compact('title', 'menu', 'service');
         return view('AdminPanel.service.list', $data);
+    }
+
+    public function list_orders(Request $request)
+    {
+        $title = "Orders";
+        $menu = "Orders";
+
+        $orders = Order::all();
+        $data = compact('title', 'menu','orders');
+        return view('AdminPanel.order.list', $data);
     }
 
     public function del_service(Request $request)
